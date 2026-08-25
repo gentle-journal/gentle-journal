@@ -1,0 +1,14 @@
+---
+layout: default
+title: Kiến Thức Da
+permalink: /kien-thuc-da/
+---
+<h1 class="stitch">Kiến Thức Da</h1>
+<p class="excerpt">Thành phần, cơ chế, và cách chọn sản phẩm cho da nhạy cảm — dựa trên nghiên cứu, không phải trend.</p>
+{% for post in site["kien-thuc"] %}
+<div class="card">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
+</div>
+{% endfor %}

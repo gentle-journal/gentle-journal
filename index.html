@@ -1,0 +1,27 @@
+---
+layout: default
+title: Trang chủ
+---
+<p class="pull-quote">"Da nhạy cảm không cần 10 bước. Nó cần sự thành thật."</p>
+
+<p>Gentle Journal là nhật ký chăm sóc da nhạy cảm và khô — ghi lại những gì mình thực sự dùng, thực sự thấy, không PR, không cường điệu. Mỗi bài đánh giá đều ghi rõ loại da, thời gian thử và có phải liên kết affiliate hay không.</p>
+
+<div class="torn"></div>
+
+<h2 class="stitch">Mới nhất</h2>
+
+{% assign all_posts = "" | split: "" %}
+{% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["kien-thuc"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["nhat-ky"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% assign sorted_posts = all_posts | sort: "date" | reverse %}
+
+{% for post in sorted_posts limit:8 %}
+<div class="card">
+  <div class="eyebrow">{{ post.section }}</div>
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
+</div>
+{% endfor %}

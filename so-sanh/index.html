@@ -1,0 +1,14 @@
+---
+layout: default
+title: So Sánh
+permalink: /so-sanh/
+---
+<h1 class="stitch">So Sánh</h1>
+<p class="excerpt">Đặt hai sản phẩm cạnh nhau — thành phần, kết cấu, giá, và sản phẩm nào hợp với loại da nào.</p>
+{% for post in site["so-sanh"] %}
+<div class="card">
+  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
+  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
+</div>
+{% endfor %}

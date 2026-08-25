@@ -1,0 +1,61 @@
+title: "Gentle Journal"
+tagline: "Nhật Ký Da Nhạy Cảm"
+description: "Nhật ký chăm sóc da nhạy cảm, khô — thành thật, không PR, có kiểm chứng."
+lang: vi
+baseurl: ""
+url: ""
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+collections:
+  reviews:
+    output: true
+    permalink: /reviews/:name/
+  kien-thuc:
+    output: true
+    permalink: /kien-thuc-da/:name/
+  nhat-ky:
+    output: true
+    permalink: /nhat-ky/:name/
+  so-sanh:
+    output: true
+    permalink: /so-sanh/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "reviews"
+    values:
+      layout: "post"
+      section: "Review"
+  - scope:
+      path: ""
+      type: "kien-thuc"
+    values:
+      layout: "post"
+      section: "Kiến Thức Da"
+  - scope:
+      path: ""
+      type: "nhat-ky"
+    values:
+      layout: "post"
+      section: "Nhật Ký"
+  - scope:
+      path: ""
+      type: "so-sanh"
+    values:
+      layout: "post"
+      section: "So Sánh"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
