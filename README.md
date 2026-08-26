@@ -1,6 +1,9 @@
-# Gentle Journal (Nhật Ký Da Nhạy Cảm)
+# Littlest Things
 
-Blog Jekyll cho nội dung skincare/personal care tiếng Việt, không cần ảnh cá nhân, sẵn sàng deploy qua GitHub Pages.
+**Descriptor:** Gentle Journal  
+**Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
+
+Blog Jekyll tiếng Việt về skincare, hair care và travel care, theo định hướng faceless, bằng chứng trước hype, và phù hợp với GitHub Pages.
 
 ## Cấu trúc
 
@@ -42,22 +45,31 @@ Mở `http://localhost:4000`.
 
 ## Đưa lên GitHub Pages
 
-1. Tạo repo mới trên GitHub, ví dụ `gentle-journal` (Settings > tên tuỳ bạn).
-2. Trong thư mục này:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial Gentle Journal site"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/gentle-journal.git
-   git push -u origin main
-   ```
-3. Trên GitHub: vào repo → **Settings → Pages** → dưới "Build and deployment", chọn **Source: Deploy from a branch** → **Branch: main / (root)** → Save.
-4. Sau 1–2 phút, site sẽ live tại `https://<your-username>.github.io/gentle-journal/`.
-5. (Tuỳ chọn) Muốn dùng domain riêng: thêm file `CNAME` chứa domain của bạn vào thư mục gốc, và trỏ DNS domain đó (CNAME record) về `<your-username>.github.io`.
+Repository hiện tại vẫn là `gentle-journal/gentle-journal`. Tên repository và GitHub Pages URL chưa đổi vì domain/URL chính thức cho Littlest Things chưa được chốt.
 
-## Sau khi live
+Quy trình deploy hiện tại:
 
-- Sửa email thật trong `lien-he.html`.
-- Thay các link `#` affiliate trong bài mẫu bằng link affiliate thật (Shopee/Lazada/Accesstrade/...).
-- Xoá 4 bài mẫu hoặc giữ lại làm khung tham khảo khi viết bài mới.
+```bash
+git add .
+git commit -m "Mô tả thay đổi"
+git push
+```
+
+GitHub Pages sau đó rebuild site tự động.
+
+## Brand naming
+
+- **Masterbrand:** Littlest Things
+- **Descriptor:** Gentle Journal
+- **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
+- **Hỏi Gentle:** giữ nguyên là tên feature hiện tại
+- **Official custom domain:** TBD
+
+Không đổi repository, GitHub Pages URL, route hoặc tên feature chỉ vì đổi masterbrand. Những thay đổi kỹ thuật đó cần quyết định riêng.
+
+## Sau khi live / open items
+
+- Chọn domain chính thức cho Littlest Things rồi cập nhật `CNAME`, `_config.yml` và contact email.
+- Thay email placeholder `hello@gentlejournal.vn` sau khi email chính thức được chọn.
+- Thay các link affiliate mẫu bằng link thật khi chương trình affiliate đã được xác nhận.
+- Nội dung mẫu không được tự động coi là trải nghiệm test thật.
