@@ -1,14 +1,24 @@
-<header class="site">
+<nav class="site">
   <div class="wrap">
-    <div class="brand display"><a href="{{ '/' | relative_url }}" style="color:inherit;">Gentle Journal</a></div>
-    <div class="tagline">{{ site.tagline }}</div>
-    <nav class="site">
-      <a href="{{ '/reviews/' | relative_url }}">Review</a>
-      <a href="{{ '/kien-thuc-da/' | relative_url }}">Kiến Thức Da</a>
-      <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
-      <a href="{{ '/so-sanh/' | relative_url }}">So Sánh</a>
-      <a href="{{ '/gioi-thieu/' | relative_url }}">Giới Thiệu</a>
-      <a href="{{ '/lien-he/' | relative_url }}">Liên Hệ</a>
-    </nav>
+    <div class="nav-inner">
+      <a class="brand" href="{{ '/' | relative_url }}"><div class="mark"></div>Gentle Journal</a>
+      <div class="nav-links">
+        <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Trang chủ</a>
+        <a href="{{ '/kham-pha/' | relative_url }}" {% if page.url contains 'kham-pha' %}class="active"{% endif %}>Khám Phá</a>
+        <a href="{{ '/ho-so-da/' | relative_url }}" {% if page.url contains 'ho-so-da' %}class="active"{% endif %}>Hồ Sơ Da</a>
+        <a href="{{ '/nhat-ky/' | relative_url }}" {% if page.url contains 'nhat-ky' %}class="active"{% endif %}>Nhật Ký</a>
+      </div>
+      <details class="mobile-menu">
+        <summary>☰</summary>
+        <div class="menu-list">
+          <a href="{{ '/' | relative_url }}">Trang chủ</a>
+          <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
+          <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
+          <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
+          <a href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle</a>
+        </div>
+      </details>
+      <a class="nav-cta" href="{{ '/hoi-gentle/' | relative_url }}">💬 Hỏi Gentle</a>
+    </div>
   </div>
-</header>
+</nav>

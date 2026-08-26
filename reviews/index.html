@@ -1,14 +1,11 @@
 ---
 layout: default
 title: Review
-permalink: /reviews/
+permalink: /reviews-list/
 ---
-<h1 class="stitch">Review</h1>
-<p class="excerpt">Đánh giá sản phẩm dựa trên trải nghiệm dùng thật, ít nhất 2–4 tuần.</p>
+<div class="page-head"><h1>Review</h1><p>Đánh giá sản phẩm dựa trên trải nghiệm dùng thật. Xem đầy đủ mọi chuyên mục tại <a href="{{ '/kham-pha/' | relative_url }}" style="color:var(--primary);font-weight:600;">Khám Phá</a>.</p></div>
+<div class="feed-grid">
 {% for post in site.reviews %}
-<div class="card">
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
-</div>
+  <div class="fcard"><div class="body" style="padding-top:16px;"><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 100 }}</p><div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div></div></div>
 {% endfor %}
+</div>

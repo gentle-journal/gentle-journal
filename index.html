@@ -2,13 +2,56 @@
 layout: default
 title: Trang chủ
 ---
-<p class="pull-quote">"Da nhạy cảm không cần 10 bước. Nó cần sự thành thật."</p>
+<div class="hero">
+  <div class="hero-grid">
+    <div class="hero-inner">
+      <div class="eyebrow">Nhật Ký Da Nhạy Cảm — Có Hồ Sơ Da Thật</div>
+      <h1>Biết ngay bài viết này có <span class="italic">hợp với da bạn</span> — trước khi thử.</h1>
+      <p class="sub">Mỗi đánh giá trên Gentle Journal đi kèm hồ sơ da của người viết. Bạn so sánh, xem vote từ người có da giống mình, và quyết định — không đoán mò.</p>
+      <form class="search-bar" action="{{ '/kham-pha/' | relative_url }}" method="get">
+        <input type="text" name="q" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ...">
+        <button class="go" type="submit">Tìm kiếm</button>
+      </form>
+    </div>
+    <div class="hero-photo">
+      <svg viewBox="0 0 340 300" fill="none">
+        <ellipse cx="170" cy="256" rx="130" ry="12" fill="#2E2C28" opacity=".06"/>
+        <path d="M40 210 L40 250 Q40 256 46 256 L110 256 L110 206 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
+        <path d="M110 206 L110 256 L174 256 Q180 256 180 250 L180 210 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
+        <line x1="54" y1="222" x2="98" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
+        <line x1="54" y1="234" x2="92" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
+        <line x1="124" y1="222" x2="164" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
+        <line x1="124" y1="234" x2="158" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
+        <path d="M130 128 Q128 124 134 122 Q168 118 202 122 Q208 124 206 128 L210 208 Q210 224 190 226 L146 226 Q126 224 126 208 Z" fill="#F7F5F0" stroke="#6E9A7C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#crayon)"/>
+        <rect x="144" y="102" width="52" height="22" rx="6" fill="#FFFFFF" stroke="#6E9A7C" stroke-width="4" filter="url(#crayon)"/>
+        <path d="M170 102 C160 84 142 80 130 86 C140 100 158 104 170 102 Z" fill="#AECBB4" stroke="#6E9A7C" stroke-width="2" filter="url(#crayon)"/>
+        <path d="M232 140 L232 100 Q232 92 240 92 L252 92 Q260 92 260 100 L260 140 Q268 148 268 168 L268 210 Q268 222 250 222 L242 222 Q224 222 224 210 L224 168 Q224 148 232 140 Z" fill="#EAC4B0" stroke="#B5788A" stroke-width="3.5" stroke-linejoin="round" filter="url(#crayon)"/>
+        <rect x="238" y="78" width="16" height="18" rx="3" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" filter="url(#crayon)"/>
+        <path d="M280 130 C292 146 292 162 280 172 C268 162 268 146 280 130 Z" fill="#CBDCE8" filter="url(#crayon)"/>
+        <circle cx="98" cy="150" r="5" fill="#DDD0DE"/>
+        <circle cx="292" cy="200" r="4" fill="#F1E9B9"/>
+      </svg>
+    </div>
+  </div>
+</div>
 
-<p>Gentle Journal là nhật ký chăm sóc da nhạy cảm và khô — ghi lại những gì mình thực sự dùng, thực sự thấy, không PR, không cường điệu. Mỗi bài đánh giá đều ghi rõ loại da, thời gian thử và có phải liên kết affiliate hay không.</p>
+<div class="why">
+  <div class="eyebrow">Gentle Journal là gì?</div>
+  <h2>Không phải một blog review thông thường</h2>
+  <p class="lead">Ba điều làm Gentle Journal khác — hướng đến một mục tiêu: giúp bạn biết chắc điều gì hợp với da mình.</p>
+  <div class="value-grid">
+    <div class="vcard c1"><div class="circle">🧬</div><h3>Hồ sơ da thật, so sánh được</h3><p>Mỗi đánh giá đi kèm hồ sơ da của mình. Bạn tạo hồ sơ riêng và thấy ngay % giống nhau.</p><a class="link" href="{{ '/ho-so-da/' | relative_url }}">Xem hồ sơ da →</a></div>
+    <div class="vcard c2"><div class="circle">✅</div><h3>Đánh giá trung thực, có vote</h3><p>Không PR. Vote 👍/👎 từ cộng đồng — lọc theo người có da giống bạn nhất.</p><a class="link" href="{{ '/kham-pha/' | relative_url }}">Khám phá bài viết →</a></div>
+    <div class="vcard c3"><div class="circle">💬</div><h3>Hỏi nhanh, trả lời có nguồn</h3><p>Hỏi Gentle trực tiếp — trả lời dựa trên nội dung thật, kèm link bài viết gốc.</p><a class="link" href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle →</a></div>
+  </div>
+</div>
 
-<div class="torn"></div>
+<div class="promo">
+  <div><div class="txt">Da bạn có giống mình không?</div><div class="sub-txt">Tạo hồ sơ da của bạn trong 5 câu hỏi để nhận gợi ý phù hợp hơn.</div></div>
+  <a class="btn" href="{{ '/ho-so-da/' | relative_url }}">🧬 Tạo hồ sơ da</a>
+</div>
 
-<h2 class="stitch">Mới nhất</h2>
+<div class="section-title"><h2>Mới nhất</h2><a class="see-all" href="{{ '/kham-pha/' | relative_url }}" style="font-size:.8rem;font-weight:600;color:var(--primary);">Xem tất cả →</a></div>
 
 {% assign all_posts = "" | split: "" %}
 {% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
@@ -17,11 +60,19 @@ title: Trang chủ
 {% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
 {% assign sorted_posts = all_posts | sort: "date" | reverse %}
 
-{% for post in sorted_posts limit:8 %}
-<div class="card">
-  <div class="eyebrow">{{ post.section }}</div>
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
-</div>
+<div class="feed-grid">
+{% for post in sorted_posts limit:6 %}
+  <div class="fcard">
+    <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
+      <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
+      <div class="ph-caption">ảnh sản phẩm</div>
+    </div>
+    <div class="body">
+      <span class="tag tag-outline">{{ post.section }}</span>
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+      <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
+    </div>
+  </div>
 {% endfor %}
+</div>

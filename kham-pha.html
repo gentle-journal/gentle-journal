@@ -1,0 +1,47 @@
+---
+layout: default
+title: Khám Phá
+permalink: /kham-pha/
+---
+<div class="page-head">
+  <h1>Khám Phá</h1>
+  <p>Tất cả bài viết ở một nơi — lọc theo điều bạn đang quan tâm.</p>
+</div>
+
+<div class="filter-card">
+  <div class="chip-label">Chuyên mục</div>
+  <div class="chips">
+    <span class="chip">Review</span>
+    <span class="chip">Kiến Thức</span>
+    <span class="chip">Nhật Ký</span>
+    <span class="chip">So Sánh</span>
+  </div>
+  <p style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;">Lọc theo tag chủ đề (Da / Tóc / Du Lịch) đang được phát triển — hiện tại trang hiển thị toàn bộ bài viết.</p>
+</div>
+
+{% assign all_posts = "" | split: "" %}
+{% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["kien-thuc"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["nhat-ky"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+{% assign sorted_posts = all_posts | sort: "date" | reverse %}
+
+<div class="feed-grid">
+{% for post in sorted_posts %}
+  <div class="fcard">
+    <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
+      <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
+      <div class="ph-caption">ảnh sản phẩm</div>
+    </div>
+    <div class="body">
+      <span class="tag tag-outline">{{ post.section }}</span>
+      {% if post.section == "Review" or post.section == "So Sánh" %}
+      <div class="match-badge match-high">✓ Hồ sơ da đi kèm</div>
+      {% endif %}
+      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+      <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
+    </div>
+  </div>
+{% endfor %}
+</div>

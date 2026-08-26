@@ -1,17 +1,17 @@
 ---
 layout: default
 ---
-<article class="post">
-  <div class="section-tag">{{ page.section }}</div>
-  <h1>{{ page.title }}</h1>
-  <div class="post-meta">
+<article class="post" style="padding:24px 0 60px;max-width:720px;">
+  <span class="tag tag-outline">{{ page.section }}</span>
+  <h1 style="margin-top:12px;">{{ page.title }}</h1>
+  <div style="color:var(--ink-soft);font-size:.85rem;margin-bottom:20px;">
     {% if page.date %}{{ page.date | date: "%d/%m/%Y" }}{% endif %}
     {% if page.skin_type %} · Da: {{ page.skin_type }}{% endif %}
     {% if page.duration_tested %} · Đã dùng: {{ page.duration_tested }}{% endif %}
   </div>
 
   {% if page.affiliate %}
-  <div class="disclosure">Bài viết có chứa liên kết affiliate. Xem chi tiết ở cuối trang.</div>
+  <div class="not-live-note">Bài viết có chứa liên kết affiliate. Xem chi tiết ở cuối trang.</div>
   {% endif %}
 
   {{ content }}

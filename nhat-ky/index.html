@@ -3,12 +3,9 @@ layout: default
 title: Nhật Ký
 permalink: /nhat-ky/
 ---
-<h1 class="stitch">Nhật Ký</h1>
-<p class="excerpt">Ghi chép routine hàng ngày — theo dõi dài hạn, không phải kết quả "sau 3 ngày".</p>
+<div class="page-head"><h1>Nhật Ký</h1><p>Ghi chép routine hàng ngày — theo dõi dài hạn.</p></div>
+<div class="feed-grid">
 {% for post in site["nhat-ky"] %}
-<div class="card">
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>
-  <div class="meta">{{ post.date | date: "%d/%m/%Y" }}</div>
-</div>
+  <div class="fcard"><div class="body" style="padding-top:16px;"><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 100 }}</p><div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div></div></div>
 {% endfor %}
+</div>
