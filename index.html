@@ -8,10 +8,10 @@ title: Trang chủ
       <div class="eyebrow">Gentle Journal — Nhật Ký Da Nhạy Cảm</div>
       <h1>Biết ngay bài viết này có <span class="italic">hợp với da bạn</span> — trước khi thử.</h1>
       <p class="sub">Mỗi đánh giá trên Gentle Journal đặt trải nghiệm trong bối cảnh cụ thể — hồ sơ da, thời gian sử dụng, thành phần và giới hạn — để bạn tự cân nhắc mức độ phù hợp.</p>
-      <div class="search-bar" aria-label="Tìm kiếm — sắp có">
-        <input type="text" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." disabled aria-disabled="true">
-        <span class="go" aria-disabled="true">Tìm kiếm</span>
-      </div>
+      <form class="search-bar" action="{{ '/kham-pha/' | relative_url }}" method="get" role="search" aria-label="Tìm bài viết">
+        <input type="search" name="q" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." autocomplete="off">
+        <button class="go" type="submit">Tìm kiếm</button>
+      </form>
     </div>
     <div class="hero-photo">
       <svg viewBox="0 0 340 300" fill="none">
