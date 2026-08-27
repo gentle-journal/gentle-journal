@@ -1,10 +1,10 @@
-title: "Littlest Things"
+title: "Gentle Journal"
 descriptor: "Gentle Journal"
 tagline: "Nhật Ký Da Nhạy Cảm"
 description: "Gentle Journal về chăm sóc da, tóc và du lịch — thành thật, có ngữ cảnh và có căn cứ."
 lang: vi
-baseurl: ""
-url: ""
+baseurl: "/gentle-journal"
+url: "https://gentle-journal.github.io"
 
 markdown: kramdown
 permalink: /:categories/:title/
