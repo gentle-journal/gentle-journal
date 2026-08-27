@@ -35,7 +35,7 @@ defaults:
       type: "kien-thuc"
     values:
       layout: "post"
-      section: "Kiến Thức Da"
+      section: "Kiến Thức"
   - scope:
       path: ""
       type: "nhat-ky"
