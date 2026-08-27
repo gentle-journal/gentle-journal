@@ -7,11 +7,11 @@ title: Trang chủ
     <div class="hero-inner">
       <div class="eyebrow">Gentle Journal — Nhật Ký Da Nhạy Cảm</div>
       <h1>Biết ngay bài viết này có <span class="italic">hợp với da bạn</span> — trước khi thử.</h1>
-      <p class="sub">Mỗi đánh giá trên Littlest Things đi kèm hồ sơ da của người viết. Bạn so sánh, xem vote từ người có da giống mình, và quyết định — không đoán mò.</p>
-      <form class="search-bar" action="{{ '/kham-pha/' | relative_url }}" method="get">
-        <input type="text" name="q" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ...">
-        <button class="go" type="submit">Tìm kiếm</button>
-      </form>
+      <p class="sub">Mỗi đánh giá trên Gentle Journal đặt trải nghiệm trong bối cảnh cụ thể — hồ sơ da, thời gian sử dụng, thành phần và giới hạn — để bạn tự cân nhắc mức độ phù hợp.</p>
+      <div class="search-bar" aria-label="Tìm kiếm — sắp có">
+        <input type="text" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." disabled aria-disabled="true">
+        <span class="go" aria-disabled="true">Tìm kiếm</span>
+      </div>
     </div>
     <div class="hero-photo">
       <svg viewBox="0 0 340 300" fill="none">
@@ -36,19 +36,19 @@ title: Trang chủ
 </div>
 
 <div class="why">
-  <div class="eyebrow">Littlest Things là gì?</div>
+  <div class="eyebrow">Gentle Journal là gì?</div>
   <h2>Không phải một blog review thông thường</h2>
-  <p class="lead">Những điều nhỏ nhất thường quyết định một gợi ý có thực sự hợp với bạn hay không — hồ sơ da, thành phần, thời gian sử dụng, giới hạn và bối cảnh.</p>
+  <p class="lead">Những chi tiết nhỏ thường quyết định một gợi ý có thực sự phù hợp hay không — hồ sơ da, thành phần, thời gian sử dụng, giới hạn và bối cảnh.</p>
   <div class="value-grid">
-    <div class="vcard c1"><div class="circle">🧬</div><h3>Hồ sơ da thật, so sánh được</h3><p>Mỗi đánh giá đi kèm hồ sơ da của mình. Bạn tạo hồ sơ riêng và thấy ngay % giống nhau.</p><a class="link" href="{{ '/ho-so-da/' | relative_url }}">Xem hồ sơ da →</a></div>
-    <div class="vcard c2"><div class="circle">✅</div><h3>Đánh giá trung thực, có vote</h3><p>Không PR. Vote 👍/👎 từ cộng đồng — lọc theo người có da giống bạn nhất.</p><a class="link" href="{{ '/kham-pha/' | relative_url }}">Khám phá bài viết →</a></div>
-    <div class="vcard c3"><div class="circle">💬</div><h3>Hỏi nhanh, trả lời có nguồn</h3><p>Hỏi Gentle trực tiếp — trả lời dựa trên nội dung thật, kèm link bài viết gốc.</p><a class="link" href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle →</a></div>
+    <div class="vcard c1"><div class="circle">🧬</div><h3>Hồ sơ da để có thêm bối cảnh</h3><p>Mỗi review thật sẽ nêu rõ hồ sơ da và điều kiện sử dụng. Tính năng tạo hồ sơ riêng và tính % tương đồng hiện chưa hoạt động.</p><a class="link" href="{{ '/ho-so-da/' | relative_url }}">Xem hồ sơ da →</a></div>
+    <div class="vcard c2"><div class="circle">✅</div><h3>Đánh giá trung thực, có giới hạn</h3><p>Review tập trung vào bối cảnh, thời gian sử dụng và cả điểm chưa phù hợp. Vote cộng đồng theo hồ sơ da là tính năng sắp có.</p><a class="link" href="{{ '/kham-pha/' | relative_url }}">Khám phá bài viết →</a></div>
+    <div class="vcard c3"><div class="circle">💬</div><h3>Hỏi Gentle — bản xem trước</h3><p>Trang Hỏi Gentle hiện minh hoạ trải nghiệm dự kiến. Trả lời tự động có nguồn cần hệ thống phía sau và chưa hoạt động.</p><a class="link" href="{{ '/hoi-gentle/' | relative_url }}">Xem Hỏi Gentle →</a></div>
   </div>
 </div>
 
 <div class="promo">
-  <div><div class="txt">Da bạn có giống mình không?</div><div class="sub-txt">Tạo hồ sơ da của bạn trong 5 câu hỏi để nhận gợi ý phù hợp hơn.</div></div>
-  <a class="btn" href="{{ '/ho-so-da/' | relative_url }}">🧬 Tạo hồ sơ da</a>
+  <div><div class="txt">Da bạn có giống hồ sơ của Gentle Journal không?</div><div class="sub-txt">Xem trước 5 câu hỏi dự kiến cho trải nghiệm hồ sơ da. Tính năng lưu hồ sơ hiện chưa hoạt động.</div></div>
+  <a class="btn" href="{{ '/ho-so-da/' | relative_url }}">🧬 Xem trước hồ sơ da</a>
 </div>
 
 <div class="section-title"><h2>Mới nhất</h2><a class="see-all" href="{{ '/kham-pha/' | relative_url }}" style="font-size:.8rem;font-weight:600;color:var(--primary);">Xem tất cả →</a></div>
@@ -60,6 +60,7 @@ title: Trang chủ
 {% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
 {% assign sorted_posts = all_posts | sort: "date" | reverse %}
 
+{% if sorted_posts.size > 0 %}
 <div class="feed-grid">
 {% for post in sorted_posts limit:6 %}
   <div class="fcard">
@@ -76,3 +77,6 @@ title: Trang chủ
   </div>
 {% endfor %}
 </div>
+{% else %}
+<div class="not-live-note">Các bài viết đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Gentle Journal.</div>
+{% endif %}
