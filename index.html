@@ -70,6 +70,7 @@ title: Trang chủ
     </div>
     <div class="body">
       <span class="tag tag-outline">{{ post.section }}</span>
+      {% include topic-tags.html topics=post.topics %}
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
       <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
       <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
