@@ -5,18 +5,25 @@ permalink: /kham-pha/
 ---
 <div class="page-head">
   <h1>Khám Phá</h1>
-  <p>Tất cả bài viết ở một nơi — lọc theo điều bạn đang quan tâm.</p>
+  <p>Tất cả bài viết ở một nơi — khám phá theo chủ đề và loại nội dung.</p>
 </div>
 
 <div class="filter-card">
-  <div class="chip-label">Chuyên mục</div>
-  <div class="chips">
+  <div class="chip-label">Chủ đề</div>
+  <div class="chips" aria-label="Chủ đề">
+    <span class="chip">Da</span>
+    <span class="chip">Tóc</span>
+    <span class="chip">Du Lịch</span>
+    <span class="chip">Thành phần</span>
+  </div>
+  <div class="chip-label">Loại nội dung</div>
+  <div class="chips" aria-label="Loại nội dung">
     <span class="chip">Review</span>
     <span class="chip">Kiến Thức</span>
     <span class="chip">Nhật Ký</span>
     <span class="chip">So Sánh</span>
   </div>
-  <p style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;">Lọc theo tag chủ đề (Da / Tóc / Du Lịch) đang được phát triển — hiện tại trang hiển thị toàn bộ bài viết.</p>
+  <p style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;">Các nút lọc hiện là giao diện xem trước và chưa lọc nội dung. Trang vẫn hiển thị toàn bộ bài viết.</p>
 </div>
 
 {% assign all_posts = "" | split: "" %}
@@ -26,6 +33,7 @@ permalink: /kham-pha/
 {% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
 {% assign sorted_posts = all_posts | sort: "date" | reverse %}
 
+{% if sorted_posts.size > 0 %}
 <div class="feed-grid">
 {% for post in sorted_posts %}
   <div class="fcard">
@@ -35,6 +43,7 @@ permalink: /kham-pha/
     </div>
     <div class="body">
       <span class="tag tag-outline">{{ post.section }}</span>
+      {% include topic-tags.html topics=post.topics %}
       {% if post.section == "Review" or post.section == "So Sánh" %}
       <div class="match-badge match-high">✓ Hồ sơ da đi kèm</div>
       {% endif %}
@@ -45,3 +54,6 @@ permalink: /kham-pha/
   </div>
 {% endfor %}
 </div>
+{% else %}
+<div class="not-live-note">Chưa có bài viết xuất bản. Các bài đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Gentle Journal.</div>
+{% endif %}
