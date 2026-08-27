@@ -10,20 +10,22 @@ permalink: /kham-pha/
 
 <div class="filter-card">
   <div class="chip-label">Chủ đề</div>
-  <div class="chips" aria-label="Chủ đề">
-    <span class="chip">Da</span>
-    <span class="chip">Tóc</span>
-    <span class="chip">Du Lịch</span>
-    <span class="chip">Thành phần</span>
+  <div class="chips" aria-label="Lọc theo chủ đề">
+    <button class="chip active" type="button" data-filter-group="topic" data-filter-value="all" aria-pressed="true">Tất cả</button>
+    <button class="chip" type="button" data-filter-group="topic" data-filter-value="Da" aria-pressed="false">Da</button>
+    <button class="chip" type="button" data-filter-group="topic" data-filter-value="Tóc" aria-pressed="false">Tóc</button>
+    <button class="chip" type="button" data-filter-group="topic" data-filter-value="Du Lịch" aria-pressed="false">Du Lịch</button>
+    <button class="chip" type="button" data-filter-group="topic" data-filter-value="Thành phần" aria-pressed="false">Thành phần</button>
   </div>
   <div class="chip-label">Loại nội dung</div>
-  <div class="chips" aria-label="Loại nội dung">
-    <span class="chip">Review</span>
-    <span class="chip">Kiến Thức</span>
-    <span class="chip">Nhật Ký</span>
-    <span class="chip">So Sánh</span>
+  <div class="chips" aria-label="Lọc theo loại nội dung">
+    <button class="chip active" type="button" data-filter-group="type" data-filter-value="all" aria-pressed="true">Tất cả</button>
+    <button class="chip" type="button" data-filter-group="type" data-filter-value="Review" aria-pressed="false">Review</button>
+    <button class="chip" type="button" data-filter-group="type" data-filter-value="Kiến Thức" aria-pressed="false">Kiến Thức</button>
+    <button class="chip" type="button" data-filter-group="type" data-filter-value="Nhật Ký" aria-pressed="false">Nhật Ký</button>
+    <button class="chip" type="button" data-filter-group="type" data-filter-value="So Sánh" aria-pressed="false">So Sánh</button>
   </div>
-  <p style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;">Các nút lọc hiện là giao diện xem trước và chưa lọc nội dung. Trang vẫn hiển thị toàn bộ bài viết.</p>
+  <p data-filter-summary aria-live="polite" style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;"></p>
 </div>
 
 {% assign all_posts = "" | split: "" %}
@@ -34,9 +36,9 @@ permalink: /kham-pha/
 {% assign sorted_posts = all_posts | sort: "date" | reverse %}
 
 {% if sorted_posts.size > 0 %}
-<div class="feed-grid">
+<div class="feed-grid" data-discovery>
 {% for post in sorted_posts %}
-  <div class="fcard">
+  <div class="fcard" data-discovery-card data-type="{{ post.section | escape }}" data-topics="{% if post.topics %}{{ post.topics | join: '|' | escape }}{% endif %}">
     <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
       <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
       <div class="ph-caption">ảnh sản phẩm</div>
@@ -54,6 +56,9 @@ permalink: /kham-pha/
   </div>
 {% endfor %}
 </div>
+<div class="not-live-note" data-filter-empty hidden>Chưa có bài viết phù hợp với bộ lọc này. Thử chọn “Tất cả” hoặc một chủ đề khác.</div>
 {% else %}
 <div class="not-live-note">Chưa có bài viết xuất bản. Các bài đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Gentle Journal.</div>
 {% endif %}
+
+<script src="{{ '/assets/js/discovery.js' | relative_url }}" defer></script>
