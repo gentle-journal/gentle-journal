@@ -1,0 +1,19 @@
+{% if include.topics and include.topics.size > 0 %}
+  <div class="topic-tags" aria-label="Chủ đề">
+    {% for topic in include.topics %}
+      {% case topic %}
+        {% when "Da" %}
+          {% assign topic_class = "tag-da" %}
+        {% when "Tóc" %}
+          {% assign topic_class = "tag-toc" %}
+        {% when "Du Lịch" %}
+          {% assign topic_class = "tag-dulich" %}
+        {% when "Thành phần" %}
+          {% assign topic_class = "tag-outline" %}
+        {% else %}
+          {% assign topic_class = "tag-outline" %}
+      {% endcase %}
+      <span class="tag {{ topic_class }}">{{ topic }}</span>
+    {% endfor %}
+  </div>
+{% endif %}
