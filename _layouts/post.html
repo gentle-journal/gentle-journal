@@ -3,6 +3,7 @@ layout: default
 ---
 <article class="post" style="padding:24px 0 60px;max-width:720px;">
   <span class="tag tag-outline">{{ page.section }}</span>
+  {% include topic-tags.html topics=page.topics %}
   <h1 style="margin-top:12px;">{{ page.title }}</h1>
   <div style="color:var(--ink-soft);font-size:.85rem;margin-bottom:20px;">
     {% if page.date %}{{ page.date | date: "%d/%m/%Y" }}{% endif %}
