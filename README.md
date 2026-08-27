@@ -1,6 +1,5 @@
-# Littlest Things
+# Gentle Journal
 
-**Descriptor:** Gentle Journal  
 **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
 
 Blog Jekyll tiếng Việt về skincare, hair care và travel care, theo định hướng faceless, bằng chứng trước hype, và phù hợp với GitHub Pages.
@@ -9,28 +8,84 @@ Blog Jekyll tiếng Việt về skincare, hair care và travel care, theo địn
 
 ```
 _reviews/      → Review sản phẩm       → /reviews/ten-bai/
-_kien-thuc/    → Kiến thức thành phần  → /kien-thuc-da/ten-bai/
+_kien-thuc/    → Kiến thức             → /kien-thuc-da/ten-bai/
 _nhat-ky/      → Nhật ký routine       → /nhat-ky/ten-bai/
 _so-sanh/      → So sánh sản phẩm      → /so-sanh/ten-bai/
 _layouts/      → Khung trang (default, post)
-_includes/     → Header, footer
+_includes/     → Header, footer, topic tags
 assets/css/    → Style chính (style.scss)
 ```
 
+## Taxonomy
+
+Gentle Journal dùng hai chiều phân loại riêng biệt:
+
+- **Chủ đề:** `Da`, `Tóc`, `Du Lịch`, `Thành phần`
+- **Loại nội dung:** `Review`, `Kiến Thức`, `Nhật Ký`, `So Sánh`
+
+Loại nội dung được xác định bởi collection chứa bài viết. Chủ đề được khai báo bằng front matter `topics`.
+
+Một bài có thể có nhiều chủ đề. Ví dụ bài về kem chống nắng dùng khi đi du lịch có thể là cả `Da` và `Du Lịch`.
+
+Không tạo collection hoặc top-level section riêng cho Da, Tóc hoặc Du Lịch. Khám Phá vẫn là thư viện nội dung thống nhất.
+
 ## Viết bài mới
 
-Tạo file `.md` mới trong thư mục collection tương ứng (`_reviews`, `_kien-thuc`, `_nhat-ky`, `_so-sanh`), với front matter:
+Tạo file `.md` mới trong thư mục collection tương ứng (`_reviews`, `_kien-thuc`, `_nhat-ky`, `_so-sanh`).
+
+Front matter cơ bản:
 
 ```yaml
 ---
 title: "Tiêu đề bài viết"
-skin_type: "Khô, dễ kích ứng"     # optional
-duration_tested: "4 tuần"          # optional
-affiliate: true                    # true nếu có link affiliate
-date: 2026-01-20
+date: 2026-08-27
+topics:
+  - Da
+affiliate: false
 ---
+
 Nội dung bài viết ở đây...
 ```
+
+Bài có nhiều chủ đề:
+
+```yaml
+topics:
+  - Da
+  - Du Lịch
+```
+
+Chỉ dùng đúng các giá trị chủ đề sau, bao gồm dấu và chữ hoa như hiển thị:
+
+```text
+Da
+Tóc
+Du Lịch
+Thành phần
+```
+
+### Metadata bổ sung cho review/so sánh
+
+Chỉ điền thông tin trải nghiệm khi đó là trải nghiệm thật đã được cung cấp:
+
+```yaml
+skin_type: "Khô, dễ kích ứng"     # optional
+duration_tested: "4 tuần"         # optional; chỉ khi thực sự đã test
+```
+
+Nếu bài có link affiliate:
+
+```yaml
+affiliate: true
+```
+
+Nếu không có:
+
+```yaml
+affiliate: false
+```
+
+Không viết hoặc giữ các tuyên bố như “mình đã dùng 4 tuần” chỉ để làm nội dung mẫu.
 
 Tên file quyết định URL, ví dụ `_reviews/kem-chong-nang-cho-da-kho.md` → `/reviews/kem-chong-nang-cho-da-kho/`.
 
@@ -41,11 +96,19 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Mở `http://localhost:4000`.
+Vì production site là GitHub Pages project site, chạy local với cấu hình production có thể dùng:
+
+```bash
+bundle exec jekyll serve --baseurl ""
+```
+
+Sau đó mở `http://localhost:4000`.
 
 ## Đưa lên GitHub Pages
 
-Repository hiện tại vẫn là `gentle-journal/gentle-journal`. Tên repository và GitHub Pages URL chưa đổi vì domain/URL chính thức cho Littlest Things chưa được chốt.
+Repository: `gentle-journal/gentle-journal`
+
+Production URL: `https://gentle-journal.github.io/gentle-journal/`
 
 Quy trình deploy hiện tại:
 
@@ -59,17 +122,16 @@ GitHub Pages sau đó rebuild site tự động.
 
 ## Brand naming
 
-- **Masterbrand:** Littlest Things
-- **Descriptor:** Gentle Journal
+- **Brand:** Gentle Journal
 - **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
-- **Hỏi Gentle:** giữ nguyên là tên feature hiện tại
+- **Hỏi Gentle:** tên feature hiện tại
 - **Official custom domain:** TBD
 
-Không đổi repository, GitHub Pages URL, route hoặc tên feature chỉ vì đổi masterbrand. Những thay đổi kỹ thuật đó cần quyết định riêng.
+Không đổi repository, GitHub Pages URL, route hoặc tên feature nếu chưa có quyết định riêng.
 
 ## Sau khi live / open items
 
-- Chọn domain chính thức cho Littlest Things rồi cập nhật `CNAME`, `_config.yml` và contact email.
 - Thay email placeholder `hello@gentlejournal.vn` sau khi email chính thức được chọn.
-- Thay các link affiliate mẫu bằng link thật khi chương trình affiliate đã được xác nhận.
-- Nội dung mẫu không được tự động coi là trải nghiệm test thật.
+- Chỉ thêm link affiliate thật khi chương trình affiliate đã được xác nhận; luôn disclosure rõ ràng.
+- Thay product-image placeholders bằng ảnh sản phẩm thật có quyền sử dụng khi nội dung thật được xuất bản.
+- Khám Phá filter và search vẫn là placeholder cho tới khi hành vi thực tế được triển khai và kiểm tra.
