@@ -5,10 +5,15 @@ permalink: /kham-pha/
 ---
 <div class="page-head">
   <h1>Khám Phá</h1>
-  <p>Tất cả bài viết ở một nơi — khám phá theo chủ đề và loại nội dung.</p>
+  <p>Tất cả bài viết ở một nơi — tìm kiếm và khám phá theo chủ đề hoặc loại nội dung.</p>
 </div>
 
 <div class="filter-card">
+  <form class="search-bar" data-discovery-search role="search" aria-label="Tìm bài viết" style="margin-bottom:20px;max-width:100%;">
+    <input type="search" name="q" data-search-input placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." autocomplete="off">
+    <button class="go" type="submit">Tìm kiếm</button>
+  </form>
+
   <div class="chip-label">Chủ đề</div>
   <div class="chips" aria-label="Lọc theo chủ đề">
     <button class="chip active" type="button" data-filter-group="topic" data-filter-value="all" aria-pressed="true">Tất cả</button>
@@ -17,6 +22,7 @@ permalink: /kham-pha/
     <button class="chip" type="button" data-filter-group="topic" data-filter-value="Du Lịch" aria-pressed="false">Du Lịch</button>
     <button class="chip" type="button" data-filter-group="topic" data-filter-value="Thành phần" aria-pressed="false">Thành phần</button>
   </div>
+
   <div class="chip-label">Loại nội dung</div>
   <div class="chips" aria-label="Lọc theo loại nội dung">
     <button class="chip active" type="button" data-filter-group="type" data-filter-value="all" aria-pressed="true">Tất cả</button>
@@ -25,6 +31,7 @@ permalink: /kham-pha/
     <button class="chip" type="button" data-filter-group="type" data-filter-value="Nhật Ký" aria-pressed="false">Nhật Ký</button>
     <button class="chip" type="button" data-filter-group="type" data-filter-value="So Sánh" aria-pressed="false">So Sánh</button>
   </div>
+
   <p data-filter-summary aria-live="polite" style="font-size:.78rem;color:var(--ink-soft);margin:4px 0 0;"></p>
 </div>
 
@@ -38,7 +45,8 @@ permalink: /kham-pha/
 {% if sorted_posts.size > 0 %}
 <div class="feed-grid" data-discovery>
 {% for post in sorted_posts %}
-  <div class="fcard" data-discovery-card data-type="{{ post.section | escape }}" data-topics="{% if post.topics %}{{ post.topics | join: '|' | escape }}{% endif %}">
+  {% capture searchable_text %}{{ post.title }} {{ post.excerpt | strip_html }} {{ post.content | strip_html }} {{ post.section }} {% if post.topics %}{{ post.topics | join: ' ' }}{% endif %} {{ post.skin_type }} {{ post.duration_tested }}{% endcapture %}
+  <div class="fcard" data-discovery-card data-type="{{ post.section | escape }}" data-topics="{% if post.topics %}{{ post.topics | join: '|' | escape }}{% endif %}" data-search="{{ searchable_text | strip_newlines | escape }}">
     <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
       <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
       <div class="ph-caption">ảnh sản phẩm</div>
@@ -56,7 +64,7 @@ permalink: /kham-pha/
   </div>
 {% endfor %}
 </div>
-<div class="not-live-note" data-filter-empty hidden>Chưa có bài viết phù hợp với bộ lọc này. Thử chọn “Tất cả” hoặc một chủ đề khác.</div>
+<div class="not-live-note" data-filter-empty hidden>Chưa có bài viết phù hợp. Thử từ khoá khác hoặc chọn “Tất cả” ở các bộ lọc.</div>
 {% else %}
 <div class="not-live-note">Chưa có bài viết xuất bản. Các bài đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Gentle Journal.</div>
 {% endif %}
