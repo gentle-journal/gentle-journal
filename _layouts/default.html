@@ -6,6 +6,11 @@
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/favicon.ico' | relative_url }}" sizes="any">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon-32x32.png' | relative_url }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon-16x16.png' | relative_url }}" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="{{ '/assets/brand/03-favicon/littlest-things-apple-touch-icon-180x180.png' | relative_url }}">
   {% feed_meta %}
   {% seo %}
 </head>
