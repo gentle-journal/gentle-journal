@@ -1,7 +1,12 @@
 <nav class="site">
   <div class="wrap">
     <div class="nav-inner">
-      <a class="brand" href="{{ '/' | relative_url }}"><div class="mark"></div>Littlest Things</a>
+      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
+        <img
+          class="brand-logo"
+          src="{{ '/assets/brand/01-primary-horizontal/littlest-things-primary-horizontal.svg' | relative_url }}"
+          alt="Littlest Things">
+      </a>
       <div class="nav-links">
         <a href="{{ '/' | relative_url }}" {% if page.url == '/' %}class="active"{% endif %}>Trang chủ</a>
         <a href="{{ '/kham-pha/' | relative_url }}" {% if page.url contains 'kham-pha' %}class="active"{% endif %}>Khám Phá</a>
