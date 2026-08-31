@@ -1,12 +1,12 @@
-# Gentle Journal
+# Littlest Things
 
 **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
 
-Blog Jekyll tiếng Việt về skincare, hair care và travel care, theo định hướng faceless, bằng chứng trước hype, và phù hợp với GitHub Pages.
+Littlest Things là website biên tập tiếng Việt về skincare, hair care và travel care, theo định hướng faceless, bằng chứng trước hype, và phù hợp với Jekyll + GitHub Pages.
 
 ## Cấu trúc
 
-```
+```text
 _reviews/      → Review sản phẩm       → /reviews/ten-bai/
 _kien-thuc/    → Kiến thức             → /kien-thuc-da/ten-bai/
 _nhat-ky/      → Nhật ký routine       → /nhat-ky/ten-bai/
@@ -14,11 +14,26 @@ _so-sanh/      → So sánh sản phẩm      → /so-sanh/ten-bai/
 _layouts/      → Khung trang (default, post)
 _includes/     → Header, footer, topic tags
 assets/css/    → Style chính (style.scss)
+assets/js/     → JavaScript phía trình duyệt
+assets/brand/  → Pressed Petals logo + icon/favicon production assets
 ```
+
+## Brand identity
+
+- **Brand:** Littlest Things
+- **Logo:** Pressed Petals — FINAL APPROVED
+- **Primary horizontal logo:** `assets/brand/01-primary-horizontal/littlest-things-primary-horizontal.svg`
+- **Compact petals-only icon:** `assets/brand/02-compact-icon/littlest-things-compact-petals.svg`
+- **Favicon system:** `assets/brand/03-favicon/`
+- **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
+- **Production domain:** `https://littlestthings.net`
+- **Hỏi Gentle:** current feature name; this is not an alternate brand name
+
+The final production assets under `assets/brand/` are the source of truth for Pressed Petals artwork. Do not redraw, recolor, or substitute the approved logo.
 
 ## Taxonomy
 
-Gentle Journal dùng hai chiều phân loại riêng biệt:
+Littlest Things dùng hai chiều phân loại riêng biệt:
 
 - **Chủ đề:** `Da`, `Tóc`, `Du Lịch`, `Thành phần`
 - **Loại nội dung:** `Review`, `Kiến Thức`, `Nhật Ký`, `So Sánh`
@@ -38,7 +53,7 @@ Front matter cơ bản:
 ```yaml
 ---
 title: "Tiêu đề bài viết"
-date: 2026-08-27
+date: 2026-08-31
 topics:
   - Da
 affiliate: false
@@ -96,19 +111,17 @@ bundle install
 bundle exec jekyll serve
 ```
 
-Vì production site là GitHub Pages project site, chạy local với cấu hình production có thể dùng:
-
-```bash
-bundle exec jekyll serve --baseurl ""
-```
-
 Sau đó mở `http://localhost:4000`.
 
-## Đưa lên GitHub Pages
+## Production và deploy
 
-Repository: `gentle-journal/gentle-journal`
+**Production URL:** `https://littlestthings.net`
 
-Production URL: `https://gentle-journal.github.io/gentle-journal/`
+**Repository — legacy technical reference:** `gentle-journal/gentle-journal`
+
+**Underlying GitHub Pages project URL — legacy technical reference:** `https://gentle-journal.github.io/gentle-journal/`
+
+Tên repository và underlying Pages URL vẫn chứa định danh cũ vì đây là hạ tầng kỹ thuật hiện tại. Không dùng các định danh đó như tên thương hiệu trong copy, metadata, UI hoặc SEO.
 
 Quy trình deploy hiện tại:
 
@@ -118,20 +131,11 @@ git commit -m "Mô tả thay đổi"
 git push
 ```
 
-GitHub Pages sau đó rebuild site tự động.
-
-## Brand naming
-
-- **Brand:** Gentle Journal
-- **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
-- **Hỏi Gentle:** tên feature hiện tại
-- **Official custom domain:** TBD
-
-Không đổi repository, GitHub Pages URL, route hoặc tên feature nếu chưa có quyết định riêng.
+GitHub Pages sau đó rebuild site tự động. File `CNAME` ánh xạ production site tới `littlestthings.net`.
 
 ## Sau khi live / open items
 
-- Thay email placeholder `hello@gentlejournal.vn` sau khi email chính thức được chọn.
+- Email liên hệ công khai: TBD; không dùng lại placeholder gắn với định danh cũ.
 - Chỉ thêm link affiliate thật khi chương trình affiliate đã được xác nhận; luôn disclosure rõ ràng.
 - Thay product-image placeholders bằng ảnh sản phẩm thật có quyền sử dụng khi nội dung thật được xuất bản.
-- Khám Phá filter và search vẫn là placeholder cho tới khi hành vi thực tế được triển khai và kiểm tra.
+- Profile persistence, match %, voting và Hỏi Gentle functional answers cần backend/external service; không mô tả các UI placeholder này là backend functionality.
