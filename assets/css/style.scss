@@ -175,5 +175,14 @@ footer.site p{max-width:640px;}
   .filter-card{padding:16px 16px;}
 }
 @media(max-width:420px){
+  .nav-inner{
+    padding:10px 12px;
+  }
+
+  .nav-cta{
+    display:none;
+  }
+
   .hero h1{font-size:1.4rem;}
 }
+
