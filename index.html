@@ -2,82 +2,149 @@
 layout: default
 title: Trang chủ
 ---
-<div class="hero">
-  <div class="hero-grid">
-    <div class="hero-inner">
-      <div class="eyebrow">Littlest Things — Nhật Ký Da Nhạy Cảm</div>
-      <h1>Biết ngay bài viết này có <span class="italic">hợp với da bạn</span> — trước khi thử.</h1>
-      <p class="sub">Mỗi đánh giá trên Littlest Things đặt trải nghiệm trong bối cảnh cụ thể — hồ sơ da, thời gian sử dụng, thành phần và giới hạn — để bạn tự cân nhắc mức độ phù hợp.</p>
-      <form class="search-bar" action="{{ '/kham-pha/' | relative_url }}" method="get" role="search" aria-label="Tìm bài viết">
-        <input type="search" name="q" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." autocomplete="off">
-        <button class="go" type="submit">Tìm kiếm</button>
-      </form>
-    </div>
-    <div class="hero-photo">
-      <svg viewBox="0 0 340 300" fill="none">
-        <ellipse cx="170" cy="256" rx="130" ry="12" fill="#2E2C28" opacity=".06"/>
-        <path d="M40 210 L40 250 Q40 256 46 256 L110 256 L110 206 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
-        <path d="M110 206 L110 256 L174 256 Q180 256 180 250 L180 210 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
-        <line x1="54" y1="222" x2="98" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="54" y1="234" x2="92" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="124" y1="222" x2="164" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="124" y1="234" x2="158" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <path d="M130 128 Q128 124 134 122 Q168 118 202 122 Q208 124 206 128 L210 208 Q210 224 190 226 L146 226 Q126 224 126 208 Z" fill="#F7F5F0" stroke="#6E9A7C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#crayon)"/>
-        <rect x="144" y="102" width="52" height="22" rx="6" fill="#FFFFFF" stroke="#6E9A7C" stroke-width="4" filter="url(#crayon)"/>
-        <path d="M170 102 C160 84 142 80 130 86 C140 100 158 104 170 102 Z" fill="#AECBB4" stroke="#6E9A7C" stroke-width="2" filter="url(#crayon)"/>
-        <path d="M232 140 L232 100 Q232 92 240 92 L252 92 Q260 92 260 100 L260 140 Q268 148 268 168 L268 210 Q268 222 250 222 L242 222 Q224 222 224 210 L224 168 Q224 148 232 140 Z" fill="#EAC4B0" stroke="#B5788A" stroke-width="3.5" stroke-linejoin="round" filter="url(#crayon)"/>
-        <rect x="238" y="78" width="16" height="18" rx="3" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" filter="url(#crayon)"/>
-        <path d="M280 130 C292 146 292 162 280 172 C268 162 268 146 280 130 Z" fill="#CBDCE8" filter="url(#crayon)"/>
-        <circle cx="98" cy="150" r="5" fill="#DDD0DE"/>
-        <circle cx="292" cy="200" r="4" fill="#F1E9B9"/>
-      </svg>
+<section class="home-hero" aria-labelledby="home-hero-title">
+  <div class="home-hero-copy">
+    <div class="eyebrow">Littlest Things</div>
+    <h1 id="home-hero-title">Littlest Things là nhật ký chăm sóc da, tóc và du lịch mỗi ngày.</h1>
+    <p>Ghi lại những điều nhỏ bé trong hành trình chăm sóc da nhạy cảm, da khô — để lựa chọn của bạn thực tế hơn, nhẹ nhàng hơn và bền vững hơn.</p>
+    <div class="home-actions">
+      <a class="btn-primary" href="{{ '/kham-pha/' | relative_url }}">Khám Phá nội dung</a>
+      <a class="btn-secondary" href="{{ '/gioi-thieu/' | relative_url }}">Hiểu thêm về Littlest Things</a>
     </div>
   </div>
-</div>
-
-<div class="why">
-  <div class="eyebrow">Littlest Things là gì?</div>
-  <h2>Không phải một blog review thông thường</h2>
-  <p class="lead">Những chi tiết nhỏ thường quyết định một gợi ý có thực sự phù hợp hay không — hồ sơ da, thành phần, thời gian sử dụng, giới hạn và bối cảnh.</p>
-  <div class="value-grid">
-    <div class="vcard c1"><div class="circle">🧬</div><h3>Hồ sơ da để có thêm bối cảnh</h3><p>Mỗi review thật sẽ nêu rõ hồ sơ da và điều kiện sử dụng. Tính năng tạo hồ sơ riêng và tính % tương đồng hiện chưa hoạt động.</p><a class="link" href="{{ '/ho-so-da/' | relative_url }}">Xem hồ sơ da →</a></div>
-    <div class="vcard c2"><div class="circle">✅</div><h3>Đánh giá trung thực, có giới hạn</h3><p>Review tập trung vào bối cảnh, thời gian sử dụng và cả điểm chưa phù hợp. Vote cộng đồng theo hồ sơ da là tính năng sắp có.</p><a class="link" href="{{ '/kham-pha/' | relative_url }}">Khám phá bài viết →</a></div>
-    <div class="vcard c3"><div class="circle">💬</div><h3>Hỏi Gentle — bản xem trước</h3><p>Trang Hỏi Gentle hiện minh hoạ trải nghiệm dự kiến. Trả lời tự động có nguồn cần hệ thống phía sau và chưa hoạt động.</p><a class="link" href="{{ '/hoi-gentle/' | relative_url }}">Xem Hỏi Gentle →</a></div>
+  <div class="home-hero-art" aria-hidden="true">
+    <svg viewBox="0 0 520 420" fill="none">
+      <ellipse cx="270" cy="356" rx="190" ry="18" fill="#2E2C28" opacity=".05"/>
+      <path d="M96 282h132v70H104c-5 0-8-3-8-8z" fill="#fff" stroke="#B5788A" stroke-width="3" filter="url(#crayon)"/>
+      <path d="M228 282h132v62c0 5-3 8-8 8H228z" fill="#fff" stroke="#B5788A" stroke-width="3" filter="url(#crayon)"/>
+      <path d="M122 302h78M122 320h66M250 302h78M250 320h66" stroke="#E9D5DA" stroke-width="4" stroke-linecap="round"/>
+      <path d="M210 160c0-11 8-19 19-19h46c11 0 19 8 19 19l8 104c1 17-11 31-28 31h-44c-17 0-29-14-28-31z" fill="#F8F7F3" stroke="#6E9A7C" stroke-width="4" filter="url(#crayon)"/>
+      <rect x="226" y="116" width="52" height="28" rx="6" fill="#fff" stroke="#6E9A7C" stroke-width="4" filter="url(#crayon)"/>
+      <path d="M252 114c-2-36 12-62 34-82M254 90c-20-6-34-18-42-33M270 68c18-5 31-17 40-33" stroke="#6E9A7C" stroke-width="4" stroke-linecap="round" filter="url(#crayon)"/>
+      <path d="M214 56c11-5 23 0 27 10-12 7-24 3-27-10ZM307 35c12-4 23 2 26 13-13 6-24 0-26-13ZM282 28c-3-12 4-24 16-27 5 13-2 24-16 27Z" fill="#AECBB4" opacity=".9"/>
+      <path d="M356 201h48l10 99c1 12-8 22-20 22h-28c-12 0-21-10-20-22z" fill="#F7F4ED" stroke="#B5788A" stroke-width="4" filter="url(#crayon)"/>
+      <rect x="367" y="174" width="26" height="30" rx="4" fill="#fff" stroke="#B5788A" stroke-width="3"/>
+      <path d="M86 332c18-28 33-37 55-50M118 296c-2-16 6-29 20-36M130 307c15-8 30-7 43 2M414 320c20-25 35-34 55-46M448 286c-3-15 4-28 17-35" stroke="#6E9A7C" stroke-width="3" stroke-linecap="round" filter="url(#crayon)"/>
+      <circle cx="83" cy="218" r="8" fill="#DDD0DE"/><circle cx="425" cy="155" r="7" fill="#F1E9B9"/>
+    </svg>
   </div>
-</div>
+</section>
 
-<div class="promo">
-  <div><div class="txt">Da bạn có giống hồ sơ của Littlest Things không?</div><div class="sub-txt">Xem trước 5 câu hỏi dự kiến cho trải nghiệm hồ sơ da. Tính năng lưu hồ sơ hiện chưa hoạt động.</div></div>
-  <a class="btn" href="{{ '/ho-so-da/' | relative_url }}">🧬 Xem trước hồ sơ da</a>
-</div>
-
-<div class="section-title"><h2>Mới nhất</h2><a class="see-all" href="{{ '/kham-pha/' | relative_url }}" style="font-size:.8rem;font-weight:600;color:var(--primary);">Xem tất cả →</a></div>
-
-{% assign all_posts = "" | split: "" %}
-{% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["kien-thuc"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["nhat-ky"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% assign sorted_posts = all_posts | sort: "date" | reverse %}
-
-{% if sorted_posts.size > 0 %}
-<div class="feed-grid">
-{% for post in sorted_posts limit:6 %}
-  <div class="fcard">
-    <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
-      <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
-      <div class="ph-caption">ảnh sản phẩm</div>
-    </div>
-    <div class="body">
-      <span class="tag tag-outline">{{ post.section }}</span>
-      {% include topic-tags.html topics=post.topics %}
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
-      <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
-    </div>
+<section class="home-story" aria-labelledby="story-title">
+  <div class="section-heading centered">
+    <div class="eyebrow">Ý nghĩa của Littlest Things</div>
+    <h2 id="story-title">Những điều nhỏ, khác biệt lớn</h2>
   </div>
-{% endfor %}
-</div>
-{% else %}
-<div class="not-live-note">Các bài viết đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Littlest Things.</div>
-{% endif %}
+  <div class="story-grid">
+    <article class="story-item">
+      <div class="story-icon">⌁</div>
+      <h3>Vì sao Littlest Things tồn tại</h3>
+      <p>Để bạn hiểu được bối cảnh thật sự đằng sau mỗi gợi ý — và tự quyết định phù hợp với làn da của chính mình.</p>
+    </article>
+    <article class="story-item">
+      <div class="story-icon">⌕</div>
+      <h3>Chú ý đến chi tiết</h3>
+      <p>Thành phần, kết cấu, cảm giác khi dùng, môi trường sống — đều ảnh hưởng đến kết quả.</p>
+    </article>
+    <article class="story-item">
+      <div class="story-icon">♡</div>
+      <h3>Không thổi phồng</h3>
+      <p>Chăm sóc không cần phức tạp. Điều quan trọng là hiểu da, chọn đúng và kiên nhẫn.</p>
+    </article>
+    <article class="story-item">
+      <div class="story-icon">♧</div>
+      <h3>Thực tế & bền vững</h3>
+      <p>Lựa chọn đơn giản, phù hợp, điều chỉnh mỗi ngày mới là điều tạo nên khác biệt.</p>
+    </article>
+  </div>
+</section>
+
+<section class="home-journey" aria-labelledby="journey-title">
+  <div class="section-heading centered">
+    <h2 id="journey-title">Bắt đầu hành trình cùng Littlest Things</h2>
+  </div>
+  <div class="journey-grid">
+    <a class="journey-card journey-discovery" href="{{ '/kham-pha/' | relative_url }}">
+      <div class="journey-illustration">⌕</div>
+      <div><h3>Khám Phá</h3><p>Thư viện bài viết được chọn lọc về da, tóc, du lịch và thành phần.</p><span>Khám phá ngay →</span></div>
+    </a>
+    <a class="journey-card journey-profile" href="{{ '/ho-so-da/' | relative_url }}">
+      <div class="journey-illustration">◌</div>
+      <div><h3>Hồ Sơ Da</h3><p>Hiểu về làn da của mình và xem trước hướng xây dựng hồ sơ phù hợp.</p><span>Xem hồ sơ →</span></div>
+    </a>
+    <a class="journey-card journey-diary" href="{{ '/nhat-ky/' | relative_url }}">
+      <div class="journey-illustration">▤</div>
+      <div><h3>Nhật Ký</h3><p>Ghi lại thói quen và hành trình chăm sóc theo thời gian.</p><span>Xem ngay →</span></div>
+    </a>
+    <a class="journey-card journey-ask" href="{{ '/hoi-gentle/' | relative_url }}">
+      <div class="journey-illustration">◌◌</div>
+      <div><h3>Hỏi Gentle</h3><p>Đặt câu hỏi và xem bản minh hoạ trải nghiệm gợi ý theo ngữ cảnh.</p><span>Truy cập →</span></div>
+    </a>
+  </div>
+</section>
+
+<section class="home-selected" aria-labelledby="selected-title">
+  <div class="section-title selected-heading">
+    <h2 id="selected-title">Bài viết chọn lọc</h2>
+    <a class="see-all" href="{{ '/kham-pha/' | relative_url }}">Xem tất cả →</a>
+  </div>
+  <div class="selected-tabs" role="list" aria-label="Các chủ đề nội dung">
+    <span class="selected-tab active" role="listitem">Mới nhất</span>
+    <span class="selected-tab" role="listitem">Skincare</span>
+    <span class="selected-tab" role="listitem">Hair care</span>
+    <span class="selected-tab" role="listitem">Travel care</span>
+    <span class="selected-tab" role="listitem">Review</span>
+    <span class="selected-tab" role="listitem">Kiến thức</span>
+  </div>
+
+  {% assign all_posts = "" | split: "" %}
+  {% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+  {% for p in site["kien-thuc"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+  {% for p in site["nhat-ky"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+  {% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
+  {% assign sorted_posts = all_posts | sort: "date" | reverse %}
+
+  {% if sorted_posts.size > 0 %}
+  <div class="selected-row">
+  {% for post in sorted_posts limit:5 %}
+    <article class="selected-card">
+      <div class="selected-photo" aria-hidden="true">
+        <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div><div class="bottle b3"></div></div>
+      </div>
+      <div class="selected-body">
+        <div class="selected-kicker">{{ post.section }}</div>
+        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+  {% else %}
+  <div class="not-live-note">Các bài viết đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Littlest Things.</div>
+  {% endif %}
+</section>
+
+<section class="home-trust" aria-labelledby="trust-title">
+  <div class="section-heading centered">
+    <h2 id="trust-title">Nguyên tắc mình luôn giữ</h2>
+  </div>
+  <div class="trust-grid">
+    <article><div class="trust-icon">♡</div><h3>Không thổi phồng</h3><p>Nói rõ khi sản phẩm chưa phù hợp hoặc chưa đủ dữ liệu.</p></article>
+    <article><div class="trust-icon">◇</div><h3>Rõ ràng liên kết tiếp thị</h3><p>Mọi liên kết tiếp thị đều được minh bạch khi áp dụng.</p></article>
+    <article><div class="trust-icon">▤</div><h3>Phân biệt rõ thông tin</h3><p>Thông tin dựa trên nguồn tin cậy; nhận định được tách khỏi trải nghiệm.</p></article>
+    <article><div class="trust-icon">◒</div><h3>Quan tâm đến nhạy cảm</h3><p>Tiêu chí quan trọng trong mọi gợi ý và lựa chọn.</p></article>
+    <article><div class="trust-icon">▥</div><h3>Ưu tiên thông tin có cơ sở</h3><p>Dựa trên tài liệu chính thống, nghiên cứu khoa học và ngữ cảnh.</p></article>
+    <article><div class="trust-icon">!</div><h3>Nói rõ giới hạn</h3><p>Không dùng giọng tin khi nguồn hoặc dữ liệu chưa đủ chắc chắn.</p></article>
+  </div>
+</section>
+
+<section class="home-final-cta" aria-labelledby="final-cta-title">
+  <div class="final-cta-copy">
+    <h2 id="final-cta-title">Tiếp tục khám phá hành trình chăm sóc của bạn</h2>
+    <p>Tìm bài viết hữu ích tiếp theo hoặc quay lại những điều cơ bản.</p>
+  </div>
+  <div class="home-actions">
+    <a class="btn-primary" href="{{ '/kham-pha/' | relative_url }}">Khám Phá ngay</a>
+    <a class="btn-secondary" href="{{ '/' | relative_url }}">Quay về Trang chủ</a>
+  </div>
+</section>
