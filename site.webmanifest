@@ -1,0 +1,20 @@
+{
+  "name": "Littlest Things",
+  "short_name": "Littlest Things",
+  "start_url": "/",
+  "display": "browser",
+  "background_color": "#F1EEE7",
+  "theme_color": "#6E9A7C",
+  "icons": [
+    {
+      "src": "/assets/brand/03-favicon/littlest-things-botanical-icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/brand/03-favicon/littlest-things-botanical-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
