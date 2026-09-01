@@ -1,6 +1,37 @@
+{% if page.home_v41 %}
+<footer class="footer">
+  <div class="shell">
+    <div class="footer-grid">
+      <div class="footer-about">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
+          <img class="brand-logo" src="{{ '/assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg' | relative_url }}" alt="Littlest Things — Care lives in the little things!">
+        </a>
+        <p class="footer-copy">Kiến thức và góc nhìn bình tĩnh về chăm sóc da, tóc và khi đi xa — dành cho những lựa chọn nhỏ nhưng có cân nhắc.</p>
+      </div>
+      <div>
+        <h3>Khám phá</h3>
+        <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
+        <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
+        <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
+      </div>
+      <div>
+        <h3>Thông tin</h3>
+        <a href="{{ '/gioi-thieu/' | relative_url }}">Về Littlest Things</a>
+        <a href="#trust">Nguyên tắc biên tập</a>
+        <a href="{{ '/lien-he/' | relative_url }}">Liên hệ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© {{ site.time | date: '%Y' }} Littlest Things</span>
+      <span class="footer-disclosure">Một số liên kết có thể là liên kết affiliate; hoa hồng không ảnh hưởng đến đánh giá biên tập.</span>
+    </div>
+  </div>
+</footer>
+{% else %}
 <footer class="site">
   <div class="wrap">
     <p>© {{ site.time | date: '%Y' }} Littlest Things · {{ site.tagline }}</p>
     <p>Một số liên kết trên trang là liên kết affiliate. Mình có thể nhận hoa hồng nếu bạn mua qua liên kết, không phát sinh thêm chi phí cho bạn. Điều này không ảnh hưởng đến đánh giá thành thật của mình.</p>
   </div>
 </footer>
+{% endif %}
