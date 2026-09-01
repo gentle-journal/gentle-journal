@@ -1,6 +1,53 @@
 <footer class="site">
   <div class="wrap">
-    <p>© {{ site.time | date: '%Y' }} Littlest Things · {{ site.tagline }}</p>
-    <p>Một số liên kết trên trang là liên kết affiliate. Mình có thể nhận hoa hồng nếu bạn mua qua liên kết, không phát sinh thêm chi phí cho bạn. Điều này không ảnh hưởng đến đánh giá thành thật của mình.</p>
+    <div class="footer-shell">
+      <div class="footer-brand">
+        <a href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
+          <img class="footer-logo" src="{{ '/assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg' | relative_url }}" alt="Littlest Things — Care lives in the little things!">
+        </a>
+        <p class="footer-note">Chăm sóc da, tóc và du lịch với góc nhìn bình tĩnh, có ngữ cảnh và phù hợp với làn da nhạy cảm, da khô.</p>
+      </div>
+
+      <div class="footer-links footer-desktop">
+        <div class="footer-group">
+          <h3>Khám phá</h3>
+          <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
+          <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
+        </div>
+        <div class="footer-group">
+          <h3>Công cụ</h3>
+          <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
+          <a href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle</a>
+        </div>
+        <div class="footer-group">
+          <h3>Littlest Things</h3>
+          <a href="{{ '/gioi-thieu/' | relative_url }}">Giới Thiệu</a>
+          <a href="{{ '/lien-he/' | relative_url }}">Liên Hệ</a>
+        </div>
+      </div>
+
+      <div class="footer-mobile">
+        <details>
+          <summary>Khám phá</summary>
+          <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
+          <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
+        </details>
+        <details>
+          <summary>Công cụ</summary>
+          <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
+          <a href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle</a>
+        </details>
+        <details>
+          <summary>Littlest Things</summary>
+          <a href="{{ '/gioi-thieu/' | relative_url }}">Giới Thiệu</a>
+          <a href="{{ '/lien-he/' | relative_url }}">Liên Hệ</a>
+        </details>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© {{ site.time | date: '%Y' }} Littlest Things. All rights reserved.</p>
+        <p>Một số liên kết trên trang là liên kết affiliate. Littlest Things có thể nhận hoa hồng nếu bạn mua qua liên kết, không phát sinh thêm chi phí cho bạn. Điều này không ảnh hưởng đến đánh giá biên tập.</p>
+      </div>
+    </div>
   </div>
 </footer>
