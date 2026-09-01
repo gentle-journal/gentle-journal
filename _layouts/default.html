@@ -5,12 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{% if page.title %}{{ page.title }} — {% endif %}{{ site.title }}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
+  <meta name="theme-color" content="#6E9A7C">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon.svg' | relative_url }}" type="image/svg+xml">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/brand/03-favicon/favicon.ico' | relative_url }}" sizes="any">
-  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon-32x32.png' | relative_url }}" type="image/png" sizes="32x32">
-  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-favicon-16x16.png' | relative_url }}" type="image/png" sizes="16x16">
-  <link rel="apple-touch-icon" href="{{ '/assets/brand/03-favicon/littlest-things-apple-touch-icon-180x180.png' | relative_url }}">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon-32x32.png' | relative_url }}" type="image/png" sizes="32x32">
+  <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon-16x16.png' | relative_url }}" type="image/png" sizes="16x16">
+  <link rel="apple-touch-icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-apple-touch-icon-180x180.png' | relative_url }}">
+  <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
   {% feed_meta %}
   {% seo %}
 </head>
@@ -28,5 +30,16 @@
     {{ content }}
   </main>
   {% include footer.html %}
+  <script>
+    (function () {
+      var nav = document.querySelector('[data-site-nav]');
+      if (!nav) return;
+      function syncNavShadow() {
+        nav.classList.toggle('scrolled', window.scrollY > 12);
+      }
+      syncNavShadow();
+      window.addEventListener('scroll', syncNavShadow, { passive: true });
+    }());
+  </script>
 </body>
 </html>
