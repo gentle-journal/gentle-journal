@@ -7,7 +7,10 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | truncate: 160 }}">
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/v4-1-global.css' | relative_url }}">
-  {% if page.home_v41 %}<link rel="stylesheet" href="{{ '/assets/css/home-v4-1.css' | relative_url }}">{% endif %}
+  {% if page.home_v41 %}
+  <link rel="stylesheet" href="{{ '/assets/css/home-v4-1.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home-v4-1-responsive-fix.css' | relative_url }}">
+  {% endif %}
   <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/brand/03-favicon/favicon.ico' | relative_url }}" sizes="any">
   <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon-32x32.png' | relative_url }}" type="image/png" sizes="32x32">
