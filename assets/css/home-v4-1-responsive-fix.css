@@ -1,0 +1,31 @@
+@media(max-width:760px){
+  .journey-card.primary{
+    min-height:300px;
+    padding:27px 46% 27px 27px;
+  }
+
+  .journey-card.primary .journey-art{
+    width:49%;
+    height:76%;
+    left:auto;
+    right:-3px;
+    bottom:-8px;
+    transform:none;
+    background-size:200% 200%;
+    background-position:0 0;
+  }
+}
+
+@media(max-width:420px){
+  .journey-card.primary{
+    min-height:300px;
+    padding:27px 45% 27px 27px;
+  }
+
+  .journey-card.primary .journey-art{
+    width:50%;
+    height:70%;
+    right:-3px;
+    bottom:-8px;
+  }
+}

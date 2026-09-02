@@ -1,83 +1,126 @@
 ---
 layout: default
 title: Trang chủ
+home_v41: true
 ---
-<div class="hero">
-  <div class="hero-grid">
-    <div class="hero-inner">
-      <div class="eyebrow">Littlest Things — Nhật Ký Da Nhạy Cảm</div>
-      <h1>Biết ngay bài viết này có <span class="italic">hợp với da bạn</span> — trước khi thử.</h1>
-      <p class="sub">Mỗi đánh giá trên Littlest Things đặt trải nghiệm trong bối cảnh cụ thể — hồ sơ da, thời gian sử dụng, thành phần và giới hạn — để bạn tự cân nhắc mức độ phù hợp.</p>
-      <form class="search-bar" action="{{ '/kham-pha/' | relative_url }}" method="get" role="search" aria-label="Tìm bài viết">
-        <input type="search" name="q" placeholder="Tìm theo từ khoá: niacinamide, tóc xơ..." autocomplete="off">
-        <button class="go" type="submit">Tìm kiếm</button>
-      </form>
-    </div>
-    <div class="hero-photo">
-      <svg viewBox="0 0 340 300" fill="none">
-        <ellipse cx="170" cy="256" rx="130" ry="12" fill="#2E2C28" opacity=".06"/>
-        <path d="M40 210 L40 250 Q40 256 46 256 L110 256 L110 206 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
-        <path d="M110 206 L110 256 L174 256 Q180 256 180 250 L180 210 Z" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" stroke-linejoin="round" filter="url(#crayon)"/>
-        <line x1="54" y1="222" x2="98" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="54" y1="234" x2="92" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="124" y1="222" x2="164" y2="220" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <line x1="124" y1="234" x2="158" y2="233" stroke="#E9D5DA" stroke-width="3" stroke-linecap="round"/>
-        <path d="M130 128 Q128 124 134 122 Q168 118 202 122 Q208 124 206 128 L210 208 Q210 224 190 226 L146 226 Q126 224 126 208 Z" fill="#F7F5F0" stroke="#6E9A7C" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" filter="url(#crayon)"/>
-        <rect x="144" y="102" width="52" height="22" rx="6" fill="#FFFFFF" stroke="#6E9A7C" stroke-width="4" filter="url(#crayon)"/>
-        <path d="M170 102 C160 84 142 80 130 86 C140 100 158 104 170 102 Z" fill="#AECBB4" stroke="#6E9A7C" stroke-width="2" filter="url(#crayon)"/>
-        <path d="M232 140 L232 100 Q232 92 240 92 L252 92 Q260 92 260 100 L260 140 Q268 148 268 168 L268 210 Q268 222 250 222 L242 222 Q224 222 224 210 L224 168 Q224 148 232 140 Z" fill="#EAC4B0" stroke="#B5788A" stroke-width="3.5" stroke-linejoin="round" filter="url(#crayon)"/>
-        <rect x="238" y="78" width="16" height="18" rx="3" fill="#FFFFFF" stroke="#B5788A" stroke-width="3" filter="url(#crayon)"/>
-        <path d="M280 130 C292 146 292 162 280 172 C268 162 268 146 280 130 Z" fill="#CBDCE8" filter="url(#crayon)"/>
-        <circle cx="98" cy="150" r="5" fill="#DDD0DE"/>
-        <circle cx="292" cy="200" r="4" fill="#F1E9B9"/>
-      </svg>
+<section class="hero">
+  <div class="shell">
+    <div class="hero-card">
+      <div class="hero-copy">
+        <p class="eyebrow">Chăm sóc hằng ngày, theo cách dịu dàng hơn</p>
+        <h1>Những điều nhỏ bé cho làn da, mái tóc và mỗi chuyến đi.</h1>
+        <p class="lead">Littlest Things chia sẻ kiến thức và lựa chọn thực tế về chăm sóc da, tóc và khi đi xa — với góc nhìn dành cho làn da khô, nhạy cảm và không thổi phồng.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="{{ '/kham-pha/' | relative_url }}">Bắt đầu khám phá <span aria-hidden="true">→</span></a>
+          <a class="btn btn-secondary" href="#story">Vì sao những điều nhỏ bé?</a>
+        </div>
+        <div class="topic-line" aria-label="Chủ đề chính">
+          <span><i aria-hidden="true"></i>Chăm sóc da</span>
+          <span><i aria-hidden="true"></i>Chăm sóc tóc</span>
+          <span><i aria-hidden="true"></i>Chăm sóc khi đi xa</span>
+        </div>
+      </div>
+      <div class="hero-art">
+        <img src="{{ '/assets/images/homepage/homepage-hero-art.png' | relative_url }}" alt="Một người nhìn từ phía sau đang xếp sản phẩm chăm sóc vào túi du lịch, vẽ bằng bút chì màu và sáp màu">
+      </div>
     </div>
   </div>
-</div>
+</section>
 
-<div class="why">
-  <div class="eyebrow">Littlest Things là gì?</div>
-  <h2>Không phải một blog review thông thường</h2>
-  <p class="lead">Những chi tiết nhỏ thường quyết định một gợi ý có thực sự phù hợp hay không — hồ sơ da, thành phần, thời gian sử dụng, giới hạn và bối cảnh.</p>
-  <div class="value-grid">
-    <div class="vcard c1"><div class="circle">🧬</div><h3>Hồ sơ da để có thêm bối cảnh</h3><p>Mỗi review thật sẽ nêu rõ hồ sơ da và điều kiện sử dụng. Tính năng tạo hồ sơ riêng và tính % tương đồng hiện chưa hoạt động.</p><a class="link" href="{{ '/ho-so-da/' | relative_url }}">Xem hồ sơ da →</a></div>
-    <div class="vcard c2"><div class="circle">✅</div><h3>Đánh giá trung thực, có giới hạn</h3><p>Review tập trung vào bối cảnh, thời gian sử dụng và cả điểm chưa phù hợp. Vote cộng đồng theo hồ sơ da là tính năng sắp có.</p><a class="link" href="{{ '/kham-pha/' | relative_url }}">Khám phá bài viết →</a></div>
-    <div class="vcard c3"><div class="circle">💬</div><h3>Hỏi Gentle — bản xem trước</h3><p>Trang Hỏi Gentle hiện minh hoạ trải nghiệm dự kiến. Trả lời tự động có nguồn cần hệ thống phía sau và chưa hoạt động.</p><a class="link" href="{{ '/hoi-gentle/' | relative_url }}">Xem Hỏi Gentle →</a></div>
-  </div>
-</div>
-
-<div class="promo">
-  <div><div class="txt">Da bạn có giống hồ sơ của Littlest Things không?</div><div class="sub-txt">Xem trước 5 câu hỏi dự kiến cho trải nghiệm hồ sơ da. Tính năng lưu hồ sơ hiện chưa hoạt động.</div></div>
-  <a class="btn" href="{{ '/ho-so-da/' | relative_url }}">🧬 Xem trước hồ sơ da</a>
-</div>
-
-<div class="section-title"><h2>Mới nhất</h2><a class="see-all" href="{{ '/kham-pha/' | relative_url }}" style="font-size:.8rem;font-weight:600;color:var(--primary);">Xem tất cả →</a></div>
-
-{% assign all_posts = "" | split: "" %}
-{% for p in site.reviews %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["kien-thuc"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["nhat-ky"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% for p in site["so-sanh"] %}{% assign all_posts = all_posts | push: p %}{% endfor %}
-{% assign sorted_posts = all_posts | sort: "date" | reverse %}
-
-{% if sorted_posts.size > 0 %}
-<div class="feed-grid">
-{% for post in sorted_posts limit:6 %}
-  <div class="fcard">
-    <div class="photo-rich" style="background:linear-gradient(150deg,var(--pn-aqua),#fff);">
-      <div class="bottle-cluster"><div class="bottle b2"></div><div class="bottle"></div></div>
-      <div class="ph-caption">ảnh sản phẩm</div>
-    </div>
-    <div class="body">
-      <span class="tag tag-outline">{{ post.section }}</span>
-      {% include topic-tags.html topics=post.topics %}
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-      <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
-      <div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div>
+<section class="story" id="story">
+  <div class="shell">
+    <div class="story-band">
+      <div class="story-intro">
+        <div>
+          <p class="eyebrow">Câu chuyện Littlest Things</p>
+          <h2>Vì những điều <em>nhỏ bé</em> vẫn luôn đáng để để tâm.</h2>
+        </div>
+        <p class="story-copy">Một lớp dưỡng vừa đủ. Cách gỡ tóc chậm hơn một chút. Một món đồ nhỏ giúp chuyến đi bớt khô căng. <strong>Littlest Things tồn tại để nhìn kỹ những chi tiết đời thường ấy</strong> — rồi chia sẻ điều hữu ích, rõ ràng và vừa vặn, không biến chăm sóc bản thân thành một danh sách dài phải làm.</p>
+      </div>
+      <div class="story-values">
+        <article class="story-value"><div class="num">01</div><h3>Nhìn kỹ trước khi chọn</h3><p>Đặt thành phần, hoàn cảnh sử dụng và nhu cầu thật trước xu hướng.</p></article>
+        <article class="story-value"><div class="num">02</div><h3>Đơn giản nhưng có lý do</h3><p>Giải thích đủ để bạn tự quyết định, không làm mọi thứ trở nên phức tạp.</p></article>
+        <article class="story-value"><div class="num">03</div><h3>Dịu dàng với giới hạn</h3><p>Nói rõ điều đã biết, điều còn thiếu và khi nào nên tìm lời khuyên chuyên môn.</p></article>
+      </div>
     </div>
   </div>
-{% endfor %}
-</div>
-{% else %}
-<div class="not-live-note">Các bài viết đầu tiên đang được chuẩn bị theo tiêu chuẩn biên tập của Littlest Things.</div>
-{% endif %}
+</section>
+
+<section class="journey" id="journey">
+  <div class="shell">
+    <div class="section-head">
+      <p class="eyebrow">Bạn có thể bắt đầu từ đây</p>
+      <h2>Một hành trình nhỏ, theo điều bạn đang cần.</h2>
+      <p class="lead">Khám phá bài viết trước, hoặc đi thẳng đến một công cụ và góc đọc phù hợp.</p>
+    </div>
+    <div class="journey-grid">
+      <a class="journey-card primary" href="{{ '/kham-pha/' | relative_url }}">
+        <span class="priority">Điểm đến chính</span><h3>Khám Phá</h3><p>Tìm bài viết về da, tóc và chăm sóc khi đi xa trong cùng một thư viện dễ lọc.</p><span class="text-link">Mở thư viện bài viết <span>→</span></span><span class="journey-art" aria-hidden="true"></span>
+      </a>
+      <a class="journey-card profile" href="{{ '/ho-so-da/' | relative_url }}">
+        <span class="priority">Hiểu nhu cầu của bạn</span><h3>Hồ Sơ Da</h3><p>Ghi lại đặc điểm làn da để đọc nội dung trong đúng bối cảnh.</p><span class="text-link">Xem Hồ Sơ Da <span>→</span></span><span class="journey-art" aria-hidden="true"></span>
+      </a>
+      <a class="journey-card journal" href="{{ '/nhat-ky/' | relative_url }}">
+        <span class="priority">Góc đọc chậm</span><h3>Nhật Ký</h3><p>Những ghi chép quan sát và bài học nhỏ từ việc chăm sóc hằng ngày.</p><span class="text-link">Đọc Nhật Ký <span>→</span></span><span class="journey-art" aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="ask-mini">
+      <a class="journey-card ask" href="{{ '/hoi-gentle/' | relative_url }}">
+        <div class="ask-copy"><span class="priority">Tên tạm thời</span><h3>Hỏi Gentle</h3><p>Đặt câu hỏi về da, tóc hoặc chăm sóc khi đi xa; tính năng đầy đủ cần backend.</p><span class="text-link">Xem cách hoạt động <span>→</span></span></div><span class="journey-art" aria-hidden="true"></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="selected" id="selected">
+  <div class="shell">
+    <div class="section-head">
+      <div><p class="eyebrow">Nội dung được chọn</p><h2>Ba góc chăm sóc, vừa đủ để bắt đầu.</h2><p class="lead">Một nhóm bài đọc cô đọng thay vì một dòng nội dung dày đặc.</p></div>
+      <a class="text-link" href="{{ '/kham-pha/' | relative_url }}">Xem tất cả tại Khám Phá <span>→</span></a>
+    </div>
+    <div class="article-grid">
+      <article class="article-card">
+        <div class="article-image"><svg role="img" aria-label="Minh hoạ lọ kem dưỡng trên khăn mềm" viewBox="0 0 360 220"><rect width="360" height="220" fill="#E4EFE7"/><path d="M42 182c70-42 182-43 278 0" fill="none" stroke="#AECBB4" stroke-width="26" opacity=".55"/><ellipse cx="182" cy="176" rx="77" ry="10" fill="#2E2C28" opacity=".07"/><rect x="128" y="76" width="108" height="96" rx="22" fill="#fff" stroke="#6E9A7C" stroke-width="2"/><ellipse cx="182" cy="76" rx="54" ry="14" fill="#F7F5F0" stroke="#6E9A7C" stroke-width="2"/><path d="M163 119c12-20 29-20 39 0-8 14-31 16-39 0Z" fill="#AECBB4"/><path d="M67 55c15 4 25 14 28 29-16-4-26-13-28-29Zm227-8c-17 4-27 15-30 32 17-4 28-15 30-32Z" fill="#E9D5DA"/></svg></div>
+        <div class="article-body"><div class="tags"><span class="tag skin">Da</span><span class="tag type">Kiến thức</span></div><h3>Da khô căng sau khi rửa mặt: nên nhìn lại điều gì?</h3><p>Một cách đọc dịu dàng hơn về làm sạch, hàng rào da và cảm giác sau rửa.</p><div class="meta"><span>6 phút đọc</span><span>Da khô &amp; nhạy cảm</span></div></div>
+      </article>
+      <article class="article-card">
+        <div class="article-image"><svg role="img" aria-label="Minh hoạ lược răng thưa và khăn tóc" viewBox="0 0 360 220"><rect width="360" height="220" fill="#F0E5E7"/><path d="M45 152c72-53 164-51 270-5l-12 43H53Z" fill="#E9D5DA"/><g transform="rotate(-18 182 112)" fill="none" stroke="#B5788A" stroke-width="5" stroke-linecap="round"><path d="M106 99h150v23H106z"/><path d="M117 122v36m17-36v36m17-36v36m17-36v36m17-36v36m17-36v36m17-36v36m17-36v36"/></g><path d="M65 52c30 15 38 37 26 65" fill="none" stroke="#AECBB4" stroke-width="4" stroke-linecap="round"/></svg></div>
+        <div class="article-body"><div class="tags"><span class="tag hair">Tóc</span><span class="tag type">Hướng dẫn</span></div><h3>Gỡ tóc rối khi còn ướt mà không kéo căng sợi tóc</h3><p>Thứ tự nhỏ, dụng cụ phù hợp và những lúc nên chậm lại một nhịp.</p><div class="meta"><span>5 phút đọc</span><span>Chăm sóc tóc</span></div></div>
+      </article>
+      <article class="article-card">
+        <div class="article-image"><svg role="img" aria-label="Minh hoạ túi đồ chăm sóc khi đi máy bay" viewBox="0 0 360 220"><rect width="360" height="220" fill="#E5EDF2"/><path d="M76 88h208l18 91H58Z" fill="#fff" stroke="#5A87A3" stroke-width="2"/><path d="M129 87c4-31 98-31 103 0" fill="none" stroke="#5A87A3" stroke-width="7"/><rect x="105" y="103" width="39" height="61" rx="8" fill="#AECBB4"/><rect x="159" y="119" width="52" height="45" rx="12" fill="#E9D5DA"/><path d="M239 102h25l7 62h-39Z" fill="#F1E9B9" stroke="#8C8260" stroke-width="2"/><circle cx="72" cy="54" r="20" fill="#EAC4B0"/><path d="m290 48 24 12-24 12 7-12Z" fill="#5A87A3"/></svg></div>
+        <div class="article-body"><div class="tags"><span class="tag travel">Đi xa</span><span class="tag type">Danh sách</span></div><h3>Một túi chăm sóc gọn cho chuyến bay dài</h3><p>Ưu tiên độ cần thiết, giới hạn hành lý và sự thoải mái của da khô.</p><div class="meta"><span>7 phút đọc</span><span>Travel care</span></div></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="trust" id="trust">
+  <div class="shell">
+    <div class="trust-band">
+      <div class="trust-top">
+        <div><p class="eyebrow">Nguyên tắc mình luôn giữ</p><h2>Rõ ràng trước khi thuyết phục.</h2></div>
+        <p class="lead">Niềm tin không đến từ lời hứa lớn. Nó đến từ việc nói đúng điều mình biết, nêu rõ giới hạn và để bạn có đủ bối cảnh để tự lựa chọn.</p>
+      </div>
+      <div class="principles">
+        <article class="principle"><span class="principle-mark" aria-hidden="true">✓</span><h3>Không thổi phồng</h3><p>Tách thông tin có cơ sở khỏi nhận định biên tập; không dùng lời hứa “thần kỳ”.</p></article>
+        <article class="principle"><span class="principle-mark" aria-hidden="true">↗</span><h3>Minh bạch thương mại</h3><p>Nói rõ khi bài viết có liên kết tiếp thị; hoa hồng không quyết định kết luận.</p></article>
+        <article class="principle"><span class="principle-mark" aria-hidden="true">≈</span><h3>Có bối cảnh và giới hạn</h3><p>Luôn cân nhắc da khô, nhạy cảm và nói rõ khi chưa đủ thông tin hoặc cần chuyên môn.</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="closing" id="closing">
+  <div class="shell">
+    <div class="closing-card">
+      <div>
+        <p class="eyebrow">Tiếp tục thật nhẹ nhàng</p>
+        <h2>Bắt đầu bằng điều nhỏ nhất bạn đang quan tâm.</h2>
+        <p>Đi vào Khám Phá để chọn một chủ đề, hoặc lưu lại Littlest Things cho lần bạn cần một lời giải thích bình tĩnh hơn.</p>
+        <a class="btn btn-primary" href="{{ '/kham-pha/' | relative_url }}">Tiếp tục khám phá <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="closing-doodle" aria-hidden="true"><svg viewBox="0 0 230 170"><path d="M18 133c38-20 82-21 125-5 29 11 50 11 70-2" fill="none" stroke="#6E9A7C" stroke-width="3" stroke-linecap="round"/><path d="M113 128c-9-44 7-83 48-103-2 47-15 83-48 103Z" fill="#AECBB4" stroke="#6E9A7C" stroke-width="2"/><path d="M111 127c-8-28-30-47-66-52 11 35 31 52 66 52Z" fill="#E9D5DA" stroke="#B5788A" stroke-width="2"/><circle cx="179" cy="119" r="20" fill="#EAC4B0" opacity=".85"/><path d="M178 111c-6-10-18-5-14 5 3 8 14 13 14 13s11-5 14-13c4-10-8-15-14-5Z" fill="#fff"/></svg></div>
+    </div>
+  </div>
+</section>
