@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-5 0 138 146" role="img" aria-labelledby="title desc">
+  <title id="title">Littlest Things botanical icon — White</title>
+  <desc id="desc">The approved botanical emblem rendered entirely in White.</desc>
+  <g transform="translate(5 4)"><g id="botanical-emblem">
+    <path d="M63 43 C61 69 62 97 62 137" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+    <path d="M61 74 C49 63 39 54 31 47 M64 72 C76 61 88 51 98 43" fill="none" stroke="#FFFFFF" stroke-width="4.8" stroke-linecap="round"/>
+    <path d="M61 84 C51 73 48 65 51 57 C61 60 68 68 68 78 C68 82 66 84 61 84 Z" fill="#FFFFFF"/>
+    <path d="M57 8 C68 4 80 9 83 19 C87 30 80 43 69 48 C58 52 47 45 44 34 C41 23 47 12 57 8 Z" fill="#FFFFFF"/>
+    <path d="M22 29 C31 26 42 34 47 44 C51 54 47 64 39 68 C30 71 18 64 13 54 C8 44 13 33 22 29 Z" fill="#FFFFFF"/>
+    <path d="M88 29 C98 25 111 31 115 41 C120 51 115 62 106 67 C97 72 85 66 81 56 C77 46 80 34 88 29 Z" fill="#FFFFFF"/>
+    <path d="M8 83 C22 72 43 76 54 90 C46 107 25 116 9 107 C-1 101 -2 90 8 83 Z" fill="#FFFFFF"/>
+    <path d="M69 91 C79 75 101 72 116 83 C126 91 123 103 113 110 C97 120 77 111 69 91 Z" fill="#FFFFFF"/>
+    <g fill="none" stroke="#FFFFFF" stroke-linecap="round" opacity=".46">
+    <path d="M48 19 C58 13 72 14 80 21 M46 31 C58 24 73 27 81 35" stroke-width="2.2"/>
+    <path d="M14 41 C27 34 41 41 47 51 M82 40 C96 32 110 37 116 47" stroke-width="2"/>
+    <path d="M5 92 C21 80 42 82 52 93 M71 92 C85 79 106 80 120 91" stroke-width="2.2"/>
+  </g>
+  </g></g>
+</svg>

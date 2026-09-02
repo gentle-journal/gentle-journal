@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">Littlest Things botanical favicon</title>
+  <desc id="desc">A simplified small-size rendering of the approved watercolor botanical emblem.</desc>
+  <g transform="translate(17 3) scale(.82)">
+    <path d="M63 43 C61 69 62 97 62 137" fill="none" stroke="#6E9A7C" stroke-width="7.5" stroke-linecap="round"/>
+    <path d="M61 74 C49 63 39 54 31 47 M64 72 C76 61 88 51 98 43" fill="none" stroke="#6E9A7C" stroke-width="6" stroke-linecap="round"/>
+    <path d="M61 84 C51 73 48 65 51 57 C61 60 68 68 68 78 C68 82 66 84 61 84 Z" fill="#6E9A7C"/>
+    <path d="M57 8 C68 4 80 9 83 19 C87 30 80 43 69 48 C58 52 47 45 44 34 C41 23 47 12 57 8 Z" fill="#E9D5DA"/>
+    <path d="M22 29 C31 26 42 34 47 44 C51 54 47 64 39 68 C30 71 18 64 13 54 C8 44 13 33 22 29 Z" fill="#EAC4B0"/>
+    <path d="M88 29 C98 25 111 31 115 41 C120 51 115 62 106 67 C97 72 85 66 81 56 C77 46 80 34 88 29 Z" fill="#EAC4B0"/>
+    <path d="M8 83 C22 72 43 76 54 90 C46 107 25 116 9 107 C-1 101 -2 90 8 83 Z" fill="#6E9A7C"/>
+    <path d="M69 91 C79 75 101 72 116 83 C126 91 123 103 113 110 C97 120 77 111 69 91 Z" fill="#6E9A7C"/>
+  </g>
+</svg>
