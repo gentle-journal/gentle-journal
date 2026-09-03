@@ -15,21 +15,20 @@ _layouts/      → Khung trang (default, post)
 _includes/     → Header, footer, topic tags
 assets/css/    → Style chính (style.scss)
 assets/js/     → JavaScript phía trình duyệt
-assets/brand/  → Pressed Petals logo + icon/favicon production assets
+assets/brand/  → Littlest Things approved brand assets
 ```
 
 ## Brand identity
 
 - **Brand:** Littlest Things
-- **Logo:** Pressed Petals — FINAL APPROVED
-- **Primary horizontal logo:** `assets/brand/01-primary-horizontal/littlest-things-primary-horizontal.svg`
-- **Compact petals-only icon:** `assets/brand/02-compact-icon/littlest-things-compact-petals.svg`
+- **Logo:** Botanical — FINAL APPROVED
+- **Primary horizontal logo:** `assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg`
 - **Favicon system:** `assets/brand/03-favicon/`
 - **Vietnamese tagline:** Nhật Ký Da Nhạy Cảm
 - **Production domain:** `https://littlestthings.net`
 - **Hỏi Gentle:** current feature name; this is not an alternate brand name
 
-The final production assets under `assets/brand/` are the source of truth for Pressed Petals artwork. Do not redraw, recolor, or substitute the approved logo.
+The approved Botanical SVG under `assets/brand/01-primary-horizontal/` is the production logo artwork. Do not redraw, recolor, retype, distort, or substitute it.
 
 ## Taxonomy
 

@@ -186,3 +186,69 @@ footer.site p{max-width:640px;}
   .hero h1{font-size:1.4rem;}
 }
 
+/* =========================================================
+   LITTLEST THINGS ICONS V1
+   Default: neutral Ink
+   Contextual colors: Da / Tóc / Du Lịch
+   ========================================================= */
+
+.lt-icon {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  vertical-align: middle;
+
+  /* Default neutral icon color */
+  color: #2E2C28;
+
+  /* Default crayon accent */
+  --icon-accent: #847F76;
+}
+
+/* Quieter / secondary icons */
+.lt-icon--muted {
+  color: #847F76;
+  --icon-accent: #847F76;
+}
+
+/* Da / skincare */
+.lt-icon--da {
+  color: #6E9A7C;
+  --icon-accent: #E4EFE7;
+}
+
+/* Tóc / hair */
+.lt-icon--toc {
+  color: #B5788A;
+  --icon-accent: #E9D5DA;
+}
+
+/* Du Lịch / travel */
+.lt-icon--du-lich {
+  color: #5A87A3;
+  --icon-accent: #CBDCE8;
+}
+
+/* Larger editorial/concept icons */
+.lt-icon--editorial {
+  width: 32px;
+  height: 32px;
+}
+
+/* Social media buttons */
+.lt-social-icon {
+  width: 34px;
+  height: 34px;
+
+  color: #2E2C28;
+  --icon-accent: #E4EFE7;
+
+  display: inline-block;
+  vertical-align: middle;
+
+  transition: transform 0.15s ease;
+}
+
+.lt-social-icon:hover {
+  transform: rotate(-1deg) scale(1.04);
+}
