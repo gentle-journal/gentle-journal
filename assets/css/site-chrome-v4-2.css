@@ -1,0 +1,442 @@
+/* =========================================================
+   LITTLEST THINGS — GLOBAL SITE CHROME v4.2
+   Header, navigation, mobile navigation and footer only.
+   ========================================================= */
+
+:root {
+  --lt-ink: #2E2C28;
+  --lt-muted: #847F76;
+  --lt-mint: #6E9A7C;
+  --lt-line: #D8DADC;
+  --lt-wrap: 1180px;
+}
+html,
+body {
+  background: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  color: var(--lt-ink);
+}
+/* ---------- HEADER ---------- */
+
+.site-header {
+  padding: 0;
+  background: rgba(255, 255, 255, .94);
+  box-shadow: 0 8px 22px rgba(46, 44, 40, .045);
+  position: static;
+  z-index: 10;
+}
+
+.site-header .wrap {
+  width: 100%;
+  max-width: var(--lt-wrap);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.site-header .nav-shell {
+  min-height: 72px;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+  box-shadow: none;
+}
+
+.header-logo-link {
+  display: block;
+  flex: 0 0 auto;
+}
+
+.site-header .logo {
+  display: block;
+  width: 190px;
+  max-width: 190px;
+  height: auto;
+  max-height: 38px;
+  object-fit: contain;
+}
+
+/* ---------- DESKTOP NAV ---------- */
+
+.site-header .nav-links {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 42px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .82rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.site-header .nav-links a,
+.site-header .nav-link-static {
+  position: relative;
+  display: block;
+  padding: 24px 0 22px;
+  color: var(--lt-ink);
+  text-decoration: none;
+  line-height: 1.2;
+}
+
+.site-header .nav-links a:hover {
+  color: var(--lt-mint);
+}
+
+.site-header .nav-links a.active {
+  color: var(--lt-mint);
+}
+
+/* Approved v4.2 selected-page underline */
+.site-header .nav-links a.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 15px;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--lt-mint);
+}
+
+/* Sản Phẩm is approved visually, route still TBD */
+.site-header .nav-link-static {
+  color: var(--lt-muted);
+  cursor: default;
+}
+
+/* ---------- MOBILE NAV ---------- */
+
+.site-header .mobile-menu {
+  display: none;
+  margin-left: auto;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.site-header .mobile-menu img {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.site-header .menu-panel {
+  display: none;
+}
+
+/* ---------- FOOTER ---------- */
+
+.site-footer {
+  margin-top: 44px;
+  padding: 0;
+  background: #F7F6F0;
+  border-top: 1px solid var(--lt-line);
+}
+
+.site-footer .wrap {
+  width: 100%;
+  max-width: var(--lt-wrap);
+  margin: 0 auto;
+  padding: 0 28px;
+}
+
+.footer-shell {
+  padding: 34px 0 24px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.footer-brand-lockup {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.footer-art {
+  min-height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.footer-art img {
+  display: block;
+  width: 190px;
+  max-width: 190px;
+  height: auto;
+  max-height: 34px;
+  object-fit: contain;
+  object-position: left top;
+}
+
+.footer-tagline {
+  margin-top: 8px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .68rem;
+  line-height: 1.4;
+  color: var(--lt-muted);
+}
+
+.footer-col h4 {
+  margin: 0 0 10px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .72rem;
+  color: var(--lt-mint);
+  font-weight: 700;
+}
+
+.footer-col a,
+.footer-col span {
+  display: block;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .68rem;
+  color: var(--lt-ink);
+  margin: 6px 0;
+  text-decoration: none;
+}
+
+.footer-col a:hover {
+  color: var(--lt-mint);
+  text-decoration: underline;
+}
+
+.footer-social {
+  border-left: 1px solid var(--lt-line);
+  padding-left: 26px;
+}
+
+.footer-social h4 {
+  margin: 0 0 14px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .72rem;
+  color: var(--lt-ink);
+}
+
+.footer-social-row {
+  display: flex;
+  gap: 14px;
+}
+
+.footer-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--lt-ink);
+}
+
+.footer-social-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.footer-bottom {
+  margin-top: 22px;
+  padding-top: 16px;
+  border-top: 1px solid rgba(216, 218, 220, .8);
+  text-align: center;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .65rem;
+  color: var(--lt-muted);
+}
+
+/* ---------- TABLET ---------- */
+
+@media (max-width: 960px) {
+  .site-header .wrap,
+  .site-footer .wrap {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+
+  .site-header .nav-links {
+    gap: 26px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1.25fr 1fr 1fr;
+    gap: 24px 22px;
+  }
+
+  .footer-social {
+    border-left: 0;
+    padding-left: 0;
+  }
+}
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 760px) {
+  .site-header .wrap,
+  .site-footer .wrap {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+
+  .site-header .nav-shell {
+    min-height: 64px;
+    position: relative;
+  }
+
+  .site-header .logo {
+    width: 165px;
+    max-width: 165px;
+    max-height: 30px;
+  }
+
+  .site-header .nav-links {
+    display: none;
+  }
+
+  .site-header .mobile-menu {
+    display: inline-flex;
+  }
+
+  .site-header .menu-panel {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    right: 0;
+    z-index: 30;
+    padding: 10px 0 14px;
+    background: #FFFFFF;
+    border-top: 1px solid rgba(216, 218, 220, .7);
+    box-shadow: 0 12px 24px rgba(46, 44, 40, .07);
+  }
+
+  .site-header .menu-panel.open {
+    display: block;
+  }
+
+  .site-header .menu-panel a,
+  .site-header .menu-link-static {
+    display: block;
+    padding: 11px 18px;
+    font-family: Inter, system-ui, sans-serif;
+    font-size: .9rem;
+    color: var(--lt-ink);
+    text-decoration: none;
+  }
+
+  .site-header .menu-link-static {
+    color: var(--lt-muted);
+  }
+
+  .site-footer {
+    margin-top: 38px;
+  }
+
+  .footer-shell {
+    padding: 28px 0 22px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px 20px;
+  }
+
+  .footer-brand-lockup,
+  .footer-social {
+    grid-column: 1 / -1;
+  }
+
+  .footer-art img {
+    width: 165px;
+    max-width: 165px;
+    max-height: 30px;
+  }
+
+  .footer-social {
+    padding-left: 0;
+    border-left: 0;
+  }
+}
+
+/* ---------- NARROW MOBILE ---------- */
+
+@media (max-width: 420px) {
+  .site-header .wrap,
+  .site-footer .wrap {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .footer-brand-lockup,
+  .footer-social {
+    grid-column: auto;
+  }
+}
+/* =========================================================
+   LITTLEST THINGS — GLOBAL FOOTER TYPOGRAPHY
+   ========================================================= */
+
+.site-footer .footer-col h4,
+.site-footer .footer-social h4 {
+  font-size: .8125rem;
+  line-height: 1.4;
+}
+
+.site-footer .footer-col a,
+.site-footer .footer-col span {
+  font-size: .8125rem;
+  line-height: 1.5;
+}
+
+.site-footer .footer-tagline {
+  font-size: .8125rem;
+  line-height: 1.5;
+}
+
+.site-footer .footer-bottom {
+  font-size: .75rem;
+  line-height: 1.5;
+}
+/* =========================================================
+   LITTLEST THINGS — FOOTER BRAND SOCIAL
+   ========================================================= */
+
+.footer-brand-social {
+  margin-top: 12px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-brand-social .footer-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #2E2C28;
+  text-decoration: none;
+}
+
+.footer-brand-social .footer-social-icon:hover {
+  color: var(--lt-mint);
+}
+
+.footer-brand-social .lt-icon--social {
+  width: 20px;
+  height: 20px;
+}

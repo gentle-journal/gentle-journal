@@ -1,36 +1,70 @@
-{% if page.home_v41 %}
-<footer class="footer">
-  <div class="shell">
-    <div class="footer-grid">
-      <div class="footer-about">
-        <a class="brand" href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
-          <img class="brand-logo" src="{{ '/assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg' | relative_url }}" alt="Littlest Things — Care lives in the little things!">
-        </a>
-        <p class="footer-copy">Kiến thức và góc nhìn bình tĩnh về chăm sóc da, tóc và khi đi xa — dành cho những lựa chọn nhỏ nhưng có cân nhắc.</p>
-      </div>
-      <div>
-        <h3>Khám phá</h3>
-        <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
-        <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
-        <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
-      </div>
-      <div>
-        <h3>Thông tin</h3>
-        <a href="{{ '/gioi-thieu/' | relative_url }}">Về Littlest Things</a>
-        <a href="#trust">Nguyên tắc biên tập</a>
-        <a href="{{ '/lien-he/' | relative_url }}">Liên hệ</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <span>© {{ site.time | date: '%Y' }} Littlest Things</span>
-    </div>
-  </div>
-</footer>
-{% else %}
-<footer class="site">
+<footer class="site-footer">
   <div class="wrap">
-    <p>© {{ site.time | date: '%Y' }} Littlest Things · {{ site.tagline }}</p>
-    <p>Một số liên kết trên trang là liên kết affiliate. Mình có thể nhận hoa hồng nếu bạn mua qua liên kết, không phát sinh thêm chi phí cho bạn. Điều này không ảnh hưởng đến đánh giá thành thật của mình.</p>
+    <div class="footer-shell">
+
+      <div class="footer-grid">
+
+        <div class="footer-brand-lockup">
+          <div class="footer-art">
+            <a href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
+              <img
+                src="{{ '/assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg' | relative_url }}"
+                alt="Littlest Things">
+            </a>
+          </div>
+
+          <div class="footer-brand-social">
+
+            <a
+              class="footer-social-icon"
+              href="https://www.facebook.com/littlestthings.net"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Littlest Things trên Facebook">
+
+              <svg
+                class="lt-icon lt-icon--social"
+                aria-hidden="true"
+                focusable="false"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  fill="currentColor"
+                  d="M13.5 22v-9h3l.45-3.5H13.5V7.26c0-1.01.28-1.7 1.73-1.7H17V2.43c-.31-.04-1.37-.13-2.6-.13-2.57 0-4.33 1.57-4.33 4.45V9.5H7.16V13h2.91v9h3.43Z"/>
+              </svg>
+            </a>
+
+            <a
+              class="footer-social-icon"
+              href="mailto:hello@littlestthings.net"
+              aria-label="Gửi email đến Littlest Things">
+
+              <img
+                class="lt-icon lt-icon--social"
+                src="{{ '/assets/icons/svg/ui/email.svg' | relative_url }}"
+                alt=""
+                aria-hidden="true">
+            </a>
+
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Khám Phá</h4>
+          <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
+        </div>
+
+        <div class="footer-col">
+          <h4>Skin Profile</h4>
+          <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        © {{ site.time | date: '%Y' }} Littlest Things
+      </div>
+
+    </div>
   </div>
 </footer>
-{% endif %}

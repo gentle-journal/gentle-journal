@@ -1,37 +1,61 @@
 <header class="site-header">
-  <div class="shell">
+  <div class="wrap">
     <nav class="nav-shell" aria-label="Điều hướng chính">
-      <a class="brand" href="{{ '/' | relative_url }}" aria-label="Littlest Things — Trang chủ">
+
+      <a class="header-logo-link"
+         href="{{ '/' | relative_url }}"
+         aria-label="Littlest Things — Trang chủ">
         <img
-          class="brand-logo"
+          class="logo"
           src="{{ '/assets/brand/01-primary-horizontal/littlest-things-botanical-primary.svg' | relative_url }}"
-          alt="Littlest Things — Care lives in the little things!">
+          alt="Littlest Things">
       </a>
 
       <div class="nav-links">
-        <a class="nav-link{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">Trang chủ</a>
-        <a class="nav-link{% if page.url contains 'kham-pha' %} active{% endif %}" href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
-        <a class="nav-link{% if page.url contains 'ho-so-da' %} active{% endif %}" href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
-        <a class="nav-link{% if page.url contains 'nhat-ky' %} active{% endif %}" href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
+        <a
+          class="{% if page.url == '/' %}active{% endif %}"
+          href="{{ '/' | relative_url }}">
+          Trang chủ
+        </a>
+
+        <a
+          class="{% if page.url contains 'kham-pha' %}active{% endif %}"
+          href="{{ '/kham-pha/' | relative_url }}">
+          Khám Phá
+        </a>
+
+        <a
+          class="{% if page.url contains 'skin-profile' %}active{% endif %}"
+          href="{{ '/skin-profile/' | relative_url }}">
+          Skin Profile
+        </a>
+
+        <span class="nav-link-static" aria-disabled="true">
+          Sản Phẩm
+        </span>
       </div>
 
-      <a class="nav-cta desktop-cta" href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle</a>
-
-      <div class="mobile-nav">
-        <button class="icon-btn" id="menuButton" type="button" aria-controls="menuPanel" aria-expanded="false" aria-label="Mở menu">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
-            <path d="M4 7h16M4 12h16M4 17h16"></path>
-          </svg>
-        </button>
-      </div>
+      <button
+        class="mobile-menu"
+        id="menuButton"
+        type="button"
+        aria-controls="menuPanel"
+        aria-expanded="false"
+        aria-label="Mở menu">
+        <img
+          class="lt-icon lt-icon--menu"
+          src="{{ '/assets/icons/svg/ui/menu.svg' | relative_url }}"
+          alt=""
+          aria-hidden="true">
+      </button>
 
       <div class="menu-panel" id="menuPanel">
         <a href="{{ '/' | relative_url }}">Trang chủ</a>
         <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
-        <a href="{{ '/ho-so-da/' | relative_url }}">Hồ Sơ Da</a>
-        <a href="{{ '/nhat-ky/' | relative_url }}">Nhật Ký</a>
-        <a href="{{ '/hoi-gentle/' | relative_url }}">Hỏi Gentle</a>
+        <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a>
+        <span class="menu-link-static" aria-disabled="true">Sản Phẩm</span>
       </div>
+
     </nav>
   </div>
 </header>
