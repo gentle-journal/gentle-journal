@@ -1,0 +1,70 @@
+---
+layout: default
+title: "Kết quả Skin Profile"
+permalink: /skin-profile/result/
+full_width: true
+skin_profile_result: true
+excerpt: "Diễn giải từ kết quả Baumann Skin Type."
+---
+<div class="skin-profile-result-page" id="skinProfileResultPage">
+  <section class="spv2-intro">
+    <div class="wrap">
+      <nav aria-label="Breadcrumb" class="spv2-breadcrumb">
+        <a href="{{ '/' | relative_url }}">Trang chủ</a> &gt;
+        <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a> &gt; Kết quả
+      </nav>
+      <div class="eyebrow">SKIN PROFILE</div>
+      <h1>Kết quả Skin Profile của bạn</h1>
+      <p class="spv2-page-support">Diễn giải từ kết quả Baumann Skin Type.</p>
+    </div>
+  </section>
+
+  <section class="spv2-core" id="skinProfileContent" hidden>
+    <div class="wrap">
+      <section class="spv2-result-hero" id="spv2Hero">
+        <div class="spv2-hero-main">
+          <div class="spv2-hero-copy">
+            <p class="spv2-small-label">Bạn là</p>
+            <div class="spv2-code-line"><span class="spv2-code-brush"></span><span class="spv2-profile-code" id="spv2Code"></span></div>
+            <div class="spv2-profile-english" id="spv2English"></div>
+            <div class="spv2-dimension-line" id="spv2DimensionLine"></div>
+            <p class="spv2-profile-summary" id="spv2Summary"></p>
+            <div class="spv2-overview-note" id="spv2Overview"></div>
+          </div>
+          <div class="spv2-hero-art">
+            <picture>
+              <source srcset="{{ '/assets/images/skin-profile/hero/skin-profile-hero-b-skincare-moment.webp' | relative_url }}" type="image/webp">
+              <img class="spv7-hero-image" src="{{ '/assets/images/skin-profile/hero/skin-profile-hero-b-skincare-moment.png' | relative_url }}" width="1600" height="1466" alt="Minh họa một người đang thoa kem dưỡng, bên cạnh cây xanh và các sản phẩm chăm sóc da.">
+            </picture>
+          </div>
+        </div>
+        <aside class="spv2-hero-side">
+          <div><h2>Đặc điểm nổi bật</h2><div class="spv2-side-dims" id="spv2Standout"></div></div>
+          <div class="spv2-side-priorities"><div class="spv2-side-label">Ưu tiên chính</div><div id="spv2HeroPriorities"></div></div>
+          <div class="spv2-side-meta"><div><span>Ngày đánh giá</span><strong id="spv2AssessmentDate">—</strong></div><div><span>Nên kiểm tra lại</span><strong id="spv2ReassessmentDate">—</strong></div></div>
+          <img alt="" class="spv2-side-corner" id="spv2HeroCorner">
+        </aside>
+      </section>
+
+      <section class="spv2-section" id="spv2DimensionsSection"><header class="spv2-section-head"><div class="spv2-heading-art"><img alt="" id="spv2DimHeadArt"></div><div><h2>4 đặc điểm của Skin Profile</h2><p>Đi sâu hơn vào từng chữ trong kết quả.</p></div></header><div class="spv2-dimension-grid" id="spv2Dimensions"></div></section>
+      <section class="spv2-section spv2-priority-section"><header class="spv2-section-head"><div class="spv2-heading-art"><img alt="" id="spv2PriorityHeadArt"></div><div><h2>Nên tập trung vào đâu?</h2><p>Những ưu tiên đáng chú ý khi nhìn bốn đặc điểm cùng nhau.</p></div></header><div class="spv2-priority-grid" id="spv2Priorities"></div></section>
+      <section class="spv2-section spv2-routine-section spv4-cosy-routine spv5-flow-routine" id="spv2RoutineSection"><header class="spv2-section-head"><div class="spv2-heading-art"><img alt="" id="spv2RoutineHeadArt"></div><div><h2>Routine nên ưu tiên</h2><p>Ba nhịp chăm sóc để dễ theo dõi và điều chỉnh.</p></div></header><div class="spv2-routine-grid" id="spv2Routine"></div></section>
+      <section class="spv2-section spv4-cosy-products" id="spv2ProductSection"><header class="spv2-section-head"><div class="spv2-heading-art"><img alt="" id="spv2ProductHeadArt"></div><div><h2>Loại sản phẩm đáng tìm hiểu</h2><p>Những nhóm sản phẩm đáng đọc thêm, không phải gợi ý cá nhân hóa.</p></div></header><div class="spv3-product-inner"><div class="spv2-product-grid" id="spv2Products"></div></div><details class="spv2-support-details"><summary>Xem phần giải thích</summary><div id="spv2ProductDetails"></div></details></section>
+      <section class="spv2-section spv2-ingredient-section"><header class="spv2-section-head"><div class="spv2-heading-art"><img alt="" id="spv2IngredientHeadArt"></div><div><h2>Thành phần &amp; công thức đáng tìm hiểu</h2><p>Giữ phần trực quan gọn; giải thích chi tiết nằm bên dưới.</p></div></header><div class="spv3-ingredient-inner"><div class="spv2-ingredient-wrap" id="spv2Ingredients"></div></div><details class="spv2-support-details"><summary>Xem phần giải thích</summary><div id="spv2IngredientDetails"></div></details></section>
+      <div class="spv2-info-grid"><section class="spv2-info-panel spv2-caution-panel"><div class="spv2-info-title"><span class="spv2-warning-symbol">!</span><h2>Một vài điều nên lưu ý</h2></div><ul id="spv2Cautions"></ul><img alt="" class="spv2-info-corner" id="spv2CautionCorner"></section><section class="spv2-info-panel spv2-misread-panel"><div class="spv2-info-title"><span class="spv2-question-symbol">?</span><h2>Không nên hiểu kết quả này như thế nào</h2></div><ul id="spv2Misreads"></ul></section></div>
+
+      <section class="spv2-save-block" aria-labelledby="spv2SaveHeading"><div class="spv3-save-inner"><div class="spv2-save-copy"><div class="eyebrow">LƯU SKIN PROFILE</div><h2 id="spv2SaveHeading">Lưu Skin Profile của mình</h2><p>Thẻ tóm tắt được dựng bằng HTML để có thể dùng cho tính năng xuất ảnh sau này. Phiên bản hiện tại chưa tạo tệp tải xuống.</p><button class="spv3-save-cta" type="button" aria-disabled="true" disabled>Lưu ảnh — sắp có</button><span class="spv2-static-note">Tính năng xuất ảnh hiện là STATIC / PLACEHOLDER.</span></div><div class="spv2-save-card" aria-label="Bản xem trước thẻ Skin Profile"><div class="spv2-save-card-top"><div><strong>Littlest Things</strong><span>Skin Profile</span></div><span>Baumann Skin Type</span></div><div class="spv2-save-code" id="spv2SaveCode"></div><div class="spv2-save-dims" id="spv2SaveDims"></div><p class="spv2-save-summary" id="spv2SaveSummary"></p><div class="spv2-save-priorities" id="spv2SavePriorities"></div><div class="spv2-save-footer">Khung phương pháp: Baumann Skin Type · Diễn giải: Littlest Things</div></div></div></section>
+
+      <section class="spv2-related" aria-labelledby="spv2RelatedHeading"><header class="spv2-section-head"><div class="spv2-heading-art"><img src="{{ '/assets/images/skin-profile/decorative/flower-leaf-accent.png' | relative_url }}" alt=""></div><div><h2 id="spv2RelatedHeading">Đọc thêm</h2><p>Nội dung giúp hiểu phương pháp và các chủ đề liên quan.</p></div></header><div class="spv2-related-grid"><article class="spv2-related-card"><strong>Hiểu Skin Profile của mình qua 16 loại da Baumann</strong><p>Tìm hiểu bốn trục đặc điểm, 16 loại da và giới hạn khi diễn giải kết quả.</p><a href="{{ '/kien-thuc-da/cach-xac-dinh-loai-da-baumann/' | relative_url }}">Đọc bài Baumann →</a></article><article class="spv2-placeholder-card"><span class="spv2-placeholder-label">CHỦ ĐỀ LIÊN QUAN</span><p>Các chủ đề dưới đây đến từ hồ sơ hiện tại. Littlest Things chưa gán URL cho những bài chưa xuất bản.</p><div class="spv2-topic-chips" id="spv2Topics"></div></article></div></section>
+
+      <section class="spv2-related" aria-labelledby="spv2RecommendationsHeading"><header class="spv2-section-head"><div class="spv2-heading-art"><img src="{{ '/assets/images/skin-profile/decorative/skincare-still-life.png' | relative_url }}" alt=""></div><div><h2 id="spv2RecommendationsHeading">Sản phẩm để tìm hiểu thêm</h2><p>Phần gợi ý sản phẩm theo Skin Profile chưa hoạt động trong phiên bản này.</p></div></header><article class="spv2-placeholder-card"><span class="spv2-placeholder-label">STATIC / PLACEHOLDER</span><p>Littlest Things chưa hiển thị gợi ý sản phẩm cá nhân hóa trong phiên bản này.</p></article></section>
+
+      <section class="spv2-references" aria-labelledby="spv2ReferencesHeading"><h2 id="spv2ReferencesHeading">Nguồn &amp; phương pháp</h2><p class="spv2-reference-note">Khung đánh giá: Baumann Skin Type Indicator® · Phần diễn giải tiếng Việt: Littlest Things.</p><div class="spv2-methodology" id="spv2Methodology"></div><h3>Tài liệu tham khảo</h3><ul class="spv2-reference-list" id="spv2References"></ul></section>
+    </div>
+  </section>
+
+  <section class="wrap" id="skinProfileInvalid" hidden><div class="spv2-invalid"><h2>Chưa có mã Skin Profile hợp lệ</h2><p>Trang kết quả cần một mã Baumann gồm 4 chữ cái. Hãy quay lại Skin Profile để nhập hoặc xác nhận mã của bạn.</p><a href="{{ '/skin-profile/' | relative_url }}">Quay lại Skin Profile</a></div></section>
+</div>
+<script id="skinProfileData" type="application/json">{{ site.data.skin_profiles | jsonify }}</script>
+<script id="skinProfileColors" type="application/json">{{ site.data.skin_profile_colors | jsonify }}</script>
+<script src="{{ '/assets/js/skin-profile-result.js' | relative_url }}" defer></script>

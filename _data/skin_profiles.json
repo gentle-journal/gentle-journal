@@ -1,0 +1,2557 @@
+{
+  "DSPT": {
+    "code": "DSPT",
+    "full_name": "Dry, Sensitive, Pigmented, Tight",
+    "summary": "Da có xu hướng khô, dễ phản ứng và dễ xuất hiện sắc tố không đồng đều; ưu tiên nền chăm sóc dễ dung nạp và chống nắng đều đặn.",
+    "overview": "D và S khiến khả năng duy trì độ ẩm và dung nạp trở thành nền tảng; P bổ sung ưu tiên hạn chế kích ứng có thể làm sắc tố rõ hơn. T không tạo nhu cầu chống lão hóa chuyên sâu, nhưng không đồng nghĩa da sẽ không lão hóa.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Theo vấn đề sắc tố đã xác định"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu đang có vấn đề sắc tố, chọn một hướng chăm sóc phù hợp với vấn đề đã xác định; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Nhóm làm dịu và hỗ trợ",
+        "description": "Nên đánh giá trên toàn bộ công thức và phản ứng trước đây; nhãn “làm dịu” hoặc “dành cho da nhạy cảm” không bảo đảm không kích ứng."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DSNT": {
+    "code": "DSNT",
+    "full_name": "Dry, Sensitive, Non-Pigmented, Tight",
+    "summary": "Da có xu hướng khô và dễ phản ứng, còn sắc tố và lão hóa sớm không phải ưu tiên mặc định; tập trung duy trì sự dễ chịu và ổn định.",
+    "overview": "D và S cùng làm nổi bật sự dễ chịu, dưỡng ẩm và quy trình tối giản khi da phản ứng. N và T chỉ cho biết xu hướng thấp hơn trên hai trục tương ứng, không loại trừ vấn đề sắc tố hoặc lão hóa trong tương lai.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Tránh chăm sóc sắc tố dư thừa",
+        "description": "Không cần thêm hoạt chất làm mờ sắc tố nếu không có vấn đề cụ thể."
+      },
+      {
+        "label": "Chăm sóc theo nhu cầu hiện tại",
+        "description": "T không tạo nhu cầu chống lão hóa chuyên sâu nhưng vẫn cần chăm sóc cơ bản và chống nắng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Không bắt buộc nếu chưa có mục tiêu"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; không cần thêm hoạt chất chuyên sâu nếu hiện tại không có mục tiêu cụ thể; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Nhóm làm dịu và hỗ trợ",
+        "description": "Nên đánh giá trên toàn bộ công thức và phản ứng trước đây; nhãn “làm dịu” hoặc “dành cho da nhạy cảm” không bảo đảm không kích ứng."
+      }
+    ],
+    "cautions": [
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Khi nào sắc tố trở thành một vấn đề riêng",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DSPW": {
+    "code": "DSPW",
+    "full_name": "Dry, Sensitive, Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng khô, dễ phản ứng, dễ xuất hiện sắc tố không đồng đều và cần chú ý quang lão hóa; khả năng dung nạp là yếu tố dẫn đường.",
+    "overview": "Bốn chiều cùng tạo nhiều mục tiêu nhưng D và S giới hạn tốc độ xử lý P và W. Vì kích ứng có thể làm khô da và sắc tố rõ hơn, ưu tiên là một nền chăm sóc ổn định rồi mới cân nhắc từng hoạt chất theo mục tiêu thực tế.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chọn một mục tiêu chính"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về sắc tố hoặc quang lão hóa, chọn một hướng chăm sóc chính tại một thời điểm; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Geria AN, Lawson CN, Halder RM. Topical retinoids for pigmented skin. J Drugs Dermatol. 2011;10(5):483-489. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/21533293/)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DSNW": {
+    "code": "DSNW",
+    "full_name": "Dry, Sensitive, Non-Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng khô, dễ phản ứng và cần chú ý quang lão hóa; dưỡng ẩm, chống nắng và nhịp làm quen chậm quan trọng hơn dùng nhiều hoạt chất.",
+    "overview": "D và S đặt giới hạn dung nạp cho mọi lựa chọn liên quan W; một sản phẩm có bằng chứng vẫn không hữu ích nếu gây khô rát kéo dài. N giúp tránh thêm chăm sóc sắc tố thường quy khi không có vấn đề cụ thể.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chỉ khi có mục tiêu quang lão hóa"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về quang lão hóa, có thể tìm hiểu một hoạt chất phù hợp thay vì mặc định phải dùng; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      },
+      {
+        "label": "Nhóm làm dịu và hỗ trợ",
+        "description": "Nên đánh giá trên toàn bộ công thức và phản ứng trước đây; nhãn “làm dịu” hoặc “dành cho da nhạy cảm” không bảo đảm không kích ứng."
+      }
+    ],
+    "cautions": [
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Quang lão hóa và vai trò của chống nắng",
+      "Retinoid: mục tiêu và khả năng dung nạp"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "OSPT": {
+    "code": "OSPT",
+    "full_name": "Oily, Sensitive, Pigmented, Tight",
+    "summary": "Da có xu hướng nhiều dầu, dễ phản ứng và dễ xuất hiện sắc tố không đồng đều; ưu tiên chống nắng cùng công thức nhẹ, dễ dung nạp.",
+    "overview": "O làm kết cấu và cảm giác sử dụng quan trọng, còn S yêu cầu kiểm soát dầu theo cách không gây khô rát. P đưa chống nắng và kiểm soát viêm lên trước; T không yêu cầu một chương trình chống lão hóa chuyên sâu.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Theo vấn đề sắc tố đã xác định"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu đang có vấn đề sắc tố, chọn một hướng chăm sóc phù hợp với vấn đề đã xác định; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần, nhưng không bỏ qua hỗ trợ hàng rào bảo vệ da khi da khó chịu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Nhóm làm dịu và hỗ trợ",
+        "description": "Nên đánh giá trên toàn bộ công thức và phản ứng trước đây; nhãn “làm dịu” hoặc “dành cho da nhạy cảm” không bảo đảm không kích ứng."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Reynolds RV, Yeung H, Cheng CE, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38300170/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "OSNT": {
+    "code": "OSNT",
+    "full_name": "Oily, Sensitive, Non-Pigmented, Tight",
+    "summary": "Da có xu hướng nhiều dầu và dễ phản ứng, trong khi sắc tố và lão hóa sớm không phải ưu tiên mặc định; kiểm soát dầu không nên gây khô rát.",
+    "overview": "O và S tạo một đánh đổi rõ: sản phẩm giảm bóng quá mạnh có thể làm da khó chịu hơn. N và T không loại bỏ nhu cầu chăm sóc cơ bản; chúng chỉ giảm lý do thêm hoạt chất cho sắc tố hoặc lão hóa khi chưa có mục tiêu.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      },
+      {
+        "label": "Tránh chăm sóc sắc tố dư thừa",
+        "description": "Không cần thêm hoạt chất làm mờ sắc tố nếu không có vấn đề cụ thể."
+      },
+      {
+        "label": "Chăm sóc theo nhu cầu hiện tại",
+        "description": "T không tạo nhu cầu chống lão hóa chuyên sâu nhưng vẫn cần chăm sóc cơ bản và chống nắng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Không bắt buộc nếu chưa có mục tiêu"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; không cần thêm hoạt chất chuyên sâu nếu hiện tại không có mục tiêu cụ thể; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần, nhưng không bỏ qua hỗ trợ hàng rào bảo vệ da khi da khó chịu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Nhóm làm dịu và hỗ trợ",
+        "description": "Nên đánh giá trên toàn bộ công thức và phản ứng trước đây; nhãn “làm dịu” hoặc “dành cho da nhạy cảm” không bảo đảm không kích ứng."
+      }
+    ],
+    "cautions": [
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Khi nào sắc tố trở thành một vấn đề riêng",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Reynolds RV, Yeung H, Cheng CE, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38300170/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "OSPW": {
+    "code": "OSPW",
+    "full_name": "Oily, Sensitive, Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng nhiều dầu, dễ phản ứng, dễ xuất hiện sắc tố không đồng đều và cần chú ý quang lão hóa; nên chọn mục tiêu và hoạt chất có chọn lọc.",
+    "overview": "P và W cùng củng cố vai trò chống nắng, trong khi S giới hạn số lượng và tốc độ đưa hoạt chất vào. O định hướng kết cấu nhẹ, nhưng không phải lý do bỏ dưỡng ẩm hay dùng nhiều sản phẩm kiểm soát dầu.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chọn một mục tiêu chính"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về sắc tố hoặc quang lão hóa, chọn một hướng chăm sóc chính tại một thời điểm; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần, nhưng không bỏ qua hỗ trợ hàng rào bảo vệ da khi da khó chịu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Reynolds RV, Yeung H, Cheng CE, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38300170/)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)",
+      "Geria AN, Lawson CN, Halder RM. Topical retinoids for pigmented skin. J Drugs Dermatol. 2011;10(5):483-489. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/21533293/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "OSNW": {
+    "code": "OSNW",
+    "full_name": "Oily, Sensitive, Non-Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng nhiều dầu, dễ phản ứng và cần chú ý quang lão hóa; công thức nhẹ chỉ hữu ích khi vẫn đủ dịu và dùng được lâu dài.",
+    "overview": "W làm chống nắng và phòng ngừa quang lão hóa đáng chú ý, nhưng S quyết định nhịp làm quen với sản phẩm có khả năng gây kích ứng. O ảnh hưởng kết cấu; N giúp tránh một quy trình làm mờ sắc tố không cần thiết.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "S",
+        "english": "Sensitive",
+        "vietnamese": "Nhạy cảm",
+        "description": "Xu hướng dễ xuất hiện châm chích, nóng rát, đỏ hoặc phản ứng với sản phẩm. S không phải chẩn đoán mụn, rosacea, eczema hay dị ứng."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Ổn định khả năng dung nạp",
+        "description": "Giữ quy trình cơ bản dễ chịu và chỉ thay đổi từng sản phẩm để nhận biết phản ứng."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chỉ khi có mục tiêu quang lão hóa"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về quang lão hóa, có thể tìm hiểu một hoạt chất phù hợp thay vì mặc định phải dùng; sau đó dưỡng ẩm theo nhu cầu. Đưa sản phẩm mới vào từng loại và tăng nhịp sử dụng theo khả năng dung nạp."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần, nhưng không bỏ qua hỗ trợ hàng rào bảo vệ da khi da khó chịu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết; ưu tiên công thức đơn giản khi da đang phản ứng."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "Phát ban kéo dài, sưng, ngứa nhiều hoặc nóng rát rõ cần được đánh giá chuyên môn thay vì tiếp tục thử sản phẩm.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "S không phải chẩn đoán mụn, rosacea, eczema, dị ứng hoặc bất kỳ bệnh da nào khác.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Nhận biết và theo dõi phản ứng với mỹ phẩm",
+      "Quang lão hóa và vai trò của chống nắng",
+      "Retinoid: mục tiêu và khả năng dung nạp"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Goh CL, Wu Y, Welsh B, et al. Expert consensus on holistic skin care routine: focus on acne, rosacea, atopic dermatitis, and sensitive skin syndrome. J Cosmet Dermatol. 2023;22(1):45-54. [Nguồn](https://onlinelibrary.wiley.com/doi/10.1111/jocd.15519)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Misery L, Ständer S, Szepietowski JC, et al. Definition of sensitive skin: an expert position paper from the IFSI. Acta Derm Venereol. 2017;97(1):4-6. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/26939643/)",
+      "Baumann L. Sensitive Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/sensitive-skin-type-new)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "ORPT": {
+    "code": "ORPT",
+    "full_name": "Oily, Resistant, Pigmented, Tight",
+    "summary": "Da có xu hướng nhiều dầu, ít phản ứng hơn và dễ xuất hiện sắc tố không đồng đều; sắc tố và chống nắng quan trọng hơn một quy trình chống lão hóa chuyên sâu.",
+    "overview": "P là mục tiêu nổi bật nhất, còn O định hướng lựa chọn kết cấu dễ dùng trong khí hậu nóng ẩm. R chỉ biểu thị ít phản ứng hơn trong bảng phân loại và T chỉ biểu thị xu hướng W thấp hơn; cả hai không loại bỏ các nguyên tắc an toàn cơ bản.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Theo vấn đề sắc tố đã xác định"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu đang có vấn đề sắc tố, chọn một hướng chăm sóc phù hợp với vấn đề đã xác định; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần; chọn độ đặc theo cảm giác thực tế vì O không tự động có nghĩa nên bỏ dưỡng ẩm."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Reynolds RV, Yeung H, Cheng CE, et al. Guidelines of care for the management of acne vulgaris. J Am Acad Dermatol. 2024;90(5):1006.e1-1006.e30. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38300170/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "ORNT": {
+    "code": "ORNT",
+    "full_name": "Oily, Resistant, Non-Pigmented, Tight",
+    "summary": "Da có xu hướng nhiều dầu và ít phản ứng hơn, còn sắc tố và lão hóa sớm không phải ưu tiên mặc định; duy trì nền chăm sóc gọn và phù hợp thực tế.",
+    "overview": "Không chiều nào tự động tạo nhu cầu dùng hoạt chất chuyên sâu: O chủ yếu ảnh hưởng cảm giác và kết cấu, còn R/N/T là các xu hướng thấp hơn chứ không phải sự miễn nhiễm. Giá trị của hồ sơ này là giữ quy trình vừa đủ và chỉ bổ sung theo vấn đề thật.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      },
+      {
+        "label": "Tránh chăm sóc sắc tố dư thừa",
+        "description": "Không cần thêm hoạt chất làm mờ sắc tố nếu không có vấn đề cụ thể."
+      },
+      {
+        "label": "Chăm sóc theo nhu cầu hiện tại",
+        "description": "T không tạo nhu cầu chống lão hóa chuyên sâu nhưng vẫn cần chăm sóc cơ bản và chống nắng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Không bắt buộc nếu chưa có mục tiêu"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; không cần thêm hoạt chất chuyên sâu nếu hiện tại không có mục tiêu cụ thể; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần; chọn độ đặc theo cảm giác thực tế vì O không tự động có nghĩa nên bỏ dưỡng ẩm."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      }
+    ],
+    "cautions": [
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Khi nào sắc tố trở thành một vấn đề riêng",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "ORPW": {
+    "code": "ORPW",
+    "full_name": "Oily, Resistant, Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng nhiều dầu, ít phản ứng hơn, dễ xuất hiện sắc tố không đồng đều và cần chú ý quang lão hóa; chống nắng là ưu tiên chung của cả P và W.",
+    "overview": "P và W có chung ưu tiên chống nắng; O ảnh hưởng khả năng chấp nhận kết cấu trong sử dụng hằng ngày. R có thể mở rộng lựa chọn nhưng không bảo đảm dung nạp, vì vậy mỗi hoạt chất vẫn cần gắn với một mục tiêu rõ.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chọn một mục tiêu chính"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về sắc tố hoặc quang lão hóa, chọn một hướng chăm sóc chính tại một thời điểm; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần; chọn độ đặc theo cảm giác thực tế vì O không tự động có nghĩa nên bỏ dưỡng ẩm."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố",
+      "Quang lão hóa và vai trò của chống nắng"
+    ],
+    "references": [
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)",
+      "Geria AN, Lawson CN, Halder RM. Topical retinoids for pigmented skin. J Drugs Dermatol. 2011;10(5):483-489. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/21533293/)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "ORNW": {
+    "code": "ORNW",
+    "full_name": "Oily, Resistant, Non-Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng nhiều dầu, ít phản ứng hơn và cần chú ý quang lão hóa; có thể tìm hiểu hoạt chất theo mục tiêu nhưng không nên suy diễn khả năng dung nạp.",
+    "overview": "W làm quang lão hóa trở thành ưu tiên chính, còn O khiến kết cấu nhẹ dễ duy trì hơn. R không có nghĩa da chịu được mọi hoạt chất, và N không có nghĩa sắc tố sẽ không bao giờ xuất hiện; mọi lựa chọn vẫn cần theo phản ứng thực tế của da.",
+    "dimensions": [
+      {
+        "letter": "O",
+        "english": "Oily",
+        "vietnamese": "Da dầu",
+        "description": "Xu hướng tiết dầu và bóng dầu nhiều hơn. O không đồng nghĩa với mụn và không tự tạo lý do dùng thuốc hoặc hoạt chất trị mụn."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      },
+      {
+        "label": "Kiểm soát dầu vừa đủ",
+        "description": "Ưu tiên cảm giác dễ dùng nhưng không làm sạch hoặc tẩy da chết đến mức khô rát."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, vừa đủ"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Kết cấu nhẹ nếu cần"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm nhẹ nếu da cần; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chỉ khi có mục tiêu quang lão hóa"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Nhẹ và vừa đủ"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về quang lão hóa, có thể tìm hiểu một hoạt chất phù hợp thay vì mặc định phải dùng; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh kết cấu sản phẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; không cần để lại cảm giác khô căng để chứng minh đã sạch dầu, kể cả khi rửa mặt nhiều lần trong ngày."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Kết cấu nhẹ nếu cần; chọn độ đặc theo cảm giác thực tế vì O không tự động có nghĩa nên bỏ dưỡng ẩm."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Niacinamide",
+        "description": "Có thể đáng tìm hiểu khi mục tiêu là độ bóng dầu, nhưng bằng chứng giảm dầu hiện có còn phụ thuộc công thức và O không tự động yêu cầu sử dụng."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "O không đồng nghĩa với mụn và không có nghĩa da không cần dưỡng ẩm trong mọi khí hậu.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Chăm sóc da có xu hướng nhiều dầu",
+      "Quang lão hóa và vai trò của chống nắng",
+      "Retinoid: mục tiêu và khả năng dung nạp",
+      "Khi nào sắc tố trở thành một vấn đề riêng"
+    ],
+    "references": [
+      "Endly DC, Miller RA. Oily skin: a review of treatment options. J Clin Aesthet Dermatol. 2017;10(8):49-55. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5605215/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Baumann L. Oily Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/oily-skin)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Draelos ZD, Matsubara A, Smiles K. The effect of 2% niacinamide on facial sebum production. J Cosmet Laser Ther. 2006;8(2):96-101. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/16766489/)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DRPT": {
+    "code": "DRPT",
+    "full_name": "Dry, Resistant, Pigmented, Tight",
+    "summary": "Da có xu hướng khô, ít phản ứng hơn và dễ xuất hiện sắc tố không đồng đều; dưỡng ẩm và chống nắng tạo nền cho chăm sóc sắc tố có mục tiêu.",
+    "overview": "D đặt dưỡng ẩm làm nền, còn P tạo lý do chú ý chống nắng và xác định đúng vấn đề sắc tố. R không xóa nguy cơ kích ứng; T chỉ làm giảm lý do mặc định cho một quy trình chống lão hóa chuyên sâu.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Theo vấn đề sắc tố đã xác định"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu đang có vấn đề sắc tố, chọn một hướng chăm sóc phù hợp với vấn đề đã xác định; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DRNT": {
+    "code": "DRNT",
+    "full_name": "Dry, Resistant, Non-Pigmented, Tight",
+    "summary": "Da có xu hướng khô và ít phản ứng hơn, còn sắc tố và lão hóa sớm không phải ưu tiên mặc định; dưỡng ẩm vừa đủ vẫn là trọng tâm.",
+    "overview": "D là ưu tiên thực tế rõ nhất; R có thể đi cùng ít phản ứng hơn nhưng không làm da miễn nhiễm kích ứng. N và T không tạo chỉ định riêng, vì vậy quy trình có thể gọn nhưng vẫn cần dưỡng ẩm và chống nắng phù hợp.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "T",
+        "english": "Tight",
+        "vietnamese": "Ít xu hướng nếp nhăn",
+        "description": "Cực đối diện W, biểu thị xu hướng wrinkle-prone thấp hơn trong khuôn khổ Baumann. T không phải cảm giác căng do khô và không có nghĩa da sẽ không xuất hiện nếp nhăn."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      },
+      {
+        "label": "Tránh chăm sóc sắc tố dư thừa",
+        "description": "Không cần thêm hoạt chất làm mờ sắc tố nếu không có vấn đề cụ thể."
+      },
+      {
+        "label": "Chăm sóc theo nhu cầu hiện tại",
+        "description": "T không tạo nhu cầu chống lão hóa chuyên sâu nhưng vẫn cần chăm sóc cơ bản và chống nắng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Không bắt buộc nếu chưa có mục tiêu"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; không cần thêm hoạt chất chuyên sâu nếu hiện tại không có mục tiêu cụ thể; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      }
+    ],
+    "cautions": [
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "T không phải cảm giác căng do khô và không có nghĩa da sẽ không có nếp nhăn theo thời gian."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Khi nào sắc tố trở thành một vấn đề riêng",
+      "Chăm sóc phòng ngừa không cần quá nhiều bước"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DRPW": {
+    "code": "DRPW",
+    "full_name": "Dry, Resistant, Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng khô, ít phản ứng hơn, dễ xuất hiện sắc tố không đồng đều và cần chú ý quang lão hóa; dưỡng ẩm giúp các lựa chọn có mục tiêu dễ duy trì hơn.",
+    "overview": "D có thể làm giảm khả năng dung nạp của những lựa chọn cho P và W, nên dưỡng ẩm và nhịp làm quen có kiểm soát rất quan trọng. R không đủ để bỏ qua khô, bong hoặc kích ứng khi chúng thực sự xuất hiện.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "P",
+        "english": "Pigmented",
+        "vietnamese": "Dễ tăng sắc tố",
+        "description": "Xu hướng xuất hiện sắc tố không đồng đều hoặc không mong muốn. P không nói về màu da tự nhiên và không chẩn đoán nám hay tăng sắc tố sau viêm."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Xác định vấn đề sắc tố",
+        "description": "Phân biệt vết thâm sau viêm, nám và đốm nắng trước khi chọn hướng chăm sóc."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chọn một mục tiêu chính"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về sắc tố hoặc quang lão hóa, chọn một hướng chăm sóc chính tại một thời điểm; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Chỉ chọn sau khi xác định vấn đề sắc tố; kem chống nắng có màu là lựa chọn có điều kiện, không phải yêu cầu cho mọi P."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Nhóm hỗ trợ sắc tố",
+        "description": "Chỉ đáng tìm hiểu sau khi xác định vấn đề cụ thể; lựa chọn phù hợp phụ thuộc nguyên nhân, bằng chứng cho từng nhóm, nồng độ, toàn bộ công thức và khả năng dung nạp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "P không xác định nguyên nhân của sắc tố. Sắc tố mới, thay đổi nhanh, lan rộng hoặc dai dẳng cần được đánh giá phù hợp thay vì chỉ dựa vào mã hồ sơ.",
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "P không phải màu da tự nhiên, không chẩn đoán nám hay tăng sắc tố sau viêm và không xác định nguyên nhân của một vết sẫm màu.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Phân biệt vết thâm sau viêm, nám và đốm nắng",
+      "Ánh sáng nhìn thấy và sắc tố",
+      "Quang lão hóa và vai trò của chống nắng"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Mar K, Khalid B, Maazi M, Ahmed R, Wang OJE, Khosravi-Hafshejani T. Treatment of post-inflammatory hyperpigmentation in skin of colour: a systematic review. J Cutan Med Surg. 2024;28(5):473-480. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC11514325/)",
+      "Tan MG, Kim WB, Jo CE, Nabieva K, Kirshen C, Ortiz AE. Topical treatment for postinflammatory hyperpigmentation: a systematic review. J Dermatolog Treat. 2022;33(5):2518-2526. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/34525885/)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Baumann L. Uneven/Pigmented Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/uneven-skin-type)",
+      "Goh CL, Kang HY, Morita A, et al. Awareness of sun exposure risks and photoprotection for preventing pigmentary disorders in Asian populations: survey results from three Asian countries and expert panel recommendations. Photodermatol Photoimmunol Photomed. 2024;40(1):e12932. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/38059515/)",
+      "Geria AN, Lawson CN, Halder RM. Topical retinoids for pigmented skin. J Drugs Dermatol. 2011;10(5):483-489. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/21533293/)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  },
+  "DRNW": {
+    "code": "DRNW",
+    "full_name": "Dry, Resistant, Non-Pigmented, Wrinkle-Prone",
+    "summary": "Da có xu hướng khô, ít phản ứng hơn và cần chú ý quang lão hóa; dưỡng ẩm và chống nắng là nền tảng trước khi cân nhắc hoạt chất.",
+    "overview": "D và W tạo hai ưu tiên song song: duy trì độ ẩm và hạn chế tác động tích lũy của ánh nắng. R không bảo đảm mọi hoạt chất đều dễ chịu; N chỉ giúp tránh chăm sóc sắc tố thường quy khi không có vấn đề cụ thể.",
+    "dimensions": [
+      {
+        "letter": "D",
+        "english": "Dry",
+        "vietnamese": "Da khô",
+        "description": "Xu hướng khô hoặc khó duy trì độ ẩm. Đây không phải chẩn đoán eczema và không tự chứng minh hàng rào bảo vệ da đang tổn thương."
+      },
+      {
+        "letter": "R",
+        "english": "Resistant",
+        "vietnamese": "Ít phản ứng",
+        "description": "Xu hướng tự báo cáo phản ứng thấp hơn trên trục S/R. R không có nghĩa da miễn nhiễm kích ứng, dị ứng hoặc bệnh da."
+      },
+      {
+        "letter": "N",
+        "english": "Non-Pigmented",
+        "vietnamese": "Ít gặp vấn đề sắc tố",
+        "description": "Xu hướng vấn đề sắc tố thấp hơn trên trục P/N. N không có nghĩa sắc tố, vết thâm hay đốm nắng không thể xuất hiện."
+      },
+      {
+        "letter": "W",
+        "english": "Wrinkle-Prone",
+        "vietnamese": "Dễ có nếp nhăn",
+        "description": "Xu hướng hoặc yếu tố liên quan nguy cơ biểu hiện lão hóa sớm hơn trong khuôn khổ Baumann. W không dự đoán chính xác tuổi sinh học hay tốc độ lão hóa."
+      }
+    ],
+    "priorities": [
+      {
+        "label": "Duy trì độ ẩm",
+        "description": "Chọn dưỡng ẩm theo mức khô và khí hậu; D không tự động đòi hỏi lớp khóa ẩm thật dày."
+      },
+      {
+        "label": "Chống nắng nhất quán",
+        "description": "Duy trì bảo vệ phổ rộng hằng ngày; điều chỉnh khả năng kháng nước và thoa lại theo mức phơi nắng, mồ hôi hoặc nước."
+      },
+      {
+        "label": "Chọn mục tiêu quang lão hóa",
+        "description": "Chỉ cân nhắc hoạt chất khi có mục tiêu hiện tại và quy trình nền đã ổn định."
+      },
+      {
+        "label": "Theo dõi phản ứng thực tế",
+        "description": "R cho thấy xu hướng phản ứng thấp hơn, không cho phép bỏ qua dấu hiệu kích ứng."
+      }
+    ],
+    "routine": {
+      "morning": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Dịu nhẹ, khi cần"
+          },
+          {
+            "order": 2,
+            "label": "Dưỡng ẩm",
+            "note": "Theo mức khô và thời tiết"
+          },
+          {
+            "order": 3,
+            "label": "Chống nắng",
+            "note": "Phổ rộng, dễ dùng đều"
+          }
+        ],
+        "guidance": "Làm sạch dịu nhẹ khi cần; dùng dưỡng ẩm với độ đặc vừa đủ cho mức khô và thời tiết; kết thúc bằng kem chống nắng phổ rộng. Không cần cố tạo cảm giác khô căng hoặc cố định số bước."
+      },
+      "evening": {
+        "steps": [
+          {
+            "order": 1,
+            "label": "Làm sạch",
+            "note": "Vừa đủ, không gây khô căng"
+          },
+          {
+            "order": 2,
+            "label": "Chăm sóc mục tiêu",
+            "note": "Chỉ khi có mục tiêu quang lão hóa"
+          },
+          {
+            "order": 3,
+            "label": "Dưỡng ẩm",
+            "note": "Theo nhu cầu của da"
+          }
+        ],
+        "guidance": "Làm sạch vừa đủ; nếu có mục tiêu về quang lão hóa, có thể tìm hiểu một hoạt chất phù hợp thay vì mặc định phải dùng; sau đó dưỡng ẩm theo nhu cầu. Dù thuộc R, vẫn theo dõi khô, đỏ, rát hoặc bong khi đổi sản phẩm."
+      },
+      "when_needed": "Khi da khô, đỏ, rát hoặc bong kéo dài, tạm giản lược quy trình và xem lại sản phẩm mới. Điều chỉnh độ đặc của dưỡng ẩm theo khí hậu; chọn khả năng kháng nước và thoa lại kem chống nắng khi đổ mồ hôi, tiếp xúc nước hoặc ở ngoài trời lâu."
+    },
+    "product_types": [
+      {
+        "label": "Sản phẩm làm sạch",
+        "description": "Loại dịu nhẹ, làm sạch vừa đủ; ưu tiên hạn chế cảm giác căng rít sau rửa và điều chỉnh theo tần suất làm sạch thực tế."
+      },
+      {
+        "label": "Sản phẩm dưỡng ẩm",
+        "description": "Công thức có thể phối hợp chất hút ẩm, làm mềm và giảm mất nước; chọn độ đặc theo nhu cầu."
+      },
+      {
+        "label": "Kem chống nắng",
+        "description": "Phổ rộng, đủ dễ chịu để dùng đều; chọn khả năng kháng nước theo hoạt động thực tế."
+      },
+      {
+        "label": "Sản phẩm có mục tiêu",
+        "description": "Không cần sản phẩm làm mờ sắc tố chỉ vì mã hồ sơ; ưu tiên mục tiêu đang hiện diện và tránh thêm bước không cần thiết."
+      }
+    ],
+    "ingredients": [
+      {
+        "label": "Bộ lọc chống nắng",
+        "description": "Liên quan đến bảo vệ phổ rộng; hiệu quả thực tế phụ thuộc công thức, lượng dùng và việc thoa lại phù hợp hoàn cảnh."
+      },
+      {
+        "label": "Chất hút ẩm, chất làm mềm và lipid hỗ trợ hàng rào",
+        "description": "Có thể hỗ trợ da khô hoặc dễ khó chịu; tên một thành phần riêng lẻ không bảo đảm toàn bộ công thức sẽ phù hợp."
+      },
+      {
+        "label": "Retinoid",
+        "description": "Có thể đáng tìm hiểu khi có mục tiêu về quang lão hóa và da dung nạp được; W một mình không có nghĩa mọi người nên dùng retinoid."
+      },
+      {
+        "label": "Chất chống oxy hóa",
+        "description": "Có thể được cân nhắc như hỗ trợ, nhưng bằng chứng phụ thuộc công thức; vitamin C đặc biệt nhạy với dạng chất, độ ổn định và sản phẩm phối hợp."
+      }
+    ],
+    "cautions": [
+      "R không loại trừ kích ứng hoặc dị ứng; phản ứng thực tế luôn quan trọng hơn chữ cái trong hồ sơ.",
+      "Nếu đang mang thai, dự định mang thai, dùng thuốc kê đơn hoặc cân nhắc hoạt chất có giới hạn an toàn, hãy ưu tiên hướng dẫn của bác sĩ hoặc dược sĩ thay cho nội dung mỹ phẩm này.",
+      "Không mặc định xếp chồng nhiều hoạt chất. Khi đổi sản phẩm, theo dõi khả năng dung nạp và mục tiêu hiện tại."
+    ],
+    "not_mean": [
+      "D không đồng nghĩa với eczema và không tự chứng minh hàng rào bảo vệ da bị tổn thương ở mọi thời điểm.",
+      "R không có nghĩa da chịu được mọi sản phẩm hoặc không thể kích ứng trong mọi hoàn cảnh.",
+      "N không có nghĩa vết thâm, nám hoặc đốm nắng không thể xuất hiện sau viêm hay tiếp xúc ánh nắng.",
+      "W không dự đoán chính xác tuổi sinh học hoặc tốc độ lão hóa ở từng cá nhân."
+    ],
+    "related_topics": [
+      "Dưỡng ẩm và hàng rào bảo vệ da",
+      "Quang lão hóa và vai trò của chống nắng",
+      "Retinoid: mục tiêu và khả năng dung nạp",
+      "Khi nào sắc tố trở thành một vấn đề riêng"
+    ],
+    "references": [
+      "Augustin M, Wilsmann-Theis D, Körber A, Kerscher M, Itschert G, Dippel M, Staubach P. Diagnosis and treatment of xerosis cutis: a position paper. J Dtsch Dermatol Ges. 2019;17 Suppl 7:3-33. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/31738016/)",
+      "Parker J, Scharfbillig R, Jones S. Moisturisers for the treatment of foot xerosis: a systematic review. J Foot Ankle Res. 2017;10:9. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC5297015/)",
+      "Baumann L. Understanding and treating various skin types: the Baumann Skin Type Indicator. Dermatol Clin. 2008;26(3):359-373. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/18555952/)",
+      "Baumann L. Sixteen Baumann Skin Types. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/16-baumann-skin-types)",
+      "Hughes MCB, Williams GM, Baker P, Green AC. Sunscreen and prevention of skin aging: a randomized trial. Ann Intern Med. 2013;158(11):781-790. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/23732711/)",
+      "Sitohang IBS, Makes WI, Sandora N, Suryanegara J. Topical tretinoin for treating photoaging: a systematic review of randomized controlled trials. Int J Womens Dermatol. 2022;8(1):e003. [Nguồn](https://pmc.ncbi.nlm.nih.gov/articles/PMC9112391/)",
+      "Baumann L. Dry Skin Type. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/dry-skin-type)",
+      "Baumann L. Wrinkle-Prone Skin. Skin Type Solutions. Continuously updated webpage. [Nguồn](https://skintypesolutions.com/blogs/skincare/aging-skin)",
+      "Sanabria B, Berger LE, Mohd H, et al. Clinical efficacy of topical vitamin C on the appearance of wrinkles: a systematic literature review. J Drugs Dermatol. 2023;22(9):898-904. [Nguồn](https://pubmed.ncbi.nlm.nih.gov/37683066/)"
+    ],
+    "methodology_note": "Littlest Things diễn giải kết quả theo hệ thống Baumann và đối chiếu hướng dẫn chăm sóc da với nghiên cứu quốc tế, nghiên cứu châu Á khi có dữ liệu phù hợp. Một số nguồn có người tham gia hoặc chuyên gia từ Việt Nam và Đông Nam Á, nhưng toàn bộ hệ thống Baumann chưa được xác nhận là đã được thẩm định riêng cho người dùng Việt Nam."
+  }
+}

@@ -16,6 +16,12 @@
   <link rel="stylesheet" href="{{ '/assets/css/home-v4-1.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/home-v4-1-responsive-fix.css' | relative_url }}">
   {% endif %}
+  {% if page.baumann_article %}
+  <link rel="stylesheet" href="{{ '/assets/css/baumann-article.css' | relative_url }}">
+  {% endif %}
+  {% if page.skin_profile_result %}
+  <link rel="stylesheet" href="{{ '/assets/css/skin-profile-result.css' | relative_url }}">
+  {% endif %}
 
   <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/brand/03-favicon/favicon.ico' | relative_url }}" sizes="any">
@@ -47,7 +53,7 @@
 
   {% include header.html %}
 
-  {% if page.home_v41 or page.home_v42 %}
+  {% if page.home_v41 or page.home_v42 or page.full_width %}
   <main id="top">
     {{ content }}
   </main>
