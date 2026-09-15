@@ -1,0 +1,109 @@
+/* Global Littlest Things reference/source component.
+   Canonical visual source: approved Baumann article reference notes. */
+.reference-notes.reference-notes,
+.reference-section.reference-section{
+  max-width:1080px;
+  margin:34px auto 8px;
+  padding:22px 24px 18px;
+  border-top:1px solid var(--line,#D8DADC);
+  background:transparent;
+  color:#847F76;
+  font-family:Inter,system-ui,sans-serif;
+}
+
+.reference-notes.reference-notes > .sources-heading,
+.reference-notes.reference-notes > h2,
+.reference-section.reference-section > .reference-section__label{
+  margin:0 0 14px;
+  padding:0;
+  border:0;
+  font-family:Inter,sans-serif;
+  font-size:.86rem;
+  line-height:1.12;
+  font-weight:700;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+  color:#6F6A62;
+}
+
+.reference-notes.reference-notes h3,
+.reference-section.reference-section .reference-section__group-title,
+.reference-section.reference-section h3{
+  margin:18px 0 8px;
+  font-family:Inter,sans-serif;
+  font-size:.82rem;
+  line-height:1.4;
+  font-weight:700;
+  color:#6F6A62;
+}
+
+.reference-notes.reference-notes p,
+.reference-notes.reference-notes li,
+.reference-section.reference-section .reference-section__entry,
+.reference-section.reference-section .reference-section__note,
+.reference-section.reference-section p,
+.reference-section.reference-section li{
+  margin-top:0;
+  font-family:Inter,sans-serif;
+  font-size:.82rem;
+  line-height:1.62;
+  font-weight:400;
+  color:#847F76;
+  text-align:left;
+  text-align-last:auto;
+}
+
+.reference-notes.reference-notes p,
+.reference-section.reference-section .reference-section__entry,
+.reference-section.reference-section .reference-section__note,
+.reference-section.reference-section p{
+  margin-bottom:10px;
+}
+
+.reference-notes.reference-notes ul,
+.reference-section.reference-section ul{
+  margin-bottom:12px;
+}
+
+.reference-notes.reference-notes a,
+.reference-section.reference-section .reference-section__link,
+.reference-section.reference-section a{
+  font-family:Inter,sans-serif;
+  font-size:.8rem;
+  line-height:1.62;
+  color:#6E9A7C;
+  text-decoration:none;
+  text-decoration-thickness:1px;
+  text-underline-offset:3px;
+}
+
+.reference-notes.reference-notes strong,
+.reference-section.reference-section strong,
+.reference-section.reference-section .reference-section__citation{
+  color:#625E57;
+  font-weight:600;
+}
+
+.reference-notes.reference-notes em,
+.reference-section.reference-section em{
+  font-style:italic;
+}
+
+.reference-section.reference-section .reference-section__group{
+  margin:0;
+  padding:0;
+}
+
+.reference-section.reference-section .reference-section__description{
+  margin:0;
+  font-weight:400;
+  color:#847F76;
+}
+
+@media (max-width:760px){
+  .reference-notes.reference-notes,
+  .reference-section.reference-section{
+    margin-top:28px;
+    padding:18px 4px 14px;
+  }
+}
