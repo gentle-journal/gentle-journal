@@ -105,10 +105,44 @@
   $('spv2Topics').innerHTML = p.related_topics.map(x => `<span>${esc(x)}</span>`).join('');
   $('spv2Methodology').textContent = p.methodology_note;
 
-  const refHTML = x => esc(x)
-    .replace(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)/g,'<a href="$2" target="_blank" rel="noopener noreferrer">$1</a>')
-    .replace(/\*([^*]+)\*/g,'<em>$1</em>');
-  $('spv2References').innerHTML = p.references.map(x => `<li>${refHTML(x)}</li>`).join('');
+  const refHTML = x => esc(x).replace(/\*([^*]+)\*/g,'<em>$1</em>');
+  const referenceParts = raw => {
+    const text = String(raw || '');
+    const match = text.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)\s*$/);
+    return {
+      citation: match ? text.slice(0, match.index).trim() : text.trim(),
+      url: match ? match[2] : ''
+    };
+  };
+  const referenceLinkLabel = url => {
+    if (/pubmed\.ncbi\.nlm\.nih\.gov/i.test(url)) return 'Xem trên PubMed →';
+    if (/pmc\.ncbi\.nlm\.nih\.gov/i.test(url)) return 'Xem nghiên cứu →';
+    if (/skintypesolutions\.com/i.test(url)) return 'Xem trên Skin Type Solutions →';
+    if (/plos\.org/i.test(url)) return 'Xem bài nghiên cứu trên PLOS ONE →';
+    if (/wiley\.com|doi\.org|springer\.com|sciencedirect\.com/i.test(url)) return 'Xem nghiên cứu →';
+    return 'Xem nguồn →';
+  };
+  const referenceEntry = raw => {
+    const { citation, url } = referenceParts(raw);
+    const link = url
+      ? `<br><a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><strong>${referenceLinkLabel(url)}</strong></a>`
+      : '';
+    return `<p><strong>${refHTML(citation)}</strong>${link}</p>`;
+  };
+
+  const frameworkReferences = p.references.filter(x => /Baumann Skin Type Indicator/i.test(x));
+  const supportingReferences = p.references.filter(x => /Skin Type Solutions/i.test(x));
+  const researchReferences = p.references.filter(
+    x => !/Baumann Skin Type Indicator/i.test(x) && !/Skin Type Solutions/i.test(x)
+  );
+  const referenceGroup = (title, items) => items.length
+    ? `<h3>${esc(title)}</h3>${items.map(referenceEntry).join('')}`
+    : '';
+
+  $('spv2References').innerHTML =
+    referenceGroup('Baumann Skin Type', frameworkReferences) +
+    referenceGroup('Nghiên cứu liên quan đến Skin Profile này', researchReferences);
+  $('spv2OtherReferences').innerHTML = supportingReferences.map(referenceEntry).join('');
 
   $('spv2SaveCode').textContent = code;
   $('spv2SaveCode').style.color = accent;
