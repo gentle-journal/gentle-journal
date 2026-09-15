@@ -1,7 +1,9 @@
 /* Global Littlest Things reference/source component.
-   Canonical visual source: approved Baumann article reference notes. */
-.reference-notes.reference-notes,
-.reference-section.reference-section{
+   Canonical visual source: approved Baumann article reference notes.
+   Use .reference-section for new work. .reference-notes remains as a compatibility alias
+   for the already-approved Baumann article markup. */
+.reference-section.reference-section,
+.reference-notes.reference-notes{
   max-width:1080px;
   margin:34px auto 8px;
   padding:22px 24px 18px;
@@ -11,24 +13,32 @@
   font-family:Inter,system-ui,sans-serif;
 }
 
+.reference-section.reference-section > .reference-section__label,
+.reference-section.reference-section > .sources-heading,
+.reference-section.reference-section > h2,
 .reference-notes.reference-notes > .sources-heading,
-.reference-notes.reference-notes > h2,
-.reference-section.reference-section > .reference-section__label{
+.reference-notes.reference-notes > h2{
   margin:0 0 14px;
   padding:0;
   border:0;
   font-family:Inter,sans-serif;
   font-size:.86rem;
-  line-height:1.12;
+  line-height:1.4;
   font-weight:700;
   letter-spacing:.09em;
   text-transform:uppercase;
   color:#6F6A62;
 }
 
-.reference-notes.reference-notes h3,
+.reference-section.reference-section .reference-section__group,
+.reference-section.reference-section .reference-section__entry{
+  margin:0;
+  padding:0;
+}
+
 .reference-section.reference-section .reference-section__group-title,
-.reference-section.reference-section h3{
+.reference-section.reference-section h3,
+.reference-notes.reference-notes h3{
   margin:18px 0 8px;
   font-family:Inter,sans-serif;
   font-size:.82rem;
@@ -37,13 +47,13 @@
   color:#6F6A62;
 }
 
-.reference-notes.reference-notes p,
-.reference-notes.reference-notes li,
-.reference-section.reference-section .reference-section__entry,
-.reference-section.reference-section .reference-section__note,
 .reference-section.reference-section p,
-.reference-section.reference-section li{
-  margin-top:0;
+.reference-section.reference-section li,
+.reference-section.reference-section .reference-section__note,
+.reference-section.reference-section .reference-section__citation,
+.reference-section.reference-section .reference-section__description,
+.reference-notes.reference-notes p,
+.reference-notes.reference-notes li{
   font-family:Inter,sans-serif;
   font-size:.82rem;
   line-height:1.62;
@@ -53,56 +63,69 @@
   text-align-last:auto;
 }
 
-.reference-notes.reference-notes p,
-.reference-section.reference-section .reference-section__entry,
-.reference-section.reference-section .reference-section__note,
-.reference-section.reference-section p{
+.reference-section.reference-section > .reference-section__note,
+.reference-section.reference-section > p,
+.reference-notes.reference-notes p{
+  margin:0 0 10px;
+}
+
+.reference-section.reference-section .reference-section__entry{
   margin-bottom:10px;
 }
 
-.reference-notes.reference-notes ul,
-.reference-section.reference-section ul{
-  margin-bottom:12px;
+.reference-section.reference-section .reference-section__citation,
+.reference-section.reference-section .reference-section__description{
+  margin:0;
 }
 
-.reference-notes.reference-notes a,
+.reference-section.reference-section .reference-section__author{
+  color:#625E57;
+  font-weight:600;
+}
+
+.reference-section.reference-section .reference-section__title{
+  color:#625E57;
+  font-style:italic;
+  font-weight:600;
+}
+
+.reference-section.reference-section .reference-section__publication{
+  color:#847F76;
+  font-weight:400;
+}
+
 .reference-section.reference-section .reference-section__link,
-.reference-section.reference-section a{
+.reference-section.reference-section a,
+.reference-notes.reference-notes a{
+  display:inline;
   font-family:Inter,sans-serif;
   font-size:.8rem;
   line-height:1.62;
+  font-weight:600;
   color:#6E9A7C;
   text-decoration:none;
   text-decoration-thickness:1px;
   text-underline-offset:3px;
 }
 
-.reference-notes.reference-notes strong,
-.reference-section.reference-section strong,
-.reference-section.reference-section .reference-section__citation{
+.reference-notes.reference-notes strong{
   color:#625E57;
   font-weight:600;
 }
 
-.reference-notes.reference-notes em,
-.reference-section.reference-section em{
+.reference-section.reference-section em,
+.reference-notes.reference-notes em{
   font-style:italic;
 }
 
-.reference-section.reference-section .reference-section__group{
-  margin:0;
-  padding:0;
-}
-
-.reference-section.reference-section .reference-section__description{
-  margin:0;
-  font-weight:400;
-  color:#847F76;
+.reference-section.reference-section ul,
+.reference-notes.reference-notes ul{
+  margin-bottom:12px;
 }
 
 @media (max-width:760px){
-  .reference-notes.reference-notes,
-  .reference-section.reference-section{
+  .reference-section.reference-section,
+  .reference-notes.reference-notes{
     margin-top:28px;
     padding:18px 4px 14px;
   }
