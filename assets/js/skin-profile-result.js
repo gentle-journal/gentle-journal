@@ -105,7 +105,6 @@
   $('spv2Topics').innerHTML = p.related_topics.map(x => `<span>${esc(x)}</span>`).join('');
   $('spv2Methodology').textContent = p.methodology_note;
 
-  const refHTML = x => esc(x).replace(/\*([^*]+)\*/g,'<em>$1</em>');
   const referenceParts = raw => {
     const text = String(raw || '');
     const match = text.match(/\[([^\]]+)\]\((https?:\/\/[^)]+)\)\s*$/);
@@ -114,6 +113,13 @@
       url: match ? match[2] : ''
     };
   };
+
+  const referenceCitationParts = citation => {
+    const match = String(citation || '').match(/^(.+?)\.\s+(.+?)\.\s+(.+)$/);
+    if (!match) return { author: '', title: '', publication: citation };
+    return { author: match[1], title: match[2], publication: match[3] };
+  };
+
   const referenceLinkLabel = url => {
     if (/pubmed\.ncbi\.nlm\.nih\.gov/i.test(url)) return 'Xem trên PubMed →';
     if (/pmc\.ncbi\.nlm\.nih\.gov/i.test(url)) return 'Xem nghiên cứu →';
@@ -122,12 +128,17 @@
     if (/wiley\.com|doi\.org|springer\.com|sciencedirect\.com/i.test(url)) return 'Xem nghiên cứu →';
     return 'Xem nguồn →';
   };
+
   const referenceEntry = raw => {
     const { citation, url } = referenceParts(raw);
-    const link = url
-      ? `<br><a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><strong>${referenceLinkLabel(url)}</strong></a>`
+    const parts = referenceCitationParts(citation);
+    const citationHTML = parts.author
+      ? `<p class="reference-section__citation"><span class="reference-section__author">${esc(parts.author)}</span>. <span class="reference-section__title">${esc(parts.title)}</span>. <span class="reference-section__publication">${esc(parts.publication)}</span></p>`
+      : `<p class="reference-section__citation"><span class="reference-section__publication">${esc(parts.publication)}</span></p>`;
+    const linkHTML = url
+      ? `<a class="reference-section__link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${referenceLinkLabel(url)}</a>`
       : '';
-    return `<p><strong>${refHTML(citation)}</strong>${link}</p>`;
+    return `<div class="reference-section__entry">${citationHTML}${linkHTML}</div>`;
   };
 
   const frameworkReferences = p.references.filter(x => /Baumann Skin Type Indicator/i.test(x));
@@ -135,8 +146,9 @@
   const researchReferences = p.references.filter(
     x => !/Baumann Skin Type Indicator/i.test(x) && !/Skin Type Solutions/i.test(x)
   );
+
   const referenceGroup = (title, items) => items.length
-    ? `<h3>${esc(title)}</h3>${items.map(referenceEntry).join('')}`
+    ? `<div class="reference-section__group"><h3 class="reference-section__group-title">${esc(title)}</h3>${items.map(referenceEntry).join('')}</div>`
     : '';
 
   $('spv2References').innerHTML =
