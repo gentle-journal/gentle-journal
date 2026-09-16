@@ -456,6 +456,7 @@
 .skin-profile-result-page .spv5-step-visual img{width:72px;height:78px;object-fit:contain}
 .skin-profile-result-page .spv5-step-num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:rgba(255,255,255,.88);border:1px solid var(--line);font:700 .62rem Inter,sans-serif;color:var(--ink);margin-bottom:5px}
 .skin-profile-result-page .spv5-step-label{display:block;font:600 .6rem/1.3 Inter,sans-serif;color:var(--ink)}
+.skin-profile-result-page .spv5-step-note{display:block;margin-top:3px;font:400 .54rem/1.35 Inter,sans-serif;color:var(--muted)}
 .skin-profile-result-page .spv5-flow-arrow{flex:0 0 18px;padding-top:40px;color:#91A89A;font-size:1rem;text-align:center}
 .skin-profile-result-page .spv5-routine-notes{margin:13px 0 0;padding-top:10px;border-top:1px dashed rgba(98,93,86,.2)}
 .skin-profile-result-page .spv5-routine-notes li{font-size:.67rem!important;line-height:1.48!important;margin-bottom:4px!important}

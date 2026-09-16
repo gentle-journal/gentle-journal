@@ -89,7 +89,7 @@
     if (s.includes('sắc tố')) return ASSETS.ingredients.pigment;
     return ASSETS.ingredients.soothing;
   };
-  const flow = steps => `<div class="spv5-flow">${steps.map((s,i)=>`${i?'<span class="spv5-flow-arrow" aria-hidden="true">→</span>':''}<div class="spv5-step"><div class="spv5-step-visual"><img src="${productIcon(s.label)}" alt=""></div><span class="spv5-step-num">${i+1}</span><span class="spv5-step-label">${esc(s.label)}</span></div>`).join('')}</div>`;
+  const flow = steps => `<div class="spv5-flow">${steps.map((s,i)=>`${i?'<span class="spv5-flow-arrow" aria-hidden="true">→</span>':''}<div class="spv5-step"><div class="spv5-step-visual"><img src="${productIcon(s.label)}" alt=""></div><span class="spv5-step-num">${esc(s.order)}</span><span class="spv5-step-label">${esc(s.label)}</span><span class="spv5-step-note">${esc(s.note)}</span></div>`).join('')}</div>`;
   const guidanceList = txt => (txt || '').split(/(?<=[.!?])\s+/).filter(Boolean).map(s => `<li>${esc(s)}</li>`).join('');
   $('spv2Routine').innerHTML =
     `<article class="spv2-routine-card"><h3>Buổi sáng</h3>${flow(p.routine.morning.steps)}<ul class="spv5-routine-notes">${guidanceList(p.routine.morning.guidance)}</ul></article>`+
