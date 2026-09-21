@@ -673,3 +673,43 @@
 .skin-profile-result-page .spv2-reference-list a{color:#5A87A3;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.skin-profile-result-page .wrap{padding-left:18px;padding-right:18px}}
 @media(max-width:420px){.skin-profile-result-page .wrap{padding-left:14px;padding-right:14px}}
+
+/* Browser-only PNG export for the approved Skin Profile summary card. */
+.skin-profile-result-page .spv3-save-cta{
+  opacity:1;
+  cursor:pointer;
+  transition:background-color .18s ease,box-shadow .18s ease,transform .18s ease,opacity .18s ease;
+}
+.skin-profile-result-page .spv3-save-cta:hover:not(:disabled){
+  background:#5F8B70;
+  box-shadow:0 7px 16px rgba(66,104,80,.16);
+  transform:translateY(-1px);
+}
+.skin-profile-result-page .spv3-save-cta:focus-visible{
+  outline:3px solid #2F5E43;
+  outline-offset:3px;
+}
+.skin-profile-result-page .spv3-save-cta:disabled{
+  cursor:wait;
+  opacity:.68;
+  transform:none;
+  box-shadow:none;
+}
+.skin-profile-result-page .spv2-save-status{
+  display:block;
+  min-height:1.4em;
+  margin-top:10px;
+  color:#496D57;
+  font-size:.66rem;
+  line-height:1.45;
+}
+.skin-profile-result-page .spv2-save-status:empty{margin-top:0}
+.skin-profile-result-page .spv2-save-status.is-error{color:#9B4F4F}
+.skin-profile-result-page .spv2-save-card{box-sizing:border-box}
+.skin-profile-result-page .spv2-export-content.is-exporting details:not([open])>:not(summary){display:none!important}
+.skin-profile-result-page .spv2-export-content.is-exporting details summary{list-style:none}
+.skin-profile-result-page .spv2-export-content.is-exporting details summary::-webkit-details-marker{display:none}
+.skin-profile-result-page .spv2-export-content.is-exporting details summary::before{content:'\25B8';margin-right:6px}
+@media (prefers-reduced-motion:reduce){
+  .skin-profile-result-page .spv3-save-cta{transition:none}
+}

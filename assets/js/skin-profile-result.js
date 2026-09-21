@@ -161,4 +161,156 @@
   $('spv2SaveDims').innerHTML = p.dimensions.map(x => `<div class="spv2-save-dim"><img src="${ASSETS.dims[x.letter]}" alt=""><div><strong>${esc(x.letter)} · ${esc(x.english)}</strong><span>${esc(x.vietnamese)}</span></div></div>`).join('');
   $('spv2SaveSummary').textContent = p.summary;
   $('spv2SavePriorities').innerHTML = p.priorities.map(x => `<span>${esc(x.label)}</span>`).join('');
+
+  const saveButton = $('spv2SaveButton');
+  const saveStatus = $('spv2SaveStatus');
+  const exportContent = $('skin-profile-export-content');
+  let exportInProgress = false;
+
+  const withTimeout = (promise, milliseconds, message) => new Promise((resolve, reject) => {
+    const timer = window.setTimeout(() => reject(new Error(message)), milliseconds);
+    promise.then(
+      value => { window.clearTimeout(timer); resolve(value); },
+      error => { window.clearTimeout(timer); reject(error); }
+    );
+  });
+
+  const waitForExportAssets = async () => {
+    if (document.fonts && document.fonts.ready) {
+      await withTimeout(document.fonts.ready, 8000, 'Font loading timed out');
+    }
+
+    const imagePromises = Array.from(exportContent.querySelectorAll('img')).map(image => {
+      if (image.complete && image.naturalWidth > 0) return Promise.resolve();
+      if (image.complete) return Promise.reject(new Error(`Image failed to load: ${image.currentSrc || image.src}`));
+      return new Promise((resolve, reject) => {
+        image.addEventListener('load', resolve, { once: true });
+        image.addEventListener('error', () => reject(new Error(`Image failed to load: ${image.currentSrc || image.src}`)), { once: true });
+      });
+    });
+
+    await withTimeout(Promise.all(imagePromises), 15000, 'Skin Profile image loading timed out');
+  };
+
+  const canvasToPng = canvas => new Promise((resolve, reject) => {
+    canvas.toBlob(blob => {
+      if (blob) resolve(blob);
+      else reject(new Error('PNG creation returned an empty file'));
+    }, 'image/png');
+  });
+
+  const supportsFileShare = () => {
+    if (!navigator.share || !navigator.canShare || typeof File !== 'function') return false;
+    try {
+      return navigator.canShare({ files: [new File([''], 'skin-profile.png', { type: 'image/png' })] });
+    } catch (_) {
+      return false;
+    }
+  };
+
+  const isMobileLike = () => /Android|iPhone|iPad|iPod/i.test(navigator.userAgent)
+    || (window.matchMedia && window.matchMedia('(pointer: coarse)').matches);
+  const isIOS = () => /iPad|iPhone|iPod/i.test(navigator.userAgent)
+    || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+
+  const downloadBlob = (blob, filename) => {
+    const objectUrl = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = objectUrl;
+    link.download = filename;
+    link.hidden = true;
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 5000);
+  };
+
+  const openIOSPreview = (previewWindow, blob) => {
+    if (!previewWindow || previewWindow.closed) return false;
+    const objectUrl = URL.createObjectURL(blob);
+    previewWindow.location.replace(objectUrl);
+    window.setTimeout(() => URL.revokeObjectURL(objectUrl), 60000);
+    return true;
+  };
+
+  const setSaveStatus = (message, isError = false) => {
+    saveStatus.textContent = message;
+    saveStatus.classList.toggle('is-error', isError);
+  };
+
+  const exportSkinProfile = async () => {
+    if (exportInProgress || !saveButton || !exportContent) return;
+    exportInProgress = true;
+    const canShareFiles = supportsFileShare();
+    const previewWindow = isIOS() && !canShareFiles ? window.open('', '_blank') : null;
+
+    saveButton.disabled = true;
+    saveButton.setAttribute('aria-busy', 'true');
+    saveButton.textContent = 'Đang tạo ảnh…';
+    setSaveStatus('Đang tạo ảnh…');
+
+    try {
+      if (typeof window.html2canvas !== 'function') throw new Error('Image export library is unavailable');
+      await waitForExportAssets();
+
+      if (!exportContent.getBoundingClientRect().width) throw new Error('Skin Profile content is not visible');
+      const canvas = await window.html2canvas(exportContent, {
+        backgroundColor: '#FFFFFF',
+        scale: 1.5,
+        windowWidth: 1440,
+        windowHeight: Math.max(document.documentElement.scrollHeight, 1200),
+        useCORS: false,
+        allowTaint: false,
+        logging: false,
+        imageTimeout: 15000,
+        removeContainer: true,
+        onclone: clonedDocument => {
+          const clonedContent = clonedDocument.getElementById('skin-profile-export-content');
+          if (clonedContent) {
+            clonedContent.classList.add('is-exporting');
+            clonedContent.style.background = '#FFFFFF';
+            clonedContent.style.padding = '2px';
+          }
+        }
+      });
+      const blob = await canvasToPng(canvas);
+      const filename = `littlest-things-skin-profile-${code}.png`;
+
+      if (canShareFiles && isMobileLike()) {
+        const file = new File([blob], filename, { type: 'image/png' });
+        try {
+          await navigator.share({
+            files: [file],
+            title: `Littlest Things Skin Profile ${code}`
+          });
+          setSaveStatus('Ảnh Skin Profile đã sẵn sàng để lưu.');
+        } catch (shareError) {
+          if (shareError && shareError.name === 'AbortError') {
+            setSaveStatus('Đã đóng bảng chia sẻ. Bạn có thể thử lại khi sẵn sàng.');
+          } else {
+            downloadBlob(blob, filename);
+            setSaveStatus('Ảnh Skin Profile đã sẵn sàng để lưu.');
+          }
+        }
+      } else if (isIOS() && openIOSPreview(previewWindow, blob)) {
+        setSaveStatus('Ảnh đã mở trong thẻ mới. Chạm và giữ ảnh để lưu về thiết bị.');
+      } else {
+        if (previewWindow && !previewWindow.closed) previewWindow.close();
+        downloadBlob(blob, filename);
+        setSaveStatus('Ảnh Skin Profile đã sẵn sàng để lưu.');
+      }
+    } catch (error) {
+      if (previewWindow && !previewWindow.closed) previewWindow.close();
+      console.error('Skin Profile image export failed:', error);
+      setSaveStatus('Chưa thể tạo ảnh. Vui lòng thử lại.', true);
+    } finally {
+      exportInProgress = false;
+      saveButton.disabled = false;
+      saveButton.removeAttribute('aria-busy');
+      saveButton.textContent = 'Lưu ảnh';
+      saveButton.focus({ preventScroll: true });
+    }
+  };
+
+  if (saveButton && saveStatus && exportContent) saveButton.addEventListener('click', exportSkinProfile);
 })();
