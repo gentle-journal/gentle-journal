@@ -2,47 +2,135 @@
 layout: default
 title: Skin Profile
 permalink: /skin-profile/
+full_width: true
+skin_profile_landing: true
+excerpt: "Skin Profile giúp đọc mã Baumann theo bốn đặc điểm làn da, với phần diễn giải độc lập bằng tiếng Việt từ Littlest Things."
 ---
-<div class="page-head">
-  <h1>Skin Profile</h1>
-  <p>Trước khi tin một review, bạn nên biết da của người viết có giống da bạn không. Đây là hồ sơ da của mình.</p>
-</div>
-
-<div class="profile-card">
-  <div class="profile-photo">
-    <svg viewBox="0 0 200 220" fill="none">
-      <path d="M100 30 C130 50 140 90 100 140 C60 90 70 50 100 30 Z" stroke="#6E9A7C" stroke-width="4" stroke-linejoin="round" filter="url(#crayon)"/>
-      <path d="M100 150 C90 138 66 138 66 156 C66 174 100 190 100 190 C100 190 134 174 134 156 C134 138 110 138 100 150 Z" fill="#E9D5DA" stroke="#B5788A" stroke-width="2.5" filter="url(#crayon)"/>
-    </svg>
-  </div>
-  <div class="profile-body">
-    <div class="eyebrow">Hồ sơ da của mình</div>
-    <h2>Da khô, dễ nhạy cảm</h2>
-    <div class="attr-grid">
-      <div class="attr"><div class="k">Loại da</div><div class="v">Khô, thiếu ẩm quanh năm</div></div>
-      <div class="attr"><div class="k">Mức độ nhạy cảm</div><div class="v">Cao — dễ châm chích, đỏ rát</div></div>
-      <div class="attr"><div class="k">Vấn đề chính</div><div class="v">Bong tróc, căng da, thỉnh thoảng nổi mẩn</div></div>
-      <div class="attr"><div class="k">Thành phần cần tránh</div><div class="v">Fragrance, cồn khô, AHA nồng độ cao</div></div>
-      <div class="attr"><div class="k">Khí hậu sống</div><div class="v">Nhiệt đới, nóng ẩm, nhiều điều hoà</div></div>
-      <div class="attr"><div class="k">Độ tuổi</div><div class="v">Cuối 20 – đầu 30</div></div>
+<div class="skin-profile-landing-page" data-result-url="{{ '/skin-profile/result/' | relative_url }}">
+  <section class="sp-hero">
+    <div class="wrap">
+      <div class="sp-hero-card">
+        <div class="sp-hero-copy">
+          <div class="eyebrow">SKIN PROFILE</div>
+          <h1>Hiểu làn da của mình hơn một chút.</h1>
+          <p>Skin Profile giúp mình nhìn làn da qua nhiều đặc điểm khác nhau, thay vì chỉ gọi đơn giản là da dầu, da khô hay da nhạy cảm.</p>
+          <p>Littlest Things hiện sử dụng kết quả từ hệ thống Baumann Skin Type để tạo Skin Profile và giải thích kết quả bằng tiếng Việt.</p>
+        </div>
+        <div class="sp-hero-visual">
+          <img
+            class="sp-hero-image"
+            src="{{ '/assets/images/skin-profile/landing/skin-profile-hero-original.png' | relative_url }}"
+            alt="Minh họa một người quan sát làn da trong gương và suy ngẫm về hành trình chăm sóc da"
+            width="1536"
+            height="1024"
+            loading="eager"
+            decoding="async">
+        </div>
+      </div>
     </div>
-  </div>
+  </section>
+
+  <section class="sp-method">
+    <div class="wrap sp-reading">
+      <div class="eyebrow">PHƯƠNG PHÁP</div>
+      <h2>Vì sao Littlest Things dùng Baumann?</h2>
+      <p>Có nhiều cách để tìm hiểu làn da — từ tự quan sát, bài test online, phân tích ảnh bằng AI đến các thiết bị đo da chuyên dụng.</p>
+      <p>Sau khi tìm hiểu các phương pháp này, Littlest Things chọn Baumann Skin Type làm nền tảng hiện tại cho Skin Profile vì hệ thống nhìn làn da qua 4 đặc điểm riêng biệt, có cấu trúc rõ ràng, có thể tự thực hiện và dễ làm lại khi da thay đổi.</p>
+      <p>Baumann không phải phép đo da hay chẩn đoán y khoa. Đây là một questionnaire giúp mình có thêm một cách nhìn có cấu trúc về làn da.</p>
+      <a class="sp-text-link" href="{{ '/kien-thuc-da/cach-xac-dinh-loai-da-baumann/' | relative_url }}">Đọc cách Littlest Things chọn phương pháp này →</a>
+    </div>
+  </section>
+
+  <section class="sp-dimensions">
+    <div class="wrap">
+      <div class="sp-section-head">
+        <h2>Một Skin Profile gồm 4 đặc điểm.</h2>
+        <p>Bốn chữ cái ghép lại thành một Skin Profile. Ví dụ: <strong>DSPW</strong></p>
+      </div>
+      <div class="sp-dim-grid">
+        <article class="sp-dim-card sp-dim-da">
+          <div class="sp-dim-code">O / D</div>
+          <h3>Oily / Dry</h3>
+          <p>Da dầu / Da khô</p>
+        </article>
+        <article class="sp-dim-card sp-dim-sensitive">
+          <div class="sp-dim-code">S / R</div>
+          <h3>Sensitive / Resistant</h3>
+          <p>Nhạy cảm / ít kích ứng</p>
+        </article>
+        <article class="sp-dim-card sp-dim-pigment">
+          <div class="sp-dim-code">P / N</div>
+          <h3>Pigmented / Non-Pigmented</h3>
+          <p>Có / ít xu hướng gặp vấn đề sắc tố</p>
+        </article>
+        <article class="sp-dim-card sp-dim-wrinkle">
+          <div class="sp-dim-code">W / T</div>
+          <h3>Wrinkle-Prone / Tight</h3>
+          <p>Có / ít xu hướng xuất hiện nếp nhăn</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="sp2-inline" id="skin-profile-entry">
+    <div class="wrap sp2-reading">
+      <div class="sp2-panel" id="entry-panel">
+        <div class="sp2-step-label">ĐỌC SKIN PROFILE</div>
+        <h2>Nhập mã Baumann của mình</h2>
+        <p class="sp2-intro">Mã gồm 4 chữ cái, ví dụ <strong>DSPW</strong>, <strong>OSNT</strong> hoặc <strong>DRPT</strong>.</p>
+        <form id="skin-code-form" novalidate>
+          <label class="sp2-label" for="skin-code">Mã 4 chữ cái</label>
+          <div class="sp2-code-wrap">
+            <input class="sp2-code-input" id="skin-code" name="skin-code" type="text" inputmode="text" maxlength="12" placeholder="DSPW" autocomplete="off" autocapitalize="characters" spellcheck="false" aria-describedby="code-help code-error">
+            <button class="sp2-primary" type="submit">Tiếp tục</button>
+          </div>
+          <p class="sp2-help" id="code-help">Có thể nhập chữ thường hoặc vô tình thêm dấu cách — Littlest Things sẽ tự chuẩn hóa mã.</p>
+          <p class="sp2-error" id="code-error" role="alert" aria-live="polite"></p>
+        </form>
+        <div class="sp2-divider"></div>
+        <div class="sp2-quiz-help">
+          <div>
+            <h3>Chưa có mã?</h3>
+            <p>Làm quiz chính thức trên Skin Type Solutions trước, rồi quay lại với 4 chữ cái.</p>
+          </div>
+          <a class="sp2-text-link" href="https://skintypesolutions.com/pages/skin-type-quiz" target="_blank" rel="noopener external">Mở quiz chính thức ↗</a>
+        </div>
+      </div>
+
+      <div class="sp2-panel sp2-confirm" id="confirm-panel" hidden>
+        <div class="sp2-step-label">XÁC NHẬN</div>
+        <h2 id="confirm-heading" tabindex="-1">Đây có phải kết quả của mình?</h2>
+        <p class="sp2-confirm-copy">Kiểm tra lại 4 đặc điểm trước khi tiếp tục.</p>
+        <div class="sp2-code-display" aria-label="Mã Skin Profile">
+          <span id="confirm-code"></span>
+        </div>
+        <div class="sp2-dimension-list" id="dimension-list"></div>
+        <div class="sp2-note">
+          <strong>Lưu ý</strong>
+          <p>Littlest Things chỉ dùng mã này để giải thích Skin Profile. Mã Baumann không phải chẩn đoán y khoa hay phép đo da.</p>
+        </div>
+        <div class="sp2-confirm-actions">
+          <button class="sp2-primary" id="confirm-result" type="button">Đúng, tiếp tục</button>
+          <button class="sp2-secondary" id="edit-code" type="button">Sửa mã</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sp-trust">
+    <div class="wrap sp-reading">
+      <h2>Về phương pháp</h2>
+      <p>Skin Profile sử dụng kết quả từ Baumann Skin Type Indicator®, được phát triển bởi Dr. Leslie Baumann.</p>
+      <p>Quiz được thực hiện trên website chính thức của Skin Type Solutions. Littlest Things không sở hữu hay quản lý questionnaire này.</p>
+      <p>Phần giải thích Skin Profile trên Littlest Things là nội dung biên tập độc lập và không thay thế tư vấn hoặc chẩn đoán y khoa.</p>
+    </div>
+  </section>
+
+  <noscript>
+    <div class="wrap sp2-reading">
+      <p class="sp-noscript">Trang nhập mã cần JavaScript trong trình duyệt để xác nhận mã và mở kết quả.</p>
+    </div>
+  </noscript>
 </div>
 
-<div class="not-live-note">
-  ⚠️ Tính năng tạo hồ sơ da riêng, tính % giống nhau, và vote theo người có da giống bạn cần một hệ thống lưu trữ dữ liệu (database) phía sau — chưa hoạt động trên bản GitHub Pages tĩnh này. Phần bên dưới là bản xem trước giao diện.
-</div>
-
-<div class="cta-band">
-  <div><h3>Da bạn giống mình bao nhiêu %?</h3><p>Trả lời 5 câu hỏi ngắn để tạo hồ sơ da riêng — mọi review và gợi ý sau đó sẽ hiện mức độ phù hợp với đúng da bạn.</p></div>
-  <span class="btn" style="opacity:.5;cursor:not-allowed;">Tạo hồ sơ da của tôi (sắp có)</span>
-</div>
-
-<div class="quiz-preview">
-  <h3>Xem trước: 5 câu hỏi tạo hồ sơ</h3>
-  <div class="quiz-step"><div class="num">1</div><div><div class="q">Da bạn thường như thế nào vào cuối ngày?</div><div class="opts">Khô căng · Đổ dầu · Vừa dầu vừa khô (hỗn hợp) · Cân bằng</div></div></div>
-  <div class="quiz-step"><div class="num">2</div><div><div class="q">Da bạn có dễ bị đỏ/châm chích khi đổi sản phẩm không?</div><div class="opts">Rất dễ · Thỉnh thoảng · Hiếm khi</div></div></div>
-  <div class="quiz-step"><div class="num">3</div><div><div class="q">Vấn đề bạn đang quan tâm nhất là gì?</div><div class="opts">Bong tróc · Nổi mụn · Lỗ chân lông to · Tóc gãy rụng</div></div></div>
-  <div class="quiz-step"><div class="num">4</div><div><div class="q">Bạn sống ở khí hậu nào?</div><div class="opts">Nhiệt đới nóng ẩm · Bốn mùa · Khô hanh</div></div></div>
-  <div class="quiz-step"><div class="num">5</div><div><div class="q">Có thành phần nào bạn biết mình không hợp?</div><div class="opts">Fragrance · Cồn khô · AHA/BHA nồng độ cao · Chưa rõ</div></div></div>
-</div>
+<script src="{{ '/assets/js/skin-profile-landing.js' | relative_url }}" defer></script>
