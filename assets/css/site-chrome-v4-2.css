@@ -69,15 +69,14 @@ body {
   margin-left: auto;
   display: flex;
   align-items: center;
-  gap: 42px;
+  gap: 32px;
   font-family: Inter, system-ui, sans-serif;
   font-size: .82rem;
   font-weight: 500;
   white-space: nowrap;
 }
 
-.site-header .nav-links a,
-.site-header .nav-link-static {
+.site-header .nav-links a {
   position: relative;
   display: block;
   padding: 24px 0 22px;
@@ -104,12 +103,6 @@ body {
   height: 2px;
   border-radius: 2px;
   background: var(--lt-mint);
-}
-
-/* Sản Phẩm is approved visually, route still TBD */
-.site-header .nav-link-static {
-  color: var(--lt-muted);
-  cursor: default;
 }
 
 /* ---------- MOBILE NAV ---------- */
@@ -159,7 +152,7 @@ body {
 
 .footer-grid {
   display: grid;
-  grid-template-columns: 1.5fr 1fr 1fr;
+  grid-template-columns: minmax(240px, 1.5fr) minmax(220px, 1fr);
   gap: 30px;
   align-items: start;
 }
@@ -266,12 +259,8 @@ body {
     padding-right: 22px;
   }
 
-  .site-header .nav-links {
-    gap: 26px;
-  }
-
   .footer-grid {
-    grid-template-columns: 1.25fr 1fr 1fr;
+    grid-template-columns: minmax(220px, 1.25fr) minmax(210px, 1fr);
     gap: 24px 22px;
   }
 
@@ -283,7 +272,7 @@ body {
 
 /* ---------- MOBILE ---------- */
 
-@media (max-width: 760px) {
+@media (max-width: 900px) {
   .site-header .wrap,
   .site-footer .wrap {
     padding-left: 18px;
@@ -325,8 +314,7 @@ body {
     display: block;
   }
 
-  .site-header .menu-panel a,
-  .site-header .menu-link-static {
+  .site-header .menu-panel a {
     display: block;
     padding: 11px 18px;
     font-family: Inter, system-ui, sans-serif;
@@ -335,9 +323,15 @@ body {
     text-decoration: none;
   }
 
-  .site-header .menu-link-static {
-    color: var(--lt-muted);
+  .site-header .menu-panel a.active {
+    color: var(--lt-mint);
+    background: var(--lt-mint-soft, #EAF1EA);
   }
+}
+
+/* ---------- MOBILE FOOTER ---------- */
+
+@media (max-width: 760px) {
 
   .site-footer {
     margin-top: 38px;
@@ -348,13 +342,8 @@ body {
   }
 
   .footer-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 24px 20px;
-  }
-
-  .footer-brand-lockup,
-  .footer-social {
-    grid-column: 1 / -1;
   }
 
   .footer-art img {

@@ -1,0 +1,20 @@
+collections:
+  skincare-beauty:
+    title: "Skincare & Beauty"
+    route: "/skincare-beauty/"
+  health:
+    title: "Health"
+    route: "/health/"
+  travel-lifestyle:
+    title: "Travel & Lifestyle"
+    route: "/travel-lifestyle/"
+
+tags:
+  skincare:
+    label: "Skincare"
+    collections:
+      - skincare-beauty
+  wellness:
+    label: "Wellness"
+    collections:
+      - health

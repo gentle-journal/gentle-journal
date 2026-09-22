@@ -2,6 +2,20 @@
   <div class="wrap">
     <nav class="nav-shell" aria-label="Điều hướng chính">
 
+      {% assign active_collection = page.collection_key %}
+      {% if page.url contains '/skin-profile/' %}
+        {% assign active_collection = 'skincare-beauty' %}
+      {% elsif page.content_type == 'article' and page.tags %}
+        {% for tag_slug in page.tags %}
+          {% if active_collection == nil or active_collection == '' %}
+            {% assign tag_definition = site.data.tag_taxonomy.tags[tag_slug] %}
+            {% if tag_definition and tag_definition.collections.size > 0 %}
+              {% assign active_collection = tag_definition.collections.first %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+
       <a class="header-logo-link"
          href="{{ '/' | relative_url }}"
          aria-label="Littlest Things — Trang chủ">
@@ -14,25 +28,38 @@
       <div class="nav-links">
         <a
           class="{% if page.url == '/' %}active{% endif %}"
+          {% if page.url == '/' %}aria-current="page"{% endif %}
           href="{{ '/' | relative_url }}">
-          Trang chủ
+          Home
         </a>
 
         <a
-          class="{% if page.url contains 'kham-pha' %}active{% endif %}"
-          href="{{ '/kham-pha/' | relative_url }}">
-          Khám Phá
+          class="{% if active_collection == 'skincare-beauty' %}active{% endif %}"
+          {% if active_collection == 'skincare-beauty' %}aria-current="page"{% endif %}
+          href="{{ '/skincare-beauty/' | relative_url }}">
+          Skincare &amp; Beauty
         </a>
 
         <a
-          class="{% if page.url contains 'skin-profile' %}active{% endif %}"
-          href="{{ '/skin-profile/' | relative_url }}">
-          Skin Profile
+          class="{% if active_collection == 'health' %}active{% endif %}"
+          {% if active_collection == 'health' %}aria-current="page"{% endif %}
+          href="{{ '/health/' | relative_url }}">
+          Health
         </a>
 
-        <span class="nav-link-static" aria-disabled="true">
-          Sản Phẩm
-        </span>
+        <a
+          class="{% if active_collection == 'travel-lifestyle' %}active{% endif %}"
+          {% if active_collection == 'travel-lifestyle' %}aria-current="page"{% endif %}
+          href="{{ '/travel-lifestyle/' | relative_url }}">
+          Travel &amp; Lifestyle
+        </a>
+
+        <a
+          class="{% if page.url == '/contact/' %}active{% endif %}"
+          {% if page.url == '/contact/' %}aria-current="page"{% endif %}
+          href="{{ '/contact/' | relative_url }}">
+          Contact
+        </a>
       </div>
 
       <button
@@ -50,10 +77,11 @@
       </button>
 
       <div class="menu-panel" id="menuPanel">
-        <a href="{{ '/' | relative_url }}">Trang chủ</a>
-        <a href="{{ '/kham-pha/' | relative_url }}">Khám Phá</a>
-        <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a>
-        <span class="menu-link-static" aria-disabled="true">Sản Phẩm</span>
+        <a {% if page.url == '/' %}class="active" aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
+        <a {% if active_collection == 'skincare-beauty' %}class="active" aria-current="page"{% endif %} href="{{ '/skincare-beauty/' | relative_url }}">Skincare &amp; Beauty</a>
+        <a {% if active_collection == 'health' %}class="active" aria-current="page"{% endif %} href="{{ '/health/' | relative_url }}">Health</a>
+        <a {% if active_collection == 'travel-lifestyle' %}class="active" aria-current="page"{% endif %} href="{{ '/travel-lifestyle/' | relative_url }}">Travel &amp; Lifestyle</a>
+        <a {% if page.url == '/contact/' %}class="active" aria-current="page"{% endif %} href="{{ '/contact/' | relative_url }}">Contact</a>
       </div>
 
     </nav>

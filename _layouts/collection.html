@@ -1,0 +1,106 @@
+---
+layout: default
+---
+{% assign collection_definition = site.data.tag_taxonomy.collections[page.collection_key] %}
+
+<section class="collection-page">
+  <div class="wrap">
+    <header class="collection-page__header">
+      <div class="eyebrow">LITTLEST THINGS</div>
+      <h1>{{ collection_definition.title }}</h1>
+      <p>{{ page.intro }}</p>
+    </header>
+
+    {% if page.featured_experience == "skin-profile" %}
+      <section class="collection-feature" aria-labelledby="skin-profile-feature-title">
+        <div class="collection-feature__copy">
+          <div class="eyebrow">FEATURED EXPERIENCE</div>
+          <h2 id="skin-profile-feature-title">Skin Profile</h2>
+          <p>Skin Profile giúp đọc mã Baumann theo bốn đặc điểm làn da, với phần diễn giải độc lập bằng tiếng Việt từ Littlest Things.</p>
+          <a class="collection-button" href="{{ '/skin-profile/' | relative_url }}">
+            Khám phá Skin Profile
+            <img
+              class="lt-icon lt-icon--cta"
+              src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}"
+              alt=""
+              aria-hidden="true">
+          </a>
+        </div>
+        <div class="collection-feature__art">
+          <img
+            src="{{ '/assets/images/skin-profile/landing/skin-profile-hero-original.png' | relative_url }}"
+            alt=""
+            aria-hidden="true">
+        </div>
+      </section>
+    {% endif %}
+
+    <section class="collection-editorial" aria-labelledby="collection-editorial-title">
+      <div class="collection-section-heading">
+        <div>
+          <div class="eyebrow">EDITORIAL ARTICLES</div>
+          <h2 id="collection-editorial-title">Bài viết</h2>
+        </div>
+      </div>
+
+      {% assign editorial_items = "" | split: "" %}
+      {% for article in site.reviews %}
+        {% assign editorial_items = editorial_items | push: article %}
+      {% endfor %}
+      {% for article in site["kien-thuc"] %}
+        {% assign editorial_items = editorial_items | push: article %}
+      {% endfor %}
+      {% for article in site["nhat-ky"] %}
+        {% assign editorial_items = editorial_items | push: article %}
+      {% endfor %}
+      {% for article in site["so-sanh"] %}
+        {% assign editorial_items = editorial_items | push: article %}
+      {% endfor %}
+      {% for article in site.pages %}
+        {% if article.content_type == "article" %}
+          {% assign editorial_items = editorial_items | push: article %}
+        {% endif %}
+      {% endfor %}
+
+      {% assign matching_count = 0 %}
+      <div class="collection-grid">
+        {% for article in editorial_items %}
+          {% assign article_matches = false %}
+          {% if article.published != false and article.tags and article.tags.size > 0 %}
+            {% for tag_slug in article.tags %}
+              {% assign tag_definition = site.data.tag_taxonomy.tags[tag_slug] %}
+              {% if tag_definition and tag_definition.collections contains page.collection_key %}
+                {% assign article_matches = true %}
+              {% endif %}
+            {% endfor %}
+          {% endif %}
+
+          {% if article_matches %}
+            {% assign matching_count = matching_count | plus: 1 %}
+            <article class="collection-card">
+              <div class="collection-card__meta">
+                {% if article.section %}<span>{{ article.section }}</span>{% endif %}
+                {% if article.date %}<time datetime="{{ article.date | date_to_xmlschema }}">{{ article.date | date: "%d.%m.%Y" }}</time>{% endif %}
+              </div>
+              {% include article-tags.html tags=article.tags %}
+              <h3><a href="{{ article.url | relative_url }}">{{ article.title }}</a></h3>
+              {% if article.excerpt %}<p>{{ article.excerpt | strip_html }}</p>{% endif %}
+              <a class="collection-card__link" href="{{ article.url | relative_url }}">
+                Đọc bài viết
+                <img
+                  class="lt-icon lt-icon--cta"
+                  src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}"
+                  alt=""
+                  aria-hidden="true">
+              </a>
+            </article>
+          {% endif %}
+        {% endfor %}
+      </div>
+
+      {% if matching_count == 0 %}
+        <div class="collection-empty">Chưa có bài viết được xuất bản trong bộ sưu tập này.</div>
+      {% endif %}
+    </section>
+  </div>
+</section>

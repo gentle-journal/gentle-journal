@@ -1,0 +1,10 @@
+{% if include.tags and include.tags.size > 0 %}
+  <div class="article-tags" aria-label="Thẻ bài viết">
+    {% for tag_slug in include.tags %}
+      {% assign tag_definition = site.data.tag_taxonomy.tags[tag_slug] %}
+      {% if tag_definition %}
+        <span class="tag tag-outline">{{ tag_definition.label }}</span>
+      {% endif %}
+    {% endfor %}
+  </div>
+{% endif %}

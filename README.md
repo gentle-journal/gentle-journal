@@ -34,14 +34,14 @@ The approved Botanical SVG under `assets/brand/01-primary-horizontal/` is the pr
 
 Littlest Things dùng hai chiều phân loại riêng biệt:
 
-- **Chủ đề:** `Da`, `Tóc`, `Du Lịch`, `Thành phần`
+- **Canonical article tags:** khai báo trong `_data/tag_taxonomy.yml`
 - **Loại nội dung:** `Review`, `Kiến Thức`, `Nhật Ký`, `So Sánh`
 
-Loại nội dung được xác định bởi collection chứa bài viết. Chủ đề được khai báo bằng front matter `topics`.
+Loại nội dung được xác định bởi collection chứa bài viết. Public collection membership được suy ra duy nhất từ front matter `tags` và mapping tập trung trong `_data/tag_taxonomy.yml`.
 
-Một bài có thể có nhiều chủ đề. Ví dụ bài về kem chống nắng dùng khi đi du lịch có thể là cả `Da` và `Du Lịch`.
+Một bài có thể xuất hiện trong nhiều public collection nhưng vẫn chỉ có một source file và một canonical URL. Không khai báo collection membership trực tiếp trong bài.
 
-Không tạo collection hoặc top-level section riêng cho Da, Tóc hoặc Du Lịch. Khám Phá vẫn là thư viện nội dung thống nhất.
+`topics` là metadata hiển thị cũ và có thể được giữ trong nội dung hiện tại để tương thích. `tags` là metadata canonical cho cấu trúc collection mới.
 
 ## Viết bài mới
 
@@ -53,8 +53,8 @@ Front matter cơ bản:
 ---
 title: "Tiêu đề bài viết"
 date: 2026-08-31
-topics:
-  - Da
+tags:
+  - skincare
 affiliate: false
 ---
 
@@ -64,19 +64,28 @@ Nội dung bài viết ở đây...
 Bài có nhiều chủ đề:
 
 ```yaml
-topics:
-  - Da
-  - Du Lịch
+tags:
+  - skincare
+  - wellness
 ```
 
-Chỉ dùng đúng các giá trị chủ đề sau, bao gồm dấu và chữ hoa như hiển thị:
+Chỉ dùng tag đã khai báo trong:
 
 ```text
-Da
-Tóc
-Du Lịch
-Thành phần
+_data/tag_taxonomy.yml
 ```
+
+Trước khi xuất bản hoặc deploy, chạy:
+
+```bash
+ruby script/validate_content.rb
+```
+
+Validation sẽ từ chối bài đã xuất bản nếu bài thiếu tag, dùng tag không tồn tại, hoặc không map tới public collection nào.
+
+## Homepage article highlights
+
+Rule đã duyệt là 2 bài có page views hợp lệ cao nhất, sau đó 3 bài mới nhất chưa xuất hiện trong top 2. Chưa triển khai module này cho đến khi có ít nhất 5 bài hợp lệ cùng analytics source, valid-view rule và fallback được duyệt. Không tự tạo số views, ranking hoặc bài placeholder.
 
 ### Metadata bổ sung cho review/so sánh
 
