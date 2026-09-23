@@ -11,7 +11,23 @@ collections:
 
 tags:
   skincare:
-    label: "Skincare"
+    label: "Chăm sóc da"
+    collections:
+      - skincare-beauty
+  dry-skin:
+    label: "Da khô"
+    collections:
+      - skincare-beauty
+  dehydrated-skin:
+    label: "Da thiếu nước"
+    collections:
+      - skincare-beauty
+  skin-barrier:
+    label: "Hàng rào bảo vệ da"
+    collections:
+      - skincare-beauty
+  skincare-routine:
+    label: "Routine chăm sóc da"
     collections:
       - skincare-beauty
   wellness:
