@@ -82,6 +82,25 @@
   color: var(--lt-muted, #847F76);
 }
 
+.site-footer .footer-email {
+  display: inline-block;
+  margin-top: 12px;
+  font-family: Inter, system-ui, sans-serif;
+  font-size: .8125rem;
+  line-height: 1.5;
+  font-weight: 500;
+  color: var(--lt-ink, #625E57);
+  overflow-wrap: anywhere;
+  text-decoration: underline;
+  text-decoration-color: var(--lt-mint, #6E9A7C);
+  text-underline-offset: 3px;
+}
+
+.site-footer .footer-email:hover,
+.site-footer .footer-email:focus-visible {
+  color: var(--lt-mint, #6E9A7C);
+}
+
 .site-footer .footer-col h2 {
   margin: 0 0 24px;
   font-family: Inter, system-ui, sans-serif;
