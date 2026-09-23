@@ -13,49 +13,35 @@
             </a>
           </div>
 
-          <div class="footer-brand-social">
-
-            <a
-              class="footer-social-icon"
-              href="https://www.facebook.com/littlestthings.net"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Littlest Things trên Facebook">
-
-              <svg
-                class="lt-icon lt-icon--social"
-                aria-hidden="true"
-                focusable="false"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  fill="currentColor"
-                  d="M13.5 22v-9h3l.45-3.5H13.5V7.26c0-1.01.28-1.7 1.73-1.7H17V2.43c-.31-.04-1.37-.13-2.6-.13-2.57 0-4.33 1.57-4.33 4.45V9.5H7.16V13h2.91v9h3.43Z"/>
-              </svg>
-            </a>
-
-            <a
-              class="footer-social-icon"
-              href="mailto:hello@littlestthings.net"
-              aria-label="Gửi email đến Littlest Things">
-
-              <img
-                class="lt-icon lt-icon--social"
-                src="{{ '/assets/icons/svg/ui/email.svg' | relative_url }}"
-                alt=""
-                aria-hidden="true">
-            </a>
-
-          </div>
+          <p class="footer-tagline">There’s always one more little thing worth knowing.</p>
         </div>
 
-        <div class="footer-col footer-navigation">
-          <h4>Navigation</h4>
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/skincare-beauty/' | relative_url }}">Skincare &amp; Beauty</a>
-          <a href="{{ '/health/' | relative_url }}">Health</a>
-          <a href="{{ '/travel-lifestyle/' | relative_url }}">Travel &amp; Lifestyle</a>
-          <a href="{{ '/contact/' | relative_url }}">Contact</a>
+        <nav class="footer-col footer-navigation" aria-label="Footer navigation">
+          <h2>Navigation</h2>
+          <div class="footer-navigation-links">
+            <a href="{{ '/' | relative_url }}">Home</a>
+            <a href="{{ '/skincare-beauty/' | relative_url }}">Skincare &amp; Beauty</a>
+            <a href="{{ '/health/' | relative_url }}">Health</a>
+            <a href="{{ '/travel-lifestyle/' | relative_url }}">Travel &amp; Lifestyle</a>
+            <a href="{{ '/contact/' | relative_url }}">Contact</a>
+          </div>
+        </nav>
+
+        <div class="footer-col footer-social">
+          <h2>Follow</h2>
+          <a
+            class="footer-social-link footer-social-link--facebook"
+            href="https://www.facebook.com/littlestthings.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Littlest Things trên Facebook">
+            <span class="footer-social-icon" aria-hidden="true">
+              <img
+                src="{{ '/assets/icons/svg/social/glyphs/facebook.svg' | relative_url }}"
+                alt="">
+            </span>
+            <span>Facebook</span>
+          </a>
         </div>
 
       </div>
