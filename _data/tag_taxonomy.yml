@@ -2,12 +2,57 @@ collections:
   skincare-beauty:
     title: "Skincare & Beauty"
     route: "/skincare-beauty/"
+    browser_label: "CHỦ ĐỀ SKINCARE & BEAUTY"
+    categories:
+      skin-basics:
+        title: "Skin Basics"
+        label: "Kiến thức nền tảng về da"
+        tags:
+          - skincare
+          - skin-profile
+          - skin-type
+          - skin-barrier
+          - dry-skin
+          - oily-skin
+          - sensitive-skin
+          - dehydrated-skin
+      skin-concerns:
+        title: "Skin Concerns"
+        label: "Các vấn đề & đặc điểm của da"
+        tags:
+          - acne-prone-skin
+          - pigmentation
+          - skin-aging
+          - sensitive-skin
+          - dry-skin
+          - oily-skin
+      routine-ingredients:
+        title: "Routine & Ingredients"
+        label: "Routine & Thành phần"
+        tags:
+          - skincare-routine
+          - ingredients
+          - sun-protection
+      hair-scalp:
+        title: "Hair & Scalp"
+        label: "Tóc & Da đầu"
+        tags:
+          - haircare
+          - scalp-care
+      beauty-makeup:
+        title: "Beauty & Makeup"
+        label: "Làm đẹp & Trang điểm"
+        tags:
+          - beauty
+          - makeup
   health:
     title: "Health"
     route: "/health/"
+    browser_label: "CHỦ ĐỀ HEALTH"
   travel-lifestyle:
     title: "Travel & Lifestyle"
     route: "/travel-lifestyle/"
+    browser_label: "CHỦ ĐỀ TRAVEL & LIFESTYLE"
 
 tags:
   skincare:
