@@ -1,0 +1,13 @@
+/* Global content heading scale.
+   Loaded after page styles so every page uses one approved hierarchy. */
+main h1 {
+  font-size: 2rem !important;
+}
+
+main h2 {
+  font-size: 1.5rem !important;
+}
+
+main h3 {
+  font-size: 1.2rem !important;
+}
