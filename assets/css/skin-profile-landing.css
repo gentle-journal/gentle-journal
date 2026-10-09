@@ -1,19 +1,19 @@
 /* Approved Skin Profile landing page v5 — scoped to this route only. */
 .skin-profile-landing-page{
-  --sp-muted:#847F76;
-  --sp-mint:#6E9A7C;
-  --sp-line:#D8DADC;
-  color:#2E2C28;
-  font-family:Inter,system-ui,sans-serif;
+  --sp-muted:var(--lt-color-text-secondary);
+  --sp-mint:var(--lt-color-primary);
+  --sp-line:var(--lt-color-border);
+  color:var(--lt-color-text);
+  font-family:var(--lt-font-body);
 }
-.skin-profile-landing-page .wrap{width:100%;max-width:1180px;margin:0 auto;padding:0 28px}
+.skin-profile-landing-page .wrap{width:100%;max-width:var(--lt-page-width);margin:0 auto;padding:0 var(--lt-page-gutter)}
 .skin-profile-landing-page .eyebrow{font-size:.72rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--sp-mint)}
 .skin-profile-landing-page h1,
 .skin-profile-landing-page h2,
-.skin-profile-landing-page h3{font-family:"Playfair Display",serif;margin:0;line-height:1.12}
+.skin-profile-landing-page h3{font-family:var(--lt-font-display);margin:0;line-height:1.12}
 .skin-profile-landing-page p{margin:0;text-align:left}
 .skin-profile-landing-page button,
-.skin-profile-landing-page input{font-family:Inter,system-ui,sans-serif}
+.skin-profile-landing-page input{font-family:var(--lt-font-body)}
 .skin-profile-landing-page .sp-reading{max-width:1180px}
 
 .skin-profile-landing-page .sp-hero{padding:42px 0 24px}
@@ -60,7 +60,7 @@
 .skin-profile-landing-page .sp2-code-input:focus{border-color:var(--sp-mint);box-shadow:0 0 0 3px rgba(110,154,124,.12)}
 .skin-profile-landing-page .sp2-code-input[aria-invalid="true"]{border-color:#B5788A;background:#FFF9FA}
 .skin-profile-landing-page .sp2-primary,
-.skin-profile-landing-page .sp2-secondary{min-height:50px;padding:12px 20px;border-radius:999px;font:700 .8rem Inter,sans-serif;cursor:pointer}
+.skin-profile-landing-page .sp2-secondary{min-height:var(--lt-control-lg);padding:0 var(--lt-space-5);border-radius:var(--lt-radius-pill);font:700 .8125rem var(--lt-font-body);cursor:pointer}
 .skin-profile-landing-page .sp2-primary{border:0;background:var(--sp-mint);color:#fff}
 .skin-profile-landing-page .sp2-primary:hover{background:#5E8A6C}
 .skin-profile-landing-page .sp2-secondary{border:1px solid var(--sp-line);background:#fff;color:#2E2C28}
