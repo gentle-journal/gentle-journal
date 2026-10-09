@@ -1,0 +1,247 @@
+/* =========================================================
+   LITTLEST THINGS — SHARED DESIGN SYSTEM
+
+   Ant Design contributes the token hierarchy and predictable
+   component anatomy only. Littlest Things remains the visual
+   authority for colour, type, spacing, radii and imagery.
+   This file contains no Ant/React dependency.
+   ========================================================= */
+
+:root {
+  /* Seed: approved Littlest Things powdered-pastel palette. */
+  --lt-color-mint: #6E9A7C;
+  --lt-color-mint-soft: #E4EFE7;
+  --lt-color-rose: #E9D5DA;
+  --lt-color-rose-soft: #F8EEEE;
+  --lt-color-peach: #EAC4B0;
+  --lt-color-ice: #CBDCE8;
+  --lt-color-ice-soft: #EEF5F8;
+  --lt-color-lemon: #F1E9B9;
+  --lt-color-aqua: #AECBB4;
+  --lt-color-orchid: #DDD0DE;
+  --lt-color-cloud: #F1EEE7;
+  --lt-color-surface: #FFFFFF;
+  --lt-color-ink: #2E2C28;
+  --lt-color-muted: #847F76;
+  --lt-color-line: #D8DADC;
+  --lt-color-success: #5C8F63;
+  --lt-color-danger: #B5645C;
+
+  /* Semantic roles. */
+  --lt-color-primary: var(--lt-color-mint);
+  --lt-color-primary-hover: #5E8A6C;
+  --lt-color-primary-soft: var(--lt-color-mint-soft);
+  --lt-color-text: var(--lt-color-ink);
+  --lt-color-text-secondary: var(--lt-color-muted);
+  --lt-color-border: var(--lt-color-line);
+  --lt-color-page: var(--lt-color-surface);
+  --lt-color-focus: var(--lt-color-lemon);
+
+  /* Typography. */
+  --lt-font-display: "Playfair Display", Georgia, serif;
+  --lt-font-body: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --lt-font-size-xs: .6875rem;
+  --lt-font-size-sm: .75rem;
+  --lt-font-size-md: .875rem;
+  --lt-font-size-body: 1rem;
+  --lt-font-size-h3: 1.2rem;
+  --lt-font-size-h2: 1.5rem;
+  --lt-font-size-h1: 2rem;
+
+  /* A predictable 4 / 8 spacing rhythm. */
+  --lt-space-1: 4px;
+  --lt-space-2: 8px;
+  --lt-space-3: 12px;
+  --lt-space-4: 16px;
+  --lt-space-5: 20px;
+  --lt-space-6: 24px;
+  --lt-space-8: 32px;
+  --lt-space-10: 40px;
+  --lt-space-12: 48px;
+  --lt-space-16: 64px;
+
+  /* Shape and elevation. */
+  --lt-radius-sm: 8px;
+  --lt-radius-md: 14px;
+  --lt-radius-lg: 22px;
+  --lt-radius-xl: 28px;
+  --lt-radius-pill: 999px;
+  --lt-shadow-soft: 0 10px 30px rgba(46, 44, 40, .06);
+  --lt-shadow-hover: 0 16px 40px rgba(46, 44, 40, .10);
+
+  /* Layout and controls. */
+  --lt-page-width: 1180px;
+  --lt-page-gutter: 28px;
+  --lt-control-sm: 32px;
+  --lt-control-md: 40px;
+  --lt-control-lg: 48px;
+
+  /* Compatibility aliases used by the current approved pages. */
+  --lt-ink: var(--lt-color-text);
+  --lt-muted: var(--lt-color-text-secondary);
+  --lt-mint: var(--lt-color-primary);
+  --lt-line: var(--lt-color-border);
+  --lt-wrap: var(--lt-page-width);
+}
+
+html {
+  color-scheme: light;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: var(--lt-font-body);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+:where(a, button, input, select, textarea, summary, [tabindex]):focus-visible {
+  outline: 3px solid var(--lt-color-focus);
+  outline-offset: 3px;
+}
+
+/* Shared primary action contract across page families. */
+:where(
+  .hero-cta,
+  .collection-button,
+  .article-btn-primary,
+  .sp2-primary,
+  .spv3-save-cta
+) {
+  min-height: var(--lt-control-lg);
+  padding: 0 var(--lt-space-5);
+  border: 1px solid transparent;
+  border-radius: var(--lt-radius-pill);
+  background: var(--lt-color-primary);
+  color: #FFFFFF;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--lt-space-2);
+  font-family: var(--lt-font-body);
+  font-size: .8125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color .16s ease, box-shadow .16s ease, transform .16s ease;
+}
+
+:where(
+  .hero-cta,
+  .collection-button,
+  .article-btn-primary,
+  .sp2-primary,
+  .spv3-save-cta
+):hover {
+  background: var(--lt-color-primary-hover);
+}
+
+/* Shared secondary action contract. */
+:where(.sp2-secondary) {
+  min-height: var(--lt-control-lg);
+  padding: 0 var(--lt-space-5);
+  border: 1px solid var(--lt-color-border);
+  border-radius: var(--lt-radius-pill);
+  background: var(--lt-color-surface);
+  color: var(--lt-color-text);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lt-font-body);
+  font-size: .8125rem;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: pointer;
+}
+
+:where(.sp2-secondary):hover {
+  border-color: var(--lt-color-primary);
+  color: var(--lt-color-primary);
+}
+
+/* Tags and filters share a single compact control geometry. */
+:where(.tag, .chip, .collection-tag-filter) {
+  min-height: var(--lt-control-sm);
+  padding: 0 var(--lt-space-3);
+  border-radius: var(--lt-radius-pill);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lt-font-body);
+  line-height: 1.2;
+}
+
+:where(.chip, .collection-tag-filter) {
+  border-color: var(--lt-color-border);
+  background: #FAF8F2;
+  color: var(--lt-color-text-secondary);
+}
+
+:where(.chip, .collection-tag-filter):hover,
+:where(.chip.active, .collection-tag-filter.is-active) {
+  border-color: var(--lt-color-primary);
+  background: var(--lt-color-primary-soft);
+  color: var(--lt-color-primary);
+}
+
+/* Shared field boundary, state and focus treatment. */
+:where(.sp2-code-input, .search-bar, .chat-input) {
+  border-color: var(--lt-color-border);
+  background: var(--lt-color-surface);
+}
+
+:where(.sp2-code-input, .search-bar, .chat-input):focus-within {
+  border-color: var(--lt-color-primary);
+  box-shadow: 0 0 0 3px rgba(110, 154, 124, .12);
+}
+
+/* Shared card boundaries; page-specific art and layout stay untouched. */
+:where(
+  .collection-feature,
+  .editorial-article-hero__art,
+  .sp-hero-card,
+  .sp2-panel
+) {
+  border-color: var(--lt-color-border);
+  box-shadow: var(--lt-shadow-soft);
+}
+
+/* Shared quiet feedback/callout anatomy. */
+:where(.editorial-note, .not-live-note, .collection-empty, .sp2-note) {
+  border-color: var(--lt-color-border);
+  border-radius: var(--lt-radius-md);
+}
+
+@media (max-width: 960px) {
+  :root {
+    --lt-page-gutter: 22px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --lt-page-gutter: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  :root {
+    --lt-page-gutter: 14px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :where(a, button, input, select, textarea) {
+    transition: none !important;
+  }
+}

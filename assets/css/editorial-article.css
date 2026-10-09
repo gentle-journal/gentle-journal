@@ -1,12 +1,12 @@
 :root {
-  --editorial-ink: #2E2C28;
-  --editorial-ink-soft: #847F76;
-  --editorial-mint: #6E9A7C;
-  --editorial-mint-soft: #E4EFE7;
-  --editorial-line: #D8DADC;
-  --editorial-surface: #FFFFFF;
-  --editorial-bg: #F1EEE7;
-  --editorial-shadow: 0 10px 30px rgba(46, 44, 40, .06);
+  --editorial-ink: var(--lt-color-text);
+  --editorial-ink-soft: var(--lt-color-text-secondary);
+  --editorial-mint: var(--lt-color-primary);
+  --editorial-mint-soft: var(--lt-color-primary-soft);
+  --editorial-line: var(--lt-color-border);
+  --editorial-surface: var(--lt-color-surface);
+  --editorial-bg: var(--lt-color-cloud);
+  --editorial-shadow: var(--lt-shadow-soft);
 }
 
 .editorial-article-page {
@@ -15,10 +15,10 @@
 
 .editorial-article-page .wrap {
   width: 100%;
-  max-width: 1180px;
+  max-width: var(--lt-page-width);
   margin: 0 auto;
-  padding-right: 28px;
-  padding-left: 28px;
+  padding-right: var(--lt-page-gutter);
+  padding-left: var(--lt-page-gutter);
 }
 
 .editorial-article-hero {
@@ -61,7 +61,7 @@
   margin: 30px 0 0;
   overflow: hidden;
   border: 1px solid var(--editorial-line);
-  border-radius: 28px;
+  border-radius: var(--lt-radius-xl);
   background: var(--editorial-surface);
   box-shadow: var(--editorial-shadow);
 }

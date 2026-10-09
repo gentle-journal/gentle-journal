@@ -4,11 +4,11 @@
    ========================================================= */
 
 :root {
-  --lt-ink: #2E2C28;
-  --lt-muted: #847F76;
-  --lt-mint: #6E9A7C;
-  --lt-line: #D8DADC;
-  --lt-wrap: 1180px;
+  --lt-ink: var(--lt-color-text);
+  --lt-muted: var(--lt-color-text-secondary);
+  --lt-mint: var(--lt-color-primary);
+  --lt-line: var(--lt-color-border);
+  --lt-wrap: var(--lt-page-width);
 }
 html,
 body {

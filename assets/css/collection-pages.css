@@ -1,10 +1,10 @@
 :root {
-  --collection-ink: #2E2C28;
-  --collection-muted: #847F76;
-  --collection-mint: #6E9A7C;
-  --collection-mint-soft: #EAF1EA;
-  --collection-line: #D8DADC;
-  --collection-shadow: 0 10px 30px rgba(46, 44, 40, .06);
+  --collection-ink: var(--lt-color-text);
+  --collection-muted: var(--lt-color-text-secondary);
+  --collection-mint: var(--lt-color-primary);
+  --collection-mint-soft: var(--lt-color-primary-soft);
+  --collection-line: var(--lt-color-border);
+  --collection-shadow: var(--lt-shadow-soft);
 }
 
 .collection-page {
@@ -12,9 +12,9 @@
 }
 
 .collection-page .wrap {
-  max-width: 1180px;
+  max-width: var(--lt-page-width);
   margin: 0 auto;
-  padding: 0 28px;
+  padding: 0 var(--lt-page-gutter);
 }
 
 .collection-page__header {
@@ -41,7 +41,7 @@
   min-height: 390px;
   overflow: hidden;
   border: 1px solid var(--collection-line);
-  border-radius: 28px;
+  border-radius: var(--lt-radius-xl);
   background: linear-gradient(145deg, #F1F5EF, #FAF8F2);
   box-shadow: var(--collection-shadow);
 }
@@ -67,11 +67,12 @@
   align-items: center;
   gap: 9px;
   margin-top: 24px;
-  padding: 12px 20px;
-  border-radius: 999px;
+  min-height: var(--lt-control-lg);
+  padding: 0 var(--lt-space-5);
+  border-radius: var(--lt-radius-pill);
   background: var(--collection-mint);
   color: #fff;
-  font-size: .82rem;
+  font-size: .8125rem;
   font-weight: 700;
 }
 
@@ -197,7 +198,7 @@
 .collection-tag-filter {
   padding: 7px 11px;
   border: 1px solid var(--collection-line);
-  border-radius: 999px;
+  border-radius: var(--lt-radius-pill);
   background: #FAF8F2;
   color: var(--collection-muted);
   font-size: .64rem;

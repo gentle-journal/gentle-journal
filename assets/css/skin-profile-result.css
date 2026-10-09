@@ -1,12 +1,12 @@
 /* Skin Profile result page — port of latest approved v7 result-page work, scoped to preserve global site chrome. */
 .skin-profile-result-page{
-  --ink:#2E2C28;--muted:#847F76;--mint:#6E9A7C;--mint-soft:#EAF1EA;--rose-soft:#F8EEEE;--blue-soft:#EEF5F8;--line:#D8DADC;
-  --shadow:0 10px 30px rgba(46,44,40,.06);--r-lg:22px;--r-xl:28px;--profile-accent:#6E9A7C;
-  background:#fff;color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.55;padding-bottom:36px;
+  --ink:var(--lt-color-text);--muted:var(--lt-color-text-secondary);--mint:var(--lt-color-primary);--mint-soft:var(--lt-color-primary-soft);--rose-soft:var(--lt-color-rose-soft);--blue-soft:var(--lt-color-ice-soft);--line:var(--lt-color-border);
+  --shadow:var(--lt-shadow-soft);--r-lg:var(--lt-radius-lg);--r-xl:var(--lt-radius-xl);--profile-accent:var(--lt-color-primary);
+  background:var(--lt-color-surface);color:var(--ink);font-family:var(--lt-font-body);line-height:1.55;padding-bottom:36px;
 }
 .skin-profile-result-page *{box-sizing:border-box}
-.skin-profile-result-page .wrap{max-width:1180px;margin:0 auto;padding-left:28px;padding-right:28px}
-.skin-profile-result-page h1,.skin-profile-result-page h2,.skin-profile-result-page h3{font-family:"Playfair Display",serif;color:var(--ink);margin:0;line-height:1.12}
+.skin-profile-result-page .wrap{max-width:var(--lt-page-width);margin:0 auto;padding-left:var(--lt-page-gutter);padding-right:var(--lt-page-gutter)}
+.skin-profile-result-page h1,.skin-profile-result-page h2,.skin-profile-result-page h3{font-family:var(--lt-font-display);color:var(--ink);margin:0;line-height:1.12}
 .skin-profile-result-page p{margin:0}
 .skin-profile-result-page img{display:block;max-width:100%}
 .skin-profile-result-page a{color:inherit}
@@ -668,7 +668,7 @@
 .skin-profile-result-page .spv2-topic-chips{display:flex;flex-wrap:wrap;gap:7px;margin-top:12px}.skin-profile-result-page .spv2-topic-chips span{padding:6px 9px;border-radius:999px;border:1px solid var(--line);background:#fff;font-size:.64rem;color:var(--muted)}
 .skin-profile-result-page .spv2-related-card a{color:var(--mint);font-size:.7rem;font-weight:700;text-decoration:none}.skin-profile-result-page .spv2-related-card a:hover{text-decoration:underline}
 .skin-profile-result-page .spv2-placeholder-label{display:inline-block;margin-bottom:8px;padding:4px 8px;border-radius:999px;background:#F4F0F8;color:#765D82;font-size:.58rem;font-weight:700;letter-spacing:.05em}
-.skin-profile-result-page .spv2-save-block{margin-top:24px}.skin-profile-result-page .spv3-save-inner{margin:0 auto;display:grid;align-items:center}.skin-profile-result-page .spv3-save-cta{display:inline-flex;align-items:center;justify-content:center;border:0;background:var(--mint);color:#fff;font:700 .74rem Inter,sans-serif;min-height:44px;border-radius:999px;padding:10px 16px;opacity:.55}.skin-profile-result-page .spv3-save-cta[aria-disabled="true"]{cursor:not-allowed}
+.skin-profile-result-page .spv2-save-block{margin-top:24px}.skin-profile-result-page .spv3-save-inner{margin:0 auto;display:grid;align-items:center}.skin-profile-result-page .spv3-save-cta{display:inline-flex;align-items:center;justify-content:center;border:0;background:var(--mint);color:#fff;font:700 .8125rem var(--lt-font-body);min-height:var(--lt-control-lg);border-radius:var(--lt-radius-pill);padding:0 var(--lt-space-5);opacity:.55}.skin-profile-result-page .spv3-save-cta[aria-disabled="true"]{cursor:not-allowed}
 .skin-profile-result-page .spv2-methodology{margin:0 0 18px;padding:14px 16px;border-left:3px solid #D5E6DC;background:#F8FBF8;color:#625D56;font-size:.76rem;line-height:1.6}
 .skin-profile-result-page .spv2-reference-list a{color:#5A87A3;text-decoration:underline;text-underline-offset:2px}
 @media(max-width:760px){.skin-profile-result-page .wrap{padding-left:18px;padding-right:18px}}
@@ -686,7 +686,7 @@
   transform:translateY(-1px);
 }
 .skin-profile-result-page .spv3-save-cta:focus-visible{
-  outline:3px solid #2F5E43;
+  outline:3px solid var(--lt-color-focus);
   outline-offset:3px;
 }
 .skin-profile-result-page .spv3-save-cta:disabled{
