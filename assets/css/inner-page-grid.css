@@ -1,0 +1,54 @@
+/* Shared v4 grid for every rendered page except the homepage. */
+.inner-page-main {
+  --inner-page-wide: 1180px;
+  --inner-page-reading: 1080px;
+  --inner-page-gutter: 28px;
+}
+
+.inner-page-main .wrap,
+.inner-page-main .inner-page-wide {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--inner-page-wide);
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--inner-page-gutter);
+  padding-left: var(--inner-page-gutter);
+}
+
+.inner-page-main .inner-page-reading {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: var(--inner-page-reading);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner-page-main .post {
+  padding: 24px 0 60px;
+}
+
+.inner-page-main .post blockquote {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+}
+
+@media (max-width: 960px) {
+  .inner-page-main {
+    --inner-page-gutter: 22px;
+  }
+}
+
+@media (max-width: 760px) {
+  .inner-page-main {
+    --inner-page-gutter: 18px;
+  }
+}
+
+@media (max-width: 420px) {
+  .inner-page-main {
+    --inner-page-gutter: 14px;
+  }
+}

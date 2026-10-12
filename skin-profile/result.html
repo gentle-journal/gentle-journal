@@ -9,13 +9,15 @@ excerpt: "Diễn giải từ kết quả Baumann Skin Type."
 <div class="skin-profile-result-page" id="skinProfileResultPage">
   <section class="spv2-intro">
     <div class="wrap">
-      <nav aria-label="Breadcrumb" class="spv2-breadcrumb">
-        <a href="{{ '/' | relative_url }}">Trang chủ</a> &gt;
-        <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a> &gt; Kết quả
-      </nav>
-      <div class="eyebrow">SKIN PROFILE</div>
-      <h1>Kết quả Skin Profile của bạn</h1>
-      <p class="spv2-page-support">Diễn giải từ kết quả Baumann Skin Type.</p>
+      <div class="inner-page-reading">
+        <nav aria-label="Breadcrumb" class="spv2-breadcrumb">
+          <a href="{{ '/' | relative_url }}">Trang chủ</a> &gt;
+          <a href="{{ '/skin-profile/' | relative_url }}">Skin Profile</a> &gt; Kết quả
+        </nav>
+        <div class="eyebrow">SKIN PROFILE</div>
+        <h1>Kết quả Skin Profile của bạn</h1>
+        <p class="spv2-page-support">Diễn giải từ kết quả Baumann Skin Type.</p>
+      </div>
     </div>
   </section>
 
@@ -74,7 +76,7 @@ excerpt: "Diễn giải từ kết quả Baumann Skin Type."
     </div>
   </section>
 
-  <section class="wrap" id="skinProfileInvalid" hidden><div class="spv2-invalid"><h2>Chưa có mã Skin Profile hợp lệ</h2><p>Trang kết quả cần một mã Baumann gồm 4 chữ cái. Hãy quay lại Skin Profile để nhập hoặc xác nhận mã của bạn.</p><a href="{{ '/skin-profile/' | relative_url }}">Quay lại Skin Profile</a></div></section>
+  <section class="wrap" id="skinProfileInvalid" hidden><div class="inner-page-reading"><div class="spv2-invalid"><h2>Chưa có mã Skin Profile hợp lệ</h2><p>Trang kết quả cần một mã Baumann gồm 4 chữ cái. Hãy quay lại Skin Profile để nhập hoặc xác nhận mã của bạn.</p><a href="{{ '/skin-profile/' | relative_url }}">Quay lại Skin Profile</a></div></div></section>
 </div>
 <script id="skinProfileData" type="application/json">{{ site.data.skin_profiles | jsonify }}</script>
 <script id="skinProfileColors" type="application/json">{{ site.data.skin_profile_colors | jsonify }}</script>

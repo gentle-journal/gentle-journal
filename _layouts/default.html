@@ -36,6 +36,7 @@
   <link rel="stylesheet" href="{{ '/assets/css/header-v5.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/footer-v5.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/heading-scale.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/inner-page-grid.css' | relative_url }}">
 
   <link rel="icon" href="{{ '/assets/brand/03-favicon/littlest-things-botanical-favicon.svg' | relative_url }}" type="image/svg+xml">
   <link rel="icon" href="{{ '/assets/brand/03-favicon/favicon.ico' | relative_url }}" sizes="any">
@@ -73,13 +74,21 @@
 
   {% include header.html %}
 
-  {% if page.home_v41 or page.home_v42 or page.full_width %}
+  {% if page.home_v41 or page.home_v42 %}
   <main id="top">
     {{ content }}
   </main>
-  {% else %}
-  <main class="wrap">
+  {% elsif page.full_width %}
+  <main class="inner-page-main" id="top">
     {{ content }}
+  </main>
+  {% else %}
+  <main class="inner-page-main">
+    <div class="wrap">
+      <div class="inner-page-reading">
+        {{ content }}
+      </div>
+    </div>
   </main>
   {% endif %}
 
