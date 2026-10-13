@@ -31,6 +31,9 @@
   {% if page.editorial_article %}
   <link rel="stylesheet" href="{{ '/assets/css/editorial-article.css' | relative_url }}">
   {% endif %}
+  {% if page.review_library or page.review_article %}
+  <link rel="stylesheet" href="{{ '/assets/css/review-pages.css' | relative_url }}">
+  {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/littlest-things-design-system.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/reference-section.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/header-v5.css' | relative_url }}">
@@ -99,6 +102,9 @@
   <script src="{{ '/assets/js/site-nav.js' | relative_url }}" defer></script>
   {% if page.collection_page %}
   <script src="{{ '/assets/js/collection-filters.js' | relative_url }}" defer></script>
+  {% endif %}
+  {% if page.review_library %}
+  <script src="{{ '/assets/js/review-library.js' | relative_url }}" defer></script>
   {% endif %}
 </body>
 </html>

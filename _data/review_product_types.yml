@@ -1,0 +1,21 @@
+treatment:
+  label: "Treatment"
+  order: 10
+cleanser:
+  label: "Làm sạch"
+  order: 20
+toner:
+  label: "Toner"
+  order: 30
+serum:
+  label: "Serum"
+  order: 40
+moisturizer:
+  label: "Kem dưỡng"
+  order: 50
+sunscreen:
+  label: "Chống nắng"
+  order: 60
+hair-scalp:
+  label: "Tóc & Da đầu"
+  order: 70

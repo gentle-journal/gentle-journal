@@ -1,0 +1,38 @@
+{% if page.products and page.products.size > 0 %}
+  <aside class="review-product-rail" aria-labelledby="review-products-heading">
+    <div class="review-product-rail__eyebrow">Sản phẩm trong bài</div>
+    <h2 id="review-products-heading">Được nhắc đến</h2>
+
+    <div class="review-product-rail__list">
+      {% for product in page.products %}
+        <article class="review-product-card">
+          <div class="review-product-card__image">
+            <img
+              src="{{ product.image | relative_url }}"
+              alt="{{ product.alt | escape }}"
+              loading="lazy">
+          </div>
+          <div class="review-product-card__content">
+            <h3>{{ product.name }}</h3>
+            {% if product.role %}<p>{{ product.role }}</p>{% endif %}
+            {% if product.url %}
+              <a
+                class="review-product-card__cta"
+                href="{{ product.url }}"
+                target="_blank"
+                rel="{% if product.affiliate %}sponsored {% endif %}noopener noreferrer">
+                <span>{{ product.cta_label | default: "Xem sản phẩm" }}</span>
+                {% if product.affiliate %}<span class="review-product-card__affiliate">Affiliate</span>{% endif %}
+                <img
+                  class="lt-icon lt-icon--cta"
+                  src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}"
+                  alt=""
+                  aria-hidden="true">
+              </a>
+            {% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </aside>
+{% endif %}

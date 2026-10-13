@@ -21,6 +21,24 @@ duration_tested: "3 months"
 frequency: "1 lần/tuần"
 full_width: true
 editorial_article: true
+review_article: true
+product_types:
+  - treatment
+products:
+  - name: "Obagi Retinol + PHA Refining Night Cream"
+    role: "Sản phẩm chính"
+    image: "/assets/images/articles/obagi-retinol-pha-review/product.png"
+    alt: "Obagi Retinol + PHA Refining Night Cream 50 ml"
+    url: "https://s.shopee.vn/5At4HMfMDM"
+    cta_label: "Xem trên Shopee"
+    affiliate: true
+  - name: "Mother Care Ultra Pure Lanolin"
+    role: "Sản phẩm được nhắc đến"
+    image: "/assets/images/products/mother-care-ultra-pure-lanolin-editorial.png"
+    alt: "Mother Care Ultra Pure Lanolin 15 ml"
+    url: "https://s.shopee.vn/113VLdNSPk"
+    cta_label: "Xem trên Shopee"
+    affiliate: true
 ---
 <div class="editorial-article-page">
   <section class="editorial-article-hero">
@@ -46,7 +64,8 @@ editorial_article: true
 
   <section class="editorial-article-shell">
     <div class="wrap">
-      <article class="editorial-article-body">
+      <div class="review-article-layout">
+        <article class="editorial-article-body">
         <p>Retinol không phải là một hoạt chất quá mới đối với mình. Trái lại, mình từng có một "ký ức đau thương" khi dùng retinol trước đây: da phản ứng dữ dội, đỏ rát và bong tróc nặng nề đến mức phải ngưng hoàn toàn.</p>
 
         <p>Chính vì vậy, khi quyết định quay lại đường đua với <strong>Obagi Retinol + PHA Refining Night Cream</strong>, mình chọn chiến lược thận trọng tối đa: <strong>chỉ dùng 1 lần/tuần</strong>.</p>
@@ -256,7 +275,7 @@ editorial_article: true
 
         <p>Nếu da có dấu hiệu khó chịu, mình sẽ <strong>lập tức tạm ngưng retinol và các treatment khác</strong>, quay về tập trung dưỡng ẩm và phục hồi chuyên sâu.</p>
 
-        <p>Sản phẩm "cứu cánh" quen thuộc của mình cho các vùng da khô rát hay kích ứng là <strong>Ultra Pure Lanolin Mothercare 15ml</strong>.</p>
+        <p>Sản phẩm "cứu cánh" quen thuộc của mình cho các vùng da khô rát hay kích ứng là <strong>Mother Care Ultra Pure Lanolin 15ml</strong>.</p>
 
         <ul>
           <li><strong>Đặc tính:</strong> Chứa 100% lanolin tinh khiết. Lanolin hoạt động như một chất làm mềm mạnh mẽ, tạo lớp màng khóa ẩm tuyệt vời để ngăn ngừa mất nước trên bề mặt da.</li>
@@ -266,7 +285,7 @@ editorial_article: true
 
         <p class="editorial-shop-action">
           <a class="article-btn-primary editorial-shop-cta" href="https://s.shopee.vn/113VLdNSPk" target="_blank" rel="sponsored noopener noreferrer">
-            <span>Mua Ultra Pure Lanolin trên Shopee</span>
+            <span>Mua Mother Care Ultra Pure Lanolin trên Shopee</span>
             <span class="editorial-shop-cta__affiliate">Affiliate</span>
             <img class="lt-icon lt-icon--cta" src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}" alt="" aria-hidden="true">
           </a>
@@ -323,7 +342,9 @@ editorial_article: true
         </section>
 
         <p><em>(Bài viết ghi lại trải nghiệm cá nhân thực tế trên nền da DSPW. Phản ứng của sản phẩm có thể thay đổi tùy thuộc vào cơ địa và chu trình skincare của từng người).</em></p>
-      </article>
+        </article>
+        {% include review-product-rail.html %}
+      </div>
     </div>
   </section>
 </div>

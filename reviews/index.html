@@ -1,11 +1,121 @@
 ---
 layout: default
-title: Review
-permalink: /reviews-list/
+title: "Review sản phẩm"
+description: "Các bài review sản phẩm của Littlest Things dựa trên trải nghiệm thực tế, có thể lọc theo từng loại sản phẩm."
+permalink: /reviews/
+full_width: true
+review_library: true
 ---
-<div class="page-head"><h1>Review</h1><p>Đánh giá sản phẩm dựa trên trải nghiệm dùng thật. Xem đầy đủ mọi chuyên mục tại <a href="{{ '/kham-pha/' | relative_url }}" style="color:var(--primary);font-weight:600;">Khám Phá</a>.</p></div>
-<div class="feed-grid">
-{% for post in site.reviews %}
-  <div class="fcard"><div class="body" style="padding-top:16px;"><h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3><p>{{ post.excerpt | strip_html | truncate: 100 }}</p><div class="meta">{{ post.date | date: "%d.%m.%Y" }}</div></div></div>
-{% endfor %}
-</div>
+{% assign review_items = site.reviews | where_exp: "review", "review.published != false" | sort: "date" | reverse %}
+
+<section class="review-library" data-review-library>
+  <div class="wrap">
+    <header class="review-library__header">
+      <div class="eyebrow">LITTLEST THINGS REVIEWS</div>
+      <h1>Review sản phẩm</h1>
+      <p>Khám phá các bài review dựa trên trải nghiệm thực tế. Lọc nhanh theo loại sản phẩm để tìm đúng nội dung bạn đang quan tâm.</p>
+    </header>
+
+    <div class="review-library__layout">
+      <button
+        class="review-library__mobile-filter"
+        type="button"
+        data-review-filter-toggle
+        aria-expanded="false">
+        <span>Bộ lọc sản phẩm</span>
+        <span aria-hidden="true">⌄</span>
+      </button>
+
+      <aside class="review-library__filters" data-review-filter-panel aria-label="Bộ lọc bài review">
+        <div class="review-library__filter-heading">
+          <div>
+            <div class="review-library__filter-label">Danh mục</div>
+            <h2>Lọc sản phẩm</h2>
+          </div>
+          <button class="review-library__reset" type="button" data-review-reset>Xóa lọc</button>
+        </div>
+
+        <button
+          class="review-library__filter-option is-active"
+          type="button"
+          data-review-filter="all"
+          aria-pressed="true">
+          <span>Tất cả sản phẩm</span>
+          <span>{{ review_items.size }}</span>
+        </button>
+
+        {% for type_pair in site.data.review_product_types %}
+          {% assign type_slug = type_pair[0] %}
+          {% assign type_definition = type_pair[1] %}
+          {% assign type_count = 0 %}
+          {% for review in review_items %}
+            {% if review.product_types contains type_slug %}
+              {% assign type_count = type_count | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+          <button
+            class="review-library__filter-option"
+            type="button"
+            data-review-filter="{{ type_slug }}"
+            aria-pressed="false">
+            <span>{{ type_definition.label }}</span>
+            <span>{{ type_count }}</span>
+          </button>
+        {% endfor %}
+      </aside>
+
+      <div class="review-library__results">
+        <div class="review-library__toolbar">
+          <span data-review-count aria-live="polite">{{ review_items.size }} bài review</span>
+          <label class="review-library__sort">
+            <span>Sắp xếp</span>
+            <select data-review-sort>
+              <option value="newest">Mới nhất</option>
+              <option value="oldest">Cũ nhất</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="review-library__grid" data-review-grid>
+          {% for review in review_items %}
+            {% assign primary_type = review.product_types | first %}
+            {% assign primary_type_definition = site.data.review_product_types[primary_type] %}
+            <article
+              class="review-library-card"
+              data-review-card
+              data-product-types="{{ review.product_types | join: ' ' }}"
+              data-date="{{ review.date | date: '%s' }}">
+              <a class="review-library-card__image" href="{{ review.url | relative_url }}" aria-label="Đọc {{ review.title | escape }}">
+                {% if review.image %}
+                  <img src="{{ review.image | relative_url }}" alt="" loading="lazy">
+                {% else %}
+                  <span class="review-library-card__placeholder">Littlest Things</span>
+                {% endif %}
+              </a>
+              <div class="review-library-card__body">
+                <div class="review-library-card__meta">
+                  <span class="review-library-card__type">{{ primary_type_definition.label | default: "Review" }}</span>
+                  {% if review.date %}<time datetime="{{ review.date | date_to_xmlschema }}">{{ review.date | date: "%d.%m.%Y" }}</time>{% endif %}
+                </div>
+                <h2><a href="{{ review.url | relative_url }}">{{ review.title }}</a></h2>
+                {% if review.excerpt %}<p>{{ review.excerpt | strip_html }}</p>{% endif %}
+                <a class="review-library-card__cta" href="{{ review.url | relative_url }}">
+                  Đọc bài review
+                  <img
+                    class="lt-icon lt-icon--cta"
+                    src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}"
+                    alt=""
+                    aria-hidden="true">
+                </a>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
+
+        <p class="review-library__empty" data-review-empty {% if review_items.size > 0 %}hidden{% endif %}>
+          Chưa có bài review phù hợp với bộ lọc này.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
