@@ -404,13 +404,11 @@
   filter: brightness(0) invert(1);
 }
 
-.review-product-card__affiliate {
-  padding: 2px 4px;
-  border: 1px solid rgba(255, 255, 255, .55);
-  border-radius: var(--lt-radius-pill);
-  font-size: .5rem;
-  letter-spacing: .03em;
-  text-transform: uppercase;
+.review-product-rail__disclosure {
+  margin: -2px 0 14px;
+  color: var(--review-muted);
+  font-size: .62rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 1080px) {

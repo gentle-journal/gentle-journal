@@ -246,17 +246,6 @@
   filter: brightness(0) invert(1);
 }
 
-.editorial-shop-cta__affiliate {
-  padding: 3px 7px;
-  border: 1px solid rgba(255, 255, 255, .6);
-  border-radius: var(--lt-radius-pill);
-  font-size: .62rem;
-  font-weight: 700;
-  letter-spacing: .04em;
-  line-height: 1;
-  text-transform: uppercase;
-}
-
 .editorial-shop-cta:hover,
 .editorial-shop-cta:focus-visible {
   box-shadow: 0 10px 24px rgba(75, 119, 91, .24);

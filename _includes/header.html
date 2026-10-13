@@ -3,7 +3,9 @@
     <nav class="nav-shell" aria-label="Điều hướng chính">
 
       {% assign active_collection = page.collection_key %}
-      {% if page.url contains '/skin-profile/' %}
+      {% if page.url contains '/reviews/' %}
+        {% assign active_collection = 'reviews' %}
+      {% elsif page.url contains '/skin-profile/' %}
         {% assign active_collection = 'skincare-beauty' %}
       {% elsif page.content_type == 'article' and page.tags %}
         {% for tag_slug in page.tags %}
@@ -41,6 +43,13 @@
         </a>
 
         <a
+          class="{% if active_collection == 'reviews' %}active{% endif %}"
+          {% if active_collection == 'reviews' %}aria-current="page"{% endif %}
+          href="{{ '/reviews/' | relative_url }}">
+          Reviews
+        </a>
+
+        <a
           class="{% if active_collection == 'health' %}active{% endif %}"
           {% if active_collection == 'health' %}aria-current="page"{% endif %}
           href="{{ '/health/' | relative_url }}">
@@ -73,6 +82,7 @@
       <div class="menu-panel" id="menuPanel">
         <a {% if page.url == '/' %}class="active" aria-current="page"{% endif %} href="{{ '/' | relative_url }}">Home</a>
         <a {% if active_collection == 'skincare-beauty' %}class="active" aria-current="page"{% endif %} href="{{ '/skincare-beauty/' | relative_url }}">Skincare &amp; Beauty</a>
+        <a {% if active_collection == 'reviews' %}class="active" aria-current="page"{% endif %} href="{{ '/reviews/' | relative_url }}">Reviews</a>
         <a {% if active_collection == 'health' %}class="active" aria-current="page"{% endif %} href="{{ '/health/' | relative_url }}">Health</a>
         <a {% if active_collection == 'travel-lifestyle' %}class="active" aria-current="page"{% endif %} href="{{ '/travel-lifestyle/' | relative_url }}">Travel &amp; Lifestyle</a>
       </div>

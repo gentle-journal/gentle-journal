@@ -2,6 +2,9 @@
   <aside class="review-product-rail" aria-labelledby="review-products-heading">
     <div class="review-product-rail__eyebrow">Sản phẩm trong bài</div>
     <h2 id="review-products-heading">Được nhắc đến</h2>
+    {% if page.affiliate %}
+      <p class="review-product-rail__disclosure">Một số liên kết mua hàng trong bài là liên kết affiliate.</p>
+    {% endif %}
 
     <div class="review-product-rail__list">
       {% for product in page.products %}
@@ -22,7 +25,6 @@
                 target="_blank"
                 rel="{% if product.affiliate %}sponsored {% endif %}noopener noreferrer">
                 <span>{{ product.cta_label | default: "Xem sản phẩm" }}</span>
-                {% if product.affiliate %}<span class="review-product-card__affiliate">Affiliate</span>{% endif %}
                 <img
                   class="lt-icon lt-icon--cta"
                   src="{{ '/assets/icons/svg/ui/arrow-right.svg' | relative_url }}"
