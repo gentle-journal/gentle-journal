@@ -167,6 +167,13 @@
   font-size: .72rem;
 }
 
+.editorial-figure__caption {
+  margin: 10px 0 0;
+  color: var(--editorial-ink-soft);
+  font-size: .78rem;
+  line-height: 1.6;
+}
+
 .editorial-note {
   margin: 48px 0 8px;
   padding: 24px 26px;
